@@ -1,0 +1,22 @@
+{
+ "offset": 0,
+ "limit": 100,
+ "totalFound": 1,
+ "content": [
+  {
+   "id": "744000161793003",
+   "name": "Data Analyst",
+   "releasedDate": "2026-11-14T15:07:23.123Z",
+   "location": {
+    "city": "Seattle",
+    "region": "WA",
+    "country": "us",
+    "remote": false
+   },
+   "company": {
+    "identifier": "Litware",
+    "name": "Litware Inc."
+   }
+  }
+ ]
+}

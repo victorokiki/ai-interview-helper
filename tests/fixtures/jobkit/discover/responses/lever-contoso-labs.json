@@ -1,0 +1,53 @@
+[
+ {
+  "additionalPlain": "",
+  "categories": {
+   "commitment": "Full-time",
+   "location": "Toronto, Ontario",
+   "team": "ML",
+   "allLocations": [
+    "Toronto, Ontario"
+   ]
+  },
+  "createdAt": 1794736800000,
+  "descriptionPlain": "Ship machine learning features with Python, PyTorch and SQL.\n",
+  "id": "0f1e2d3c-4b5a-4968-8776-655443322110",
+  "lists": [
+   {
+    "text": "What you bring",
+    "content": "<li>Python and pandas</li><li>Docker</li><li>2 years of experience</li>"
+   },
+   {
+    "text": "Nice to have",
+    "content": "<li>AWS</li>"
+   }
+  ],
+  "text": "Machine Learning Developer",
+  "country": "CA",
+  "workplaceType": "remote",
+  "hostedUrl": "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+  "applyUrl": "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110/apply"
+ },
+ {
+  "additionalPlain": "",
+  "categories": {
+   "commitment": "Full-time",
+   "location": "Vancouver, BC",
+   "team": "Data"
+  },
+  "createdAt": 1794132000000,
+  "descriptionPlain": "Model customer churn in Python and R; present in Tableau.",
+  "id": "9a8b7c6d-5e4f-4321-8765-0fedcba98765",
+  "lists": [
+   {
+    "text": "Requirements",
+    "content": "<li>3+ years with R or Python</li>"
+   }
+  ],
+  "text": "Data Scientist",
+  "country": "CA",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/contoso-labs/9a8b7c6d-5e4f-4321-8765-0fedcba98765",
+  "applyUrl": "https://jobs.lever.co/contoso-labs/9a8b7c6d-5e4f-4321-8765-0fedcba98765/apply"
+ }
+]

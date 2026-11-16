@@ -1,0 +1,3475 @@
+{
+ "collect": {
+  "ca": {
+   "requests": [
+    "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+    "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json",
+    "https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=data+analyst&sort=D&fprov=ON",
+    "https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=software+developer&sort=D&fprov=ON",
+    "https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=broken+query&sort=D&fprov=ON",
+    "https://boards-api.greenhouse.io/v1/boards/northwind/jobs?content=true",
+    "https://boards-api.greenhouse.io/v1/boards/northwind",
+    "https://boards-api.greenhouse.io/v1/boards/ghost/jobs?content=true",
+    "https://api.lever.co/v0/postings/contoso-labs?mode=json",
+    "https://api.lever.co/v0/postings/broken?mode=json",
+    "https://api.ashbyhq.com/posting-api/job-board/fabrikam?includeCompensation=false",
+    "https://api.smartrecruiters.com/v1/companies/Litware/postings?country=ca&limit=100",
+    "https://tailspin.wd3.myworkdayjobs.com/wday/cxs/tailspin/Careers/jobs",
+    "https://tailspin.wd3.myworkdayjobs.com/wday/cxs/tailspin/Careers/jobs",
+    "https://jobs.example.com/wday/cxs/elsewhere/x/jobs",
+    "https://remotive.com/api/remote-jobs?category=data&limit=100",
+    "https://remotive.com/api/remote-jobs?category=software-dev&limit=100"
+   ],
+   "jobs": [
+    {
+     "source": "simplify-intern",
+     "company": "Shopify",
+     "title": "Software Engineer Intern",
+     "location": "Montreal, QC, Canada; Toronto, ON, Canada; Ottawa, ON, Canada",
+     "url": "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Shopify",
+     "title": "Data Intern",
+     "location": "Montreal, QC, Canada; Toronto, ON, Canada; Ottawa, ON, Canada",
+     "url": "https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Genesys",
+     "title": "Web Software Developer Intern - WFM",
+     "location": "Toronto, ON, Canada",
+     "url": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3",
+     "posted": "2026-10-07",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "W.W. Grainger",
+     "title": "GCAN Field Operations Analyst Intern",
+     "location": "Thornhill, Vaughan, ON, Canada",
+     "url": "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300/?ats=successfactors",
+     "posted": "2026-11-13",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "W.W. Grainger",
+     "title": "Customer Experience Intern",
+     "location": "Thornhill, Vaughan, ON, Canada",
+     "url": "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Customer-Experience-Intern-ON-L3T-7W8/1450621700/?ats=successfactors",
+     "posted": "2026-11-13",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Remote Maple",
+     "title": "Data Analyst Intern",
+     "location": "Remote in Canada",
+     "url": "https://jobs.lever.co/remotemaple/aaaaaaaa-1111-2222-3333-444444444444",
+     "posted": "2026-11-11",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Linky",
+     "title": "Software Developer Intern",
+     "location": "Toronto, ON, Canada",
+     "url": "https://www.linkedin.com/jobs/view/3999999999",
+     "posted": "2026-11-15",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "No Link Co",
+     "title": "Software Developer Intern",
+     "location": "Toronto, ON, Canada",
+     "url": null,
+     "posted": "2026-11-15",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Maple Systems",
+     "title": "Senior Software Engineer Intern",
+     "location": "Waterloo, ON, Canada",
+     "url": "https://boards.greenhouse.io/maplesystems/jobs/4003",
+     "posted": "2026-11-15",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Shopify",
+     "title": "Software Engineer Intern",
+     "location": "Ottawa, ON, Canada",
+     "url": "https://www.shopify.com/careers/software-engineering-internships-ottawa_11111111-2222-3333-4444-555555555555",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Old Pine",
+     "title": "Software Developer Intern",
+     "location": "Waterloo, ON, Canada",
+     "url": "https://boards.greenhouse.io/oldpine/jobs/4004",
+     "posted": "2026-09-17",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Contoso Labs",
+     "title": "Machine Learning Intern",
+     "location": "Vancouver, BC, Canada",
+     "url": "https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify",
+     "posted": "2026-11-12",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Northwind Traders",
+     "title": "Data Analyst Intern",
+     "location": "Halifax, NS, Canada",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7001",
+     "posted": "2026-11-10",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "Fidus Systems",
+     "title": "Embedded Software Designer - AI Knowledge and Data",
+     "location": "Kitchener, ON, Canada",
+     "url": "https://apply.workable.com/fidus/j/B945E3C44D/apply",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "new grad"
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "American Express",
+     "title": "Campus Undergraduate Full-Time Engineer - Software Engineer 1",
+     "location": "Toronto, ON, Canada",
+     "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "new grad"
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "Innodata",
+     "title": "AI Voice Evaluation Specialist",
+     "location": "Remote in Canada",
+     "url": "https://job-boards.greenhouse.io/innodatainc/jobs/4508284009",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "new grad"
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "Tailspin Toys",
+     "title": "Data Analyst",
+     "location": "Toronto, ON, Canada",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Data-Analyst_R-20441",
+     "posted": "2026-11-07",
+     "description": "",
+     "kind": "new grad"
+    },
+    {
+     "source": "jobbank",
+     "company": "Harbour & Pine Analytics",
+     "title": "data analyst",
+     "location": "Toronto , ON, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+     "posted": "2026-11-13",
+     "description": "Salary $32.00 to $41.00 hourly",
+     "kind": ""
+    },
+    {
+     "source": "jobbank",
+     "company": "Blue Yonder Freight",
+     "title": "business data analyst",
+     "location": "Ottawa , ON, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674102",
+     "posted": "2026-11-02",
+     "description": "Salary $70,000 to $85,000 annually (to be negotiated)",
+     "kind": ""
+    },
+    {
+     "source": "jobbank",
+     "company": "Atlantic Ledger",
+     "title": "senior data analyst",
+     "location": "Halifax , NS, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674103",
+     "posted": "2026-09-15",
+     "description": "Salary $95,000 annually",
+     "kind": ""
+    },
+    {
+     "source": "jobbank",
+     "company": "Kestrel Robotics",
+     "title": "software developer",
+     "location": "Mississauga , ON, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674201",
+     "posted": "2026-11-15",
+     "description": "Salary $80,000 to $95,000 annually",
+     "kind": ""
+    },
+    {
+     "source": "jobbank",
+     "company": "Harbour & Pine Analytics",
+     "title": "data analyst",
+     "location": "Toronto , ON, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+     "posted": "2026-11-13",
+     "description": "Salary $32.00 to $41.00 hourly",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Software Developer & Data Tools",
+     "location": "Toronto, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7101",
+     "posted": "2026-11-14",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Build internal tools in Python, SQL and React on AWS. Docker and Git daily. 1-2 years of experience.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Senior Data Engineer",
+     "location": "Toronto, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7102",
+     "posted": "2026-11-15",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Spark, Airflow, Kafka. 8+ years of experience.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Data Analyst, Co-op (4 months)",
+     "location": "Mississauga, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7103",
+     "posted": "2026-11-12",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Excel, SQL, Tableau and Power BI dashboards. Must be enrolled in a co-op program. Candidates must be Canadian citizens or permanent residents only.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Software Engineer",
+     "location": "San Francisco, CA | Seattle, WA",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7104",
+     "posted": "2026-11-13",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Go, Kubernetes, PostgreSQL. 3+ years of experience. We do not sponsor visas.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "lever",
+     "company": "Contoso Labs",
+     "title": "Machine Learning Developer",
+     "location": "Toronto, Ontario, remote",
+     "url": "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+     "posted": "2026-11-15",
+     "description": "Ship machine learning features with Python, PyTorch and SQL.\n <li>Python and pandas</li><li>Docker</li><li>2 years of experience</li> <li>AWS</li>",
+     "kind": ""
+    },
+    {
+     "source": "lever",
+     "company": "Contoso Labs",
+     "title": "Data Scientist",
+     "location": "Vancouver, BC",
+     "url": "https://jobs.lever.co/contoso-labs/9a8b7c6d-5e4f-4321-8765-0fedcba98765",
+     "posted": "2026-11-08",
+     "description": "Model customer churn in Python and R; present in Tableau. <li>3+ years with R or Python</li>",
+     "kind": ""
+    },
+    {
+     "source": "ashby",
+     "company": "fabrikam",
+     "title": "Software Engineer, Platform",
+     "location": "Toronto, Canada",
+     "url": "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+     "posted": "2026-11-11",
+     "description": "TypeScript, Node.js, React and PostgreSQL. Terraform on AWS. 4+ years of experience.",
+     "kind": ""
+    },
+    {
+     "source": "ashby",
+     "company": "fabrikam",
+     "title": "Data Analyst",
+     "location": "Remote - Canada; Montreal, Quebec (Remote)",
+     "url": "https://jobs.ashbyhq.com/fabrikam/2ab309c8-da20-4ff2-84c7-8b863ece2b0c",
+     "posted": "2026-11-04",
+     "description": "SQL, dbt, Looker and Excel. Bilingual (French and English) is an asset.",
+     "kind": ""
+    },
+    {
+     "source": "smartrecruiters",
+     "company": "Litware Inc.",
+     "title": "Junior Data Analyst",
+     "location": "Ottawa, ON, Canada",
+     "url": "https://jobs.smartrecruiters.com/Litware/744000161793001",
+     "posted": "2026-11-15",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "smartrecruiters",
+     "company": "Litware",
+     "title": "Software Developer",
+     "location": "Montreal, QC, Canada, Remote",
+     "url": "https://jobs.smartrecruiters.com/Litware/744000161793002",
+     "posted": "2026-10-27",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "workday",
+     "company": "Tailspin Toys",
+     "title": "Software Engineer I",
+     "location": "Toronto, ON",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Software-Engineer-I_R-20431",
+     "posted": "",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "workday",
+     "company": "Tailspin Toys",
+     "title": "Staff Software Engineer",
+     "location": "Toronto, ON",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Staff-Software-Engineer_R-20432",
+     "posted": "",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "workday",
+     "company": "Tailspin Toys",
+     "title": "Data Analyst",
+     "location": "Toronto, ON",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Data-Analyst_R-20441",
+     "posted": "",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "workday",
+     "company": "Tailspin Toys",
+     "title": "Business Data Analyst",
+     "location": "2 Locations",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Multiple/Business-Data-Analyst_R-20442",
+     "posted": "",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "remotive",
+     "company": "Margie's Travel",
+     "title": "Data Analyst",
+     "location": "Remote (Canada, open to Canada)",
+     "url": "https://remotive.com/remote-jobs/data/data-analyst-2069001",
+     "posted": "2026-11-14",
+     "description": "<p>SQL, Python and Tableau. Report weekly KPIs.</p>",
+     "kind": ""
+    },
+    {
+     "source": "remotive",
+     "company": "Coho Winery",
+     "title": "Senior Data Scientist",
+     "location": "Remote (Worldwide, open to Canada)",
+     "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2069003",
+     "posted": "2026-11-15",
+     "description": "<p>Python, statistics.</p>",
+     "kind": ""
+    },
+    {
+     "source": "remotive",
+     "company": "Alpine Ski House",
+     "title": "Software Developer",
+     "location": "Remote (USA, Canada, USA timezones, open to Canada)",
+     "url": "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+     "posted": "2026-11-12",
+     "description": "<p>Ruby on Rails, PostgreSQL, React. 2+ years of experience.</p>",
+     "kind": ""
+    }
+   ],
+   "counts": {
+    "simplify-intern": 13,
+    "simplify-newgrad": 4,
+    "jobbank": 5,
+    "greenhouse:northwind": 4,
+    "lever:contoso-labs": 2,
+    "ashby:fabrikam": 2,
+    "smartrecruiters:Litware": 2,
+    "workday:tailspin": 4,
+    "remotive": 3
+   },
+   "errors": {
+    "jobbank:broken query": "HTTPError: HTTP Error 500: Server Error",
+    "greenhouse:ghost": "HTTP 404 (no such board: check the name in search.json)",
+    "lever:broken": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "workday:elsewhere": "HTTP 404 (no such board: check the name in search.json)"
+   }
+  },
+  "us": {
+   "requests": [
+    "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+    "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json",
+    "https://boards-api.greenhouse.io/v1/boards/northwind/jobs?content=true",
+    "https://boards-api.greenhouse.io/v1/boards/northwind",
+    "https://api.smartrecruiters.com/v1/companies/Litware/postings?country=us&limit=100",
+    "https://remotive.com/api/remote-jobs?category=software-dev&limit=100"
+   ],
+   "jobs": [
+    {
+     "source": "simplify-intern",
+     "company": "Boston Scientific",
+     "title": "AI Engineer Intern - Generative & Agentic AI",
+     "location": "Marlborough, MA; Maple Grove, MN; Arden Hills, MN",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827837",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Contoso Labs",
+     "title": "Machine Learning Intern",
+     "location": "Seattle, WA",
+     "url": "https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify",
+     "posted": "2026-11-12",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Northwind Traders",
+     "title": "Data Analyst Intern",
+     "location": "Austin, TX",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7001",
+     "posted": "2026-11-10",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Adatum",
+     "title": "Software Developer Intern",
+     "location": "Arlington, VA",
+     "url": "https://boards.greenhouse.io/adatum/jobs/4006",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Wingtip",
+     "title": "Data Scientist Intern - PhD",
+     "location": "San Jose, CA",
+     "url": "https://boards.greenhouse.io/wingtip/jobs/4007",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Old Term Inc",
+     "title": "Software Intern",
+     "location": "Boston, MA",
+     "url": "https://boards.greenhouse.io/oldterm/jobs/4008",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Proseware",
+     "title": "Software Intern",
+     "location": "Chicago, IL",
+     "url": "https://boards.greenhouse.io/proseware/jobs/4009",
+     "posted": "2026-11-09",
+     "description": "",
+     "kind": "internship"
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "Quanta Services",
+     "title": "Business Analyst",
+     "location": "Lone Tree, CO",
+     "url": "https://careers2-quanta.icims.com/jobs/20046/job?mobile=true&needsRedirect=false",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "new grad"
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Software Developer & Data Tools",
+     "location": "Toronto, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7101",
+     "posted": "2026-11-14",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Build internal tools in Python, SQL and React on AWS. Docker and Git daily. 1-2 years of experience.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Senior Data Engineer",
+     "location": "Toronto, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7102",
+     "posted": "2026-11-15",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Spark, Airflow, Kafka. 8+ years of experience.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Data Analyst, Co-op (4 months)",
+     "location": "Mississauga, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7103",
+     "posted": "2026-11-12",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Excel, SQL, Tableau and Power BI dashboards. Must be enrolled in a co-op program. Candidates must be Canadian citizens or permanent residents only.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Software Engineer",
+     "location": "San Francisco, CA | Seattle, WA",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7104",
+     "posted": "2026-11-13",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Go, Kubernetes, PostgreSQL. 3+ years of experience. We do not sponsor visas.&lt;/p&gt;&lt;/div&gt;",
+     "kind": ""
+    },
+    {
+     "source": "smartrecruiters",
+     "company": "Litware Inc.",
+     "title": "Data Analyst",
+     "location": "Seattle, WA, United States",
+     "url": "https://jobs.smartrecruiters.com/Litware/744000161793003",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": ""
+    },
+    {
+     "source": "remotive",
+     "company": "Alpine Ski House",
+     "title": "Software Developer",
+     "location": "Remote (USA, Canada, USA timezones, open to the US)",
+     "url": "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+     "posted": "2026-11-12",
+     "description": "<p>Ruby on Rails, PostgreSQL, React. 2+ years of experience.</p>",
+     "kind": ""
+    }
+   ],
+   "counts": {
+    "simplify-intern": 7,
+    "simplify-newgrad": 1,
+    "greenhouse:northwind": 4,
+    "smartrecruiters:Litware": 1,
+    "remotive": 1
+   },
+   "errors": {}
+  }
+ },
+ "rank": {
+  "ca": {
+   "jobs": [
+    {
+     "source": "lever",
+     "company": "Contoso Labs",
+     "title": "Machine Learning Developer",
+     "location": "Toronto, Ontario, remote",
+     "url": "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+     "posted": "2026-11-15",
+     "description": "Ship machine learning features with Python, PyTorch and SQL.\n <li>Python and pandas</li><li>Docker</li><li>2 years of experience</li> <li>AWS</li>",
+     "kind": "",
+     "score": 100,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; 7 of 7 skills match; near home; asks for 2+ years",
+     "gaps": [],
+     "flags": [
+      "scam warning: very short, vague description: \"only 26 words\""
+     ],
+     "matchedSkills": [
+      "aws",
+      "docker",
+      "machine learning",
+      "pandas",
+      "python",
+      "pytorch",
+      "sql"
+     ],
+     "yearsRequired": 2,
+     "parts": {
+      "title": 30,
+      "skills": 30,
+      "location": 12,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Genesys",
+     "title": "Web Software Developer Intern - WFM",
+     "location": "Toronto, ON, Canada",
+     "url": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3",
+     "posted": "2026-10-07",
+     "description": "Build web apps with JavaScript, TypeScript, React and Node.js; SQL and Git. Python a plus. Docker and AWS. This is an internship for students; must be enrolled in a co-op program.",
+     "kind": "internship",
+     "score": 92,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; 9 of 9 skills match; near home",
+     "gaps": [],
+     "flags": [
+      "co-op or student only: \"...sql and git. python a plus. docker and aws. this is an internship for students; must be enrolled in a co-op program....\"",
+      "scam warning: very short, vague description: \"only 33 words\""
+     ],
+     "matchedSkills": [
+      "aws",
+      "docker",
+      "git",
+      "javascript",
+      "node.js",
+      "python",
+      "react",
+      "sql",
+      "typescript"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 30,
+      "location": 12,
+      "experience": 20,
+      "recency": 0
+     },
+     "queueable": false
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Data Analyst, Co-op (4 months)",
+     "location": "Mississauga, ON",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7103",
+     "posted": "2026-11-12",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Excel, SQL, Tableau and Power BI dashboards. Must be enrolled in a co-op program. Candidates must be Canadian citizens or permanent residents only.&lt;/p&gt;&lt;/div&gt;",
+     "kind": "",
+     "score": 84,
+     "track": "data",
+     "place": "local",
+     "why": "title fits data; 4 of 5 skills match; near home",
+     "gaps": [
+      "power bi"
+     ],
+     "flags": [
+      "co-op or student only: \"co-op\" in the title; usually needs enrolment in a school co-op program",
+      "citizenship or permanent residence: \"...ableau and power bi dashboards. must be enrolled in a co-op program. candidates must be canadian citizens or permanent residents only....\"",
+      "scam warning: very short, vague description: \"only 41 words\""
+     ],
+     "matchedSkills": [
+      "dashboard",
+      "excel",
+      "sql",
+      "tableau"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 22,
+      "location": 12,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": false
+    },
+    {
+     "source": "ashby",
+     "company": "fabrikam",
+     "title": "Software Engineer, Platform",
+     "location": "Toronto, Canada",
+     "url": "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+     "posted": "2026-11-11",
+     "description": "TypeScript, Node.js, React and PostgreSQL. Terraform on AWS. 4+ years of experience.",
+     "kind": "",
+     "score": 84,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; 5 of 5 skills match; near home; asks for 4+ years",
+     "gaps": [],
+     "flags": [
+      "scam warning: very short, vague description: \"only 13 words\""
+     ],
+     "matchedSkills": [
+      "aws",
+      "node.js",
+      "postgresql",
+      "react",
+      "typescript"
+     ],
+     "yearsRequired": 4,
+     "parts": {
+      "title": 30,
+      "skills": 28,
+      "location": 12,
+      "experience": 8,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Shopify",
+     "title": "Software Engineer Intern",
+     "location": "Montreal, QC, Canada; Toronto, ON, Canada; Ottawa, ON, Canada",
+     "url": "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "internship",
+     "score": 83,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; skills unknown (short or no description); near home",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 12,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "jobbank",
+     "company": "Harbour & Pine Analytics",
+     "title": "data analyst",
+     "location": "Toronto , ON, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+     "posted": "2026-11-13",
+     "description": "Data analyst: SQL, Excel, Tableau, Power BI and Python. Bilingual English and French required.",
+     "kind": "",
+     "score": 80,
+     "track": "data",
+     "place": "local",
+     "why": "title fits data; 4 of 5 skills match; near home",
+     "gaps": [
+      "power bi"
+     ],
+     "flags": [
+      "French required: \"...data analyst: sql, excel, tableau, power bi and python. bilingual english and french required....\"",
+      "scam warning: very short, vague description: \"only 14 words\""
+     ],
+     "matchedSkills": [
+      "excel",
+      "python",
+      "sql",
+      "tableau"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 22,
+      "location": 12,
+      "experience": 14,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "remotive",
+     "company": "Alpine Ski House",
+     "title": "Software Developer",
+     "location": "Remote (USA, Canada, USA timezones, open to Canada)",
+     "url": "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+     "posted": "2026-11-12",
+     "description": "<p>Ruby on Rails, PostgreSQL, React. 2+ years of experience.</p>",
+     "kind": "",
+     "score": 78,
+     "track": "software",
+     "place": "remote-country",
+     "why": "title fits software; skills unknown (short or no description); remote in Canada; asks for 2+ years",
+     "gaps": [],
+     "flags": [
+      "scam warning: very short, vague description: \"only 11 words\""
+     ],
+     "matchedSkills": [
+      "postgresql",
+      "react"
+     ],
+     "yearsRequired": 2,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 9,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "American Express",
+     "title": "Campus Undergraduate Full-Time Engineer - Software Engineer 1",
+     "location": "Toronto, ON, Canada",
+     "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "new grad",
+     "score": 77,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; skills unknown (short or no description); near home",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 12,
+      "experience": 14,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "smartrecruiters",
+     "company": "Litware Inc.",
+     "title": "Junior Data Analyst",
+     "location": "Ottawa, ON, Canada",
+     "url": "https://jobs.smartrecruiters.com/Litware/744000161793001",
+     "posted": "2026-11-15",
+     "description": "",
+     "kind": "",
+     "score": 75,
+     "track": "data",
+     "place": "region",
+     "why": "title fits data; skills unknown (short or no description); in your province or region",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 10,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "remotive",
+     "company": "Margie's Travel",
+     "title": "Data Analyst",
+     "location": "Remote (Canada, open to Canada)",
+     "url": "https://remotive.com/remote-jobs/data/data-analyst-2069001",
+     "posted": "2026-11-14",
+     "description": "<p>SQL, Python and Tableau. Report weekly KPIs.</p>",
+     "kind": "",
+     "score": 75,
+     "track": "data",
+     "place": "remote-country",
+     "why": "title fits data; 3 of 4 skills match; remote in Canada",
+     "gaps": [
+      "kpi"
+     ],
+     "flags": [
+      "scam warning: very short, vague description: \"only 9 words\""
+     ],
+     "matchedSkills": [
+      "python",
+      "sql",
+      "tableau"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 20,
+      "location": 9,
+      "experience": 14,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "W.W. Grainger",
+     "title": "GCAN Field Operations Analyst Intern",
+     "location": "Thornhill, Vaughan, ON, Canada",
+     "url": "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300/?ats=successfactors",
+     "posted": "2026-11-13",
+     "description": "",
+     "kind": "internship",
+     "score": 75,
+     "track": "data",
+     "place": "region",
+     "why": "title fits data; skills unknown (short or no description); in your province or region",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 10,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Contoso Labs",
+     "title": "Machine Learning Intern",
+     "location": "Vancouver, BC, Canada",
+     "url": "https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify",
+     "posted": "2026-11-12",
+     "description": "",
+     "kind": "internship",
+     "score": 74,
+     "track": "software",
+     "place": "country",
+     "why": "title fits software; skills unknown (short or no description); elsewhere in Canada",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [
+      "machine learning"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Remote Maple",
+     "title": "Data Analyst Intern",
+     "location": "Remote in Canada",
+     "url": "https://jobs.lever.co/remotemaple/aaaaaaaa-1111-2222-3333-444444444444",
+     "posted": "2026-11-11",
+     "description": "",
+     "kind": "internship",
+     "score": 72,
+     "track": "data",
+     "place": "remote-country",
+     "why": "title fits data; skills unknown (short or no description); remote in Canada",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 9,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "workday",
+     "company": "Tailspin Toys",
+     "title": "Software Engineer I",
+     "location": "Toronto, ON",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Software-Engineer-I_R-20431",
+     "posted": "",
+     "description": "",
+     "kind": "",
+     "score": 72,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; skills unknown (short or no description); near home",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 12,
+      "experience": 14,
+      "recency": 3
+     },
+     "queueable": true
+    },
+    {
+     "source": "ashby",
+     "company": "fabrikam",
+     "title": "Data Analyst",
+     "location": "Remote - Canada; Montreal, Quebec (Remote)",
+     "url": "https://jobs.ashbyhq.com/fabrikam/2ab309c8-da20-4ff2-84c7-8b863ece2b0c",
+     "posted": "2026-11-04",
+     "description": "SQL, dbt, Looker and Excel. Bilingual (French and English) is an asset.",
+     "kind": "",
+     "score": 71,
+     "track": "data",
+     "place": "remote-country",
+     "why": "title fits data; 3 of 4 skills match; remote in Canada",
+     "gaps": [
+      "looker"
+     ],
+     "flags": [
+      "French required: \"...sql, dbt, looker and excel. bilingual (french and english) is an asset....\"",
+      "scam warning: very short, vague description: \"only 12 words\""
+     ],
+     "matchedSkills": [
+      "dbt",
+      "excel",
+      "sql"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 20,
+      "location": 9,
+      "experience": 14,
+      "recency": 4
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Northwind Traders",
+     "title": "Data Analyst Intern",
+     "location": "Halifax, NS, Canada",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7001",
+     "posted": "2026-11-10",
+     "description": "",
+     "kind": "internship",
+     "score": 68,
+     "track": "data",
+     "place": "country",
+     "why": "title fits data; skills unknown (short or no description); elsewhere in Canada",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "smartrecruiters",
+     "company": "Litware",
+     "title": "Software Developer",
+     "location": "Montreal, QC, Canada, Remote",
+     "url": "https://jobs.smartrecruiters.com/Litware/744000161793002",
+     "posted": "2026-10-27",
+     "description": "",
+     "kind": "",
+     "score": 68,
+     "track": "software",
+     "place": "remote-country",
+     "why": "title fits software; skills unknown (short or no description); remote in Canada",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 9,
+      "experience": 14,
+      "recency": 2
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "Tailspin Toys",
+     "title": "Data Analyst",
+     "location": "Toronto, ON, Canada",
+     "url": "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Data-Analyst_R-20441",
+     "posted": "2026-11-07",
+     "description": "",
+     "kind": "new grad",
+     "score": 67,
+     "track": "data",
+     "place": "local",
+     "why": "title fits data; skills unknown (short or no description); near home",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 12,
+      "experience": 14,
+      "recency": 4
+     },
+     "queueable": true
+    },
+    {
+     "source": "jobbank",
+     "company": "Blue Yonder Freight",
+     "title": "business data analyst",
+     "location": "Ottawa , ON, Canada",
+     "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50674102",
+     "posted": "2026-11-02",
+     "description": "Salary $70,000 to $85,000 annually (to be negotiated)",
+     "kind": "",
+     "score": 65,
+     "track": "data",
+     "place": "region",
+     "why": "title fits data; skills unknown (short or no description); in your province or region",
+     "gaps": [],
+     "flags": [
+      "scam warning: very short, vague description: \"only 10 words\""
+     ],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 10,
+      "experience": 14,
+      "recency": 4
+     },
+     "queueable": true
+    }
+   ],
+   "skipped": {
+    "linkedin": 2,
+    "not_in_country": 2,
+    "title_not_in_tracks": 3,
+    "excluded_title": 5,
+    "too_old": 1,
+    "already_tracked": 2,
+    "already_in_jobs_txt": 2,
+    "duplicate": 3
+   },
+   "found": 39,
+   "kept": 19,
+   "fetched": 2,
+   "picked": [
+    "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+    "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+    "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a",
+    "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+    "https://remotive.com/remote-jobs/software-dev/software-developer-2069101"
+   ],
+   "notes": [
+    "Contoso Labs | Machine Learning Developer | Toronto, Ontario, remote | posted 2026-11-15 | fit 100 (software)",
+    "Genesys | Web Software Developer Intern - WFM | Toronto, ON, Canada | posted 2026-10-07 | fit 92 (software)",
+    "Northwind Traders | Data Analyst, Co-op (4 months) | Mississauga, ON | posted 2026-11-12 | fit 84 (data)",
+    "fabrikam | Software Engineer, Platform | Toronto, Canada | posted 2026-11-11 | fit 84 (software)",
+    "Shopify | Software Engineer Intern | Montreal, QC, Canada; Toronto, ON, Canada; Ottawa, ON, Canad | posted 2026-11-16 | fit 83 (software)",
+    "Harbour & Pine Analytics | data analyst | Toronto , ON, Canada | posted 2026-11-13 | fit 80 (data)",
+    "Alpine Ski House | Software Developer | Remote (USA, Canada, USA timezones, open to Canada) | posted 2026-11-12 | fit 78 (software)",
+    "American Express | Campus Undergraduate Full-Time Engineer - Software Engineer 1 | Toronto, ON, Canada | posted 2026-11-16 | fit 77 (software)",
+    "Litware Inc. | Junior Data Analyst | Ottawa, ON, Canada | posted 2026-11-15 | fit 75 (data)",
+    "Margie's Travel | Data Analyst | Remote (Canada, open to Canada) | posted 2026-11-14 | fit 75 (data)",
+    "W.W. Grainger | GCAN Field Operations Analyst Intern | Thornhill, Vaughan, ON, Canada | posted 2026-11-13 | fit 75 (data)",
+    "Contoso Labs | Machine Learning Intern | Vancouver, BC, Canada | posted 2026-11-12 | fit 74 (software)",
+    "Remote Maple | Data Analyst Intern | Remote in Canada | posted 2026-11-11 | fit 72 (data)",
+    "Tailspin Toys | Software Engineer I | Toronto, ON | posted unknown | fit 72 (software)",
+    "fabrikam | Data Analyst | Remote - Canada; Montreal, Quebec (Remote) | posted 2026-11-04 | fit 71 (data)",
+    "Northwind Traders | Data Analyst Intern | Halifax, NS, Canada | posted 2026-11-10 | fit 68 (data)",
+    "Litware | Software Developer | Montreal, QC, Canada, Remote | posted 2026-10-27 | fit 68 (software)",
+    "Tailspin Toys | Data Analyst | Toronto, ON, Canada | posted 2026-11-07 | fit 67 (data)",
+    "Blue Yonder Freight | business data analyst | Ottawa , ON, Canada | posted 2026-11-02 | fit 65 (data)"
+   ]
+  },
+  "us": {
+   "jobs": [
+    {
+     "source": "simplify-intern",
+     "company": "Contoso Labs",
+     "title": "Machine Learning Intern",
+     "location": "Seattle, WA",
+     "url": "https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify",
+     "posted": "2026-11-12",
+     "description": "",
+     "kind": "internship",
+     "score": 81,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; skills unknown (short or no description); near home",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [
+      "machine learning"
+     ],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 12,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "greenhouse",
+     "company": "Northwind Traders",
+     "title": "Software Engineer",
+     "location": "San Francisco, CA | Seattle, WA",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7104",
+     "posted": "2026-11-13",
+     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Go, Kubernetes, PostgreSQL. 3+ years of experience. We do not sponsor visas.&lt;/p&gt;&lt;/div&gt;",
+     "kind": "",
+     "score": 78,
+     "track": "software",
+     "place": "local",
+     "why": "title fits software; skills unknown (short or no description); near home; asks for 3+ years",
+     "gaps": [
+      "kubernetes"
+     ],
+     "flags": [
+      "no visa sponsorship: \"...go, kubernetes, postgresql. 3+ years of experience. we do not sponsor visas....\"",
+      "scam warning: very short, vague description: \"only 29 words\""
+     ],
+     "matchedSkills": [
+      "postgresql"
+     ],
+     "yearsRequired": 3,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 12,
+      "experience": 15,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "remotive",
+     "company": "Alpine Ski House",
+     "title": "Software Developer",
+     "location": "Remote (USA, Canada, USA timezones, open to the US)",
+     "url": "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+     "posted": "2026-11-12",
+     "description": "<p>Ruby on Rails, PostgreSQL, React. 2+ years of experience.</p>",
+     "kind": "",
+     "score": 78,
+     "track": "software",
+     "place": "remote-country",
+     "why": "title fits software; skills unknown (short or no description); remote in the US; asks for 2+ years",
+     "gaps": [],
+     "flags": [
+      "scam warning: very short, vague description: \"only 11 words\""
+     ],
+     "matchedSkills": [
+      "postgresql",
+      "react"
+     ],
+     "yearsRequired": 2,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 9,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Adatum",
+     "title": "Software Developer Intern",
+     "location": "Arlington, VA",
+     "url": "https://boards.greenhouse.io/adatum/jobs/4006",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "internship",
+     "score": 76,
+     "track": "software",
+     "place": "country",
+     "why": "title fits software; skills unknown (short or no description); elsewhere in the US",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Old Term Inc",
+     "title": "Software Intern",
+     "location": "Boston, MA",
+     "url": "https://boards.greenhouse.io/oldterm/jobs/4008",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "internship",
+     "score": 76,
+     "track": "software",
+     "place": "country",
+     "why": "title fits software; skills unknown (short or no description); elsewhere in the US",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Proseware",
+     "title": "Software Intern",
+     "location": "Chicago, IL",
+     "url": "https://boards.greenhouse.io/proseware/jobs/4009",
+     "posted": "2026-11-09",
+     "description": "",
+     "kind": "internship",
+     "score": 74,
+     "track": "software",
+     "place": "country",
+     "why": "title fits software; skills unknown (short or no description); elsewhere in the US",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 30,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "smartrecruiters",
+     "company": "Litware Inc.",
+     "title": "Data Analyst",
+     "location": "Seattle, WA, United States",
+     "url": "https://jobs.smartrecruiters.com/Litware/744000161793003",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "",
+     "score": 71,
+     "track": "data",
+     "place": "local",
+     "why": "title fits data; skills unknown (short or no description); near home",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 12,
+      "experience": 14,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Wingtip",
+     "title": "Data Scientist Intern - PhD",
+     "location": "San Jose, CA",
+     "url": "https://boards.greenhouse.io/wingtip/jobs/4007",
+     "posted": "2026-11-14",
+     "description": "",
+     "kind": "internship",
+     "score": 70,
+     "track": "data",
+     "place": "country",
+     "why": "title fits data; skills unknown (short or no description); elsewhere in the US",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 8
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-intern",
+     "company": "Northwind Traders",
+     "title": "Data Analyst Intern",
+     "location": "Austin, TX",
+     "url": "https://job-boards.greenhouse.io/northwind/jobs/7001",
+     "posted": "2026-11-10",
+     "description": "",
+     "kind": "internship",
+     "score": 68,
+     "track": "data",
+     "place": "country",
+     "why": "title fits data; skills unknown (short or no description); elsewhere in the US",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 5,
+      "experience": 20,
+      "recency": 6
+     },
+     "queueable": true
+    },
+    {
+     "source": "simplify-newgrad",
+     "company": "Quanta Services",
+     "title": "Business Analyst",
+     "location": "Lone Tree, CO",
+     "url": "https://careers2-quanta.icims.com/jobs/20046/job?mobile=true&needsRedirect=false",
+     "posted": "2026-11-16",
+     "description": "",
+     "kind": "new grad",
+     "score": 64,
+     "track": "data",
+     "place": "country",
+     "why": "title fits data; skills unknown (short or no description); elsewhere in the US",
+     "gaps": [],
+     "flags": [],
+     "matchedSkills": [],
+     "yearsRequired": null,
+     "parts": {
+      "title": 24,
+      "skills": 13,
+      "location": 5,
+      "experience": 14,
+      "recency": 8
+     },
+     "queueable": true
+    }
+   ],
+   "skipped": {
+    "linkedin": 0,
+    "not_in_country": 3,
+    "title_not_in_tracks": 1,
+    "excluded_title": 0,
+    "too_old": 0,
+    "already_tracked": 0,
+    "already_in_jobs_txt": 0,
+    "duplicate": 0
+   },
+   "found": 14,
+   "kept": 10,
+   "fetched": 0,
+   "picked": [
+    "https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify",
+    "https://job-boards.greenhouse.io/northwind/jobs/7104",
+    "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+    "https://boards.greenhouse.io/adatum/jobs/4006",
+    "https://boards.greenhouse.io/oldterm/jobs/4008",
+    "https://boards.greenhouse.io/proseware/jobs/4009",
+    "https://jobs.smartrecruiters.com/Litware/744000161793003",
+    "https://boards.greenhouse.io/wingtip/jobs/4007",
+    "https://job-boards.greenhouse.io/northwind/jobs/7001",
+    "https://careers2-quanta.icims.com/jobs/20046/job?mobile=true&needsRedirect=false"
+   ],
+   "notes": [
+    "Contoso Labs | Machine Learning Intern | Seattle, WA | posted 2026-11-12 | fit 81 (software)",
+    "Northwind Traders | Software Engineer | San Francisco, CA / Seattle, WA | posted 2026-11-13 | fit 78 (software)",
+    "Alpine Ski House | Software Developer | Remote (USA, Canada, USA timezones, open to the US) | posted 2026-11-12 | fit 78 (software)",
+    "Adatum | Software Developer Intern | Arlington, VA | posted 2026-11-14 | fit 76 (software)",
+    "Old Term Inc | Software Intern | Boston, MA | posted 2026-11-14 | fit 76 (software)",
+    "Proseware | Software Intern | Chicago, IL | posted 2026-11-09 | fit 74 (software)",
+    "Litware Inc. | Data Analyst | Seattle, WA, United States | posted 2026-11-14 | fit 71 (data)",
+    "Wingtip | Data Scientist Intern - PhD | San Jose, CA | posted 2026-11-14 | fit 70 (data)",
+    "Northwind Traders | Data Analyst Intern | Austin, TX | posted 2026-11-10 | fit 68 (data)",
+    "Quanta Services | Business Analyst | Lone Tree, CO | posted 2026-11-16 | fit 64 (data)"
+   ]
+  }
+ },
+ "functions": {
+  "postingKeys": [
+   [
+    "greenhouse:123456",
+    "https://boards.greenhouse.io/acme/jobs/123456"
+   ],
+   [
+    "greenhouse:123456",
+    "https://job-boards.greenhouse.io/acme/jobs/123456"
+   ],
+   [
+    "greenhouse:987654",
+    "https://boards.greenhouse.io/embed/job_app"
+   ],
+   [
+    "greenhouse:555555",
+    "https://www.acme.com/careers"
+   ],
+   [
+    "https://jobs.lever.co/acme/0F1E2D3C-4B5A-4968-8776-655443322110/apply",
+    "lever:0f1e2d3c-4b5a-4968-8776-655443322110"
+   ],
+   [
+    "ashby:1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+    "https://jobs.ashbyhq.com/acme/1fc309c8-da20-4ff2-84c7-8b863ece2b0b/application"
+   ],
+   [
+    "https://acme.wd5.myworkdayjobs.com/en-US/External/job/Toronto/Analyst_R-12345-1",
+    "workday:acme:R-12345-1"
+   ],
+   [
+    "https://acme.wd1.myworkdayjobs.com/Careers/job/X/Data_JR112214",
+    "workday:acme:JR112214"
+   ],
+   [
+    "https://jobs.smartrecruiters.com/Acme/744000161793229-data-analyst",
+    "smartrecruiters:744000161793229"
+   ],
+   [
+    "https://careers-acme.icims.com/jobs/20046/job",
+    "icims:careers-acme:20046"
+   ],
+   [
+    "https://www.jobbank.gc.ca/jobsearch/jobposting/50674077;jsessionid=ABC",
+    "jobbank:50674077"
+   ],
+   [
+    "careers.acme.com:jobId:AB-1234",
+    "https://careers.acme.com/job"
+   ],
+   [
+    "careers.acme.com:jid:xyz9",
+    "https://careers.acme.com/job"
+   ],
+   [
+    "careers.acme.com:id:1234",
+    "https://careers.acme.com/job"
+   ],
+   [
+    "https://www.example.com/Path/To/Job"
+   ],
+   [
+    "https://example.com/"
+   ],
+   [
+    "https://example.com/"
+   ],
+   [
+    "https://example.com/a"
+   ],
+   [
+    "https:///jobs/1"
+   ],
+   [
+    "https:foo"
+   ],
+   [
+    "mailto:jobs@example.com"
+   ],
+   [],
+   [],
+   [
+    "https://example.com/x"
+   ],
+   [
+    "https://example.com/search"
+   ],
+   [
+    "https://example.com/x"
+   ],
+   [
+    "https://example.com/x"
+   ],
+   [
+    "https://www.linkedin.com/jobs/view/3999999999"
+   ]
+  ],
+  "cleanUrl": [
+   "https://boards.greenhouse.io/acme/jobs/123456",
+   "https://job-boards.greenhouse.io/acme/jobs/123456",
+   "https://boards.greenhouse.io/embed/job_app?for=acme&token=987654",
+   "https://www.acme.com/careers?gh_jid=555555",
+   "https://jobs.lever.co/acme/0F1E2D3C-4B5A-4968-8776-655443322110/apply",
+   "https://jobs.ashbyhq.com/acme/1fc309c8-da20-4ff2-84c7-8b863ece2b0b/application",
+   "https://acme.wd5.myworkdayjobs.com/en-US/External/job/Toronto/Analyst_R-12345-1",
+   "https://acme.wd1.myworkdayjobs.com/Careers/job/X/Data_JR112214",
+   "https://jobs.smartrecruiters.com/Acme/744000161793229-data-analyst",
+   "https://careers-acme.icims.com/jobs/20046/job?mobile=true",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674077;jsessionid=ABC",
+   "https://careers.acme.com/job?jobId=AB-1234",
+   "https://careers.acme.com/job?id=12&jid=xyz9",
+   "https://careers.acme.com/job?id=1234",
+   "https://www.example.com/Path/To/Job",
+   "https://example.com/",
+   "https://example.com/?b=2&a=1",
+   "https://example.com/a",
+   "https:///jobs/1",
+   "https:foo",
+   "mailto:jobs@example.com",
+   "https:///",
+   "https:///",
+   "https://example.com/x",
+   "https://example.com/search?q=data+analyst&page=2",
+   "https://example.com/x?b=1",
+   "https://example.com/x?srcid=1",
+   "https://www.linkedin.com/jobs/view/3999999999?refId=abc"
+  ],
+  "jobKey": [
+   "greenhouse:123456",
+   "greenhouse:123456",
+   "greenhouse:987654",
+   "greenhouse:555555",
+   "https://jobs.lever.co/acme/0F1E2D3C-4B5A-4968-8776-655443322110/apply",
+   "ashby:1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+   "https://acme.wd5.myworkdayjobs.com/en-US/External/job/Toronto/Analyst_R-12345-1",
+   "https://acme.wd1.myworkdayjobs.com/Careers/job/X/Data_JR112214",
+   "https://jobs.smartrecruiters.com/Acme/744000161793229-data-analyst",
+   "https://careers-acme.icims.com/jobs/20046/job",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674077;jsessionid=ABC",
+   "careers.acme.com:jobId:AB-1234",
+   "careers.acme.com:jid:xyz9",
+   "careers.acme.com:id:1234",
+   "https://www.example.com/Path/To/Job",
+   "https://example.com/",
+   "https://example.com/",
+   "https://example.com/a",
+   "https:///jobs/1",
+   "https:foo",
+   "mailto:jobs@example.com",
+   "",
+   null,
+   "https://example.com/x",
+   "https://example.com/search",
+   "https://example.com/x",
+   "https://example.com/x",
+   "https://www.linkedin.com/jobs/view/3999999999"
+  ],
+  "roleKey": [
+   "acme|data analyst",
+   "acme|data analyst",
+   "acme|data analyst",
+   null,
+   null,
+   "inc|intern",
+   "at and t|software developer",
+   "procter and gamble|analyst ii",
+   null,
+   "labs|labs",
+   "caf soci t|d veloppeur logiciel"
+  ],
+  "nameKey": [
+   "acme",
+   "acme",
+   "acme",
+   "",
+   "acme",
+   "inc",
+   "at and t",
+   "procter and gamble",
+   "",
+   "labs",
+   "caf soci t"
+  ],
+  "norm": [
+   "data analyst",
+   "data analyst",
+   "data analyst",
+   "analyst",
+   "",
+   "intern",
+   "software developer",
+   "analyst ii",
+   "",
+   "labs",
+   "d veloppeur logiciel"
+  ],
+  "day": [
+   "2026-11-16",
+   "2026-11-16",
+   "2025-10-12",
+   "2026-11-13",
+   "2026-11-10",
+   "2026-11-06",
+   "2026-11-06",
+   "2026-11-05",
+   "2026-11-05",
+   "",
+   "2026-09-05",
+   "",
+   "2028-02-29",
+   "",
+   "",
+   "",
+   "",
+   "2026-01-02",
+   "2026-13-45",
+   "2026-12-31",
+   "2026-12-01",
+   "",
+   "",
+   "2026-06-30",
+   "2026-01-01",
+   "2026-03-09",
+   "",
+   "",
+   "2023-11-15"
+  ],
+  "title": [
+   "Contoso Labs",
+   "Acme2Go",
+   "O'Neil And Sons",
+   "École Polytechnique",
+   "X-Ray Vision",
+   "Acme Corp",
+   "Mixedcase Words",
+   "3M"
+  ]
+ },
+ "digest": {
+  "keys": [
+   "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+   "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3",
+   "greenhouse:7103",
+   "ashby:1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+   "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+   "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+   "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677",
+   "https://jobs.smartrecruiters.com/Litware/744000161793001",
+   "https://remotive.com/remote-jobs/data/data-analyst-2069001",
+   "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300",
+   "greenhouse:4005",
+   "https://jobs.lever.co/remotemaple/aaaaaaaa-1111-2222-3333-444444444444",
+   "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Software-Engineer-I_R-20431",
+   "ashby:2ab309c8-da20-4ff2-84c7-8b863ece2b0c",
+   "greenhouse:7001",
+   "https://jobs.smartrecruiters.com/Litware/744000161793002",
+   "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Data-Analyst_R-20441",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674102"
+  ],
+  "fresh": [
+   "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+   "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3",
+   "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+   "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+   "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677",
+   "https://jobs.smartrecruiters.com/Litware/744000161793001",
+   "https://remotive.com/remote-jobs/data/data-analyst-2069001",
+   "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300/?ats=successfactors",
+   "https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify",
+   "https://jobs.lever.co/remotemaple/aaaaaaaa-1111-2222-3333-444444444444",
+   "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Software-Engineer-I_R-20431",
+   "https://jobs.ashbyhq.com/fabrikam/2ab309c8-da20-4ff2-84c7-8b863ece2b0c",
+   "https://job-boards.greenhouse.io/northwind/jobs/7001",
+   "https://jobs.smartrecruiters.com/Litware/744000161793002",
+   "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Data-Analyst_R-20441",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674102"
+  ],
+  "older": 2,
+  "queued": [
+   "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110",
+   "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101",
+   "https://remotive.com/remote-jobs/software-dev/software-developer-2069101",
+   "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677"
+  ],
+  "markdown": "# Job digest, Monday November 16, 2026\n\n17 new postings match your tracks (17 score 55 or more). 2 matches from earlier digests are still open. Searched 39 postings from 9 sources.\n\nAdded 5 to jobs.txt: Contoso Labs (100); fabrikam (84); Harbour & Pine Analytics (80); Alpine Ski House (78); American Express (77).\n\n## Best new matches\n\n| Fit | Role | Company | Location | Posted | Why |\n|---|---|---|---|---|---|\n| 100 | [Machine Learning Developer](https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110) | Contoso Labs | Toronto, Ontario, remote | 2026-11-15 | title fits software; 7 of 7 skills match; near home; asks for 2+ years |\n| 92 | [Web Software Developer Intern - WFM](https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3) | Genesys | Toronto, ON, Canada | 2026-10-07 | title fits software; 9 of 9 skills match; near home |\n| 84 | [Software Engineer, Platform](https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b) | fabrikam | Toronto, Canada | 2026-11-11 | title fits software; 5 of 5 skills match; near home; asks for 4+ years |\n| 80 | [data analyst](https://www.jobbank.gc.ca/jobsearch/jobposting/50674101) | Harbour & Pine Analytics | Toronto , ON, Canada | 2026-11-13 | title fits data; 4 of 5 skills match; near home |\n| 78 | [Software Developer](https://remotive.com/remote-jobs/software-dev/software-developer-2069101) | Alpine Ski House | Remote (USA, Canada, USA timezones, open | 2026-11-12 | title fits software; skills unknown (short or no description); remote in Canada; asks for 2+ years |\n| 77 | [Campus Undergraduate Full-Time Engineer - Software Engineer 1](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677) | American Express | Toronto, ON, Canada | 2026-11-16 | title fits software; skills unknown (short or no description); near home |\n| 75 | [Junior Data Analyst](https://jobs.smartrecruiters.com/Litware/744000161793001) | Litware Inc. | Ottawa, ON, Canada | 2026-11-15 | title fits data; skills unknown (short or no description); in your province or region |\n| 75 | [Data Analyst](https://remotive.com/remote-jobs/data/data-analyst-2069001) | Margie's Travel | Remote (Canada, open to Canada) | 2026-11-14 | title fits data; 3 of 4 skills match; remote in Canada |\n| 75 | [GCAN Field Operations Analyst Intern](https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300/?ats=successfactors) | W.W. Grainger | Thornhill, Vaughan, ON, Canada | 2026-11-13 | title fits data; skills unknown (short or no description); in your province or region |\n| 74 | [Machine Learning Intern](https://boards.greenhouse.io/contosolabs/jobs/4005?gh_jid=4005&utm_source=simplify) | Contoso Labs | Vancouver, BC, Canada | 2026-11-12 | title fits software; skills unknown (short or no description); elsewhere in Canada |\n| 72 | [Data Analyst Intern](https://jobs.lever.co/remotemaple/aaaaaaaa-1111-2222-3333-444444444444) | Remote Maple | Remote in Canada | 2026-11-11 | title fits data; skills unknown (short or no description); remote in Canada |\n| 72 | [Software Engineer I](https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Software-Engineer-I_R-20431) | Tailspin Toys | Toronto, ON | ? | title fits software; skills unknown (short or no description); near home |\n| 71 | [Data Analyst](https://jobs.ashbyhq.com/fabrikam/2ab309c8-da20-4ff2-84c7-8b863ece2b0c) | fabrikam | Remote - Canada; Montreal, Quebec (Remot | 2026-11-04 | title fits data; 3 of 4 skills match; remote in Canada |\n| 68 | [Data Analyst Intern](https://job-boards.greenhouse.io/northwind/jobs/7001) | Northwind Traders | Halifax, NS, Canada | 2026-11-10 | title fits data; skills unknown (short or no description); elsewhere in Canada |\n| 68 | [Software Developer](https://jobs.smartrecruiters.com/Litware/744000161793002) | Litware | Montreal, QC, Canada, Remote | 2026-10-27 | title fits software; skills unknown (short or no description); remote in Canada |\n\n## Check before applying\n\n- **Contoso Labs, Machine Learning Developer**: scam warning\n- **Genesys, Web Software Developer Intern - WFM**: co-op or student only; scam warning\n- **fabrikam, Software Engineer, Platform**: scam warning\n- **Harbour & Pine Analytics, data analyst**: French required; scam warning\n- **Alpine Ski House, Software Developer**: scam warning\n- **Margie's Travel, Data Analyst**: scam warning\n- **fabrikam, Data Analyst**: French required; scam warning\n\n## Skills these postings ask for that your resume does not show\n\npower bi (1), kpi (1), looker (1).\nThese are never added to a resume. If one keeps coming up, a short course or project could close it.\n\n## Sources that failed today\n\n- jobbank:broken query: HTTPError: HTTP Error 500: Server Error\n- greenhouse:ghost: HTTP 404 (no such board: check the name in search.json)\n- lever:broken: JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n- workday:elsewhere: HTTP 404 (no such board: check the name in search.json)\n",
+  "errors": [
+   {
+    "source": "jobbank:broken query",
+    "message": "HTTPError: HTTP Error 500: Server Error"
+   },
+   {
+    "source": "greenhouse:ghost",
+    "message": "HTTP 404 (no such board: check the name in search.json)"
+   },
+   {
+    "source": "lever:broken",
+    "message": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "source": "workday:elsewhere",
+    "message": "HTTP 404 (no such board: check the name in search.json)"
+   }
+  ],
+  "counts": {
+   "simplify-intern": 13,
+   "simplify-newgrad": 4,
+   "jobbank": 5,
+   "greenhouse:northwind": 4,
+   "lever:contoso-labs": 2,
+   "ashby:fabrikam": 2,
+   "smartrecruiters:Litware": 2,
+   "workday:tailspin": 4,
+   "remotive": 3
+  },
+  "found": 39,
+  "seenAfter": {
+   "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a": "2026-11-01",
+   "jobbank:50674101": "2026-11-01",
+   "https://job-boards.greenhouse.io/northwind/jobs/7103": "2026-11-01",
+   "greenhouse:7103": "2026-11-01",
+   "https://jobs.lever.co/contoso-labs/0f1e2d3c-4b5a-4968-8776-655443322110": "2026-11-16",
+   "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3": "2026-11-16",
+   "ashby:1fc309c8-da20-4ff2-84c7-8b863ece2b0b": "2026-11-16",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674101": "2026-11-16",
+   "https://remotive.com/remote-jobs/software-dev/software-developer-2069101": "2026-11-16",
+   "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677": "2026-11-16",
+   "https://jobs.smartrecruiters.com/Litware/744000161793001": "2026-11-16",
+   "https://remotive.com/remote-jobs/data/data-analyst-2069001": "2026-11-16",
+   "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300": "2026-11-16",
+   "greenhouse:4005": "2026-11-16",
+   "https://jobs.lever.co/remotemaple/aaaaaaaa-1111-2222-3333-444444444444": "2026-11-16",
+   "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Software-Engineer-I_R-20431": "2026-11-16",
+   "ashby:2ab309c8-da20-4ff2-84c7-8b863ece2b0c": "2026-11-16",
+   "greenhouse:7001": "2026-11-16",
+   "https://jobs.smartrecruiters.com/Litware/744000161793002": "2026-11-16",
+   "https://tailspin.wd3.myworkdayjobs.com/Careers/job/Toronto-ON/Data-Analyst_R-20441": "2026-11-16",
+   "https://www.jobbank.gc.ca/jobsearch/jobposting/50674102": "2026-11-16"
+  }
+ },
+ "employers": [
+  {
+   "system": "greenhouse",
+   "entry": "acme"
+  },
+  {
+   "system": "greenhouse",
+   "entry": "acme"
+  },
+  {
+   "system": "greenhouse",
+   "entry": "acme"
+  },
+  {
+   "system": "greenhouse",
+   "entry": "acme"
+  },
+  null,
+  {
+   "system": "lever",
+   "entry": "acme"
+  },
+  {
+   "system": "lever",
+   "entry": "acme"
+  },
+  {
+   "system": "ashby",
+   "entry": "acme"
+  },
+  {
+   "system": "smartrecruiters",
+   "entry": "Acme"
+  },
+  {
+   "system": "smartrecruiters",
+   "entry": "Acme"
+  },
+  {
+   "system": "workday",
+   "entry": {
+    "company": "nvidia",
+    "host": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "site": "NVIDIAExternalCareerSite",
+    "queries": [
+     "engineer",
+     "analyst",
+     "data"
+    ]
+   }
+  },
+  {
+   "system": "workday",
+   "entry": {
+    "company": "nvidia",
+    "host": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "site": "NVIDIAExternalCareerSite",
+    "queries": [
+     "engineer",
+     "analyst",
+     "data"
+    ]
+   }
+  },
+  {
+   "system": "workday",
+   "entry": {
+    "company": "acme",
+    "host": "acme.wd1.myworkdayjobs.com",
+    "tenant": "acme",
+    "site": "",
+    "queries": [
+     "engineer",
+     "analyst",
+     "data"
+    ]
+   }
+  },
+  {
+   "system": "workday",
+   "entry": {
+    "company": "acme",
+    "host": "wd3.myworkdaysite.com",
+    "tenant": "acme",
+    "site": "Careers",
+    "queries": [
+     "engineer",
+     "analyst",
+     "data"
+    ]
+   }
+  },
+  {
+   "system": "workday",
+   "entry": {
+    "company": "acme",
+    "host": "wd3.myworkdaysite.com",
+    "tenant": "acme",
+    "site": "Careers",
+    "queries": [
+     "engineer",
+     "analyst",
+     "data"
+    ]
+   }
+  },
+  {
+   "system": "lever",
+   "entry": "acme;params"
+  },
+  {
+   "system": "lever",
+   "entry": "acme"
+  },
+  null,
+  null,
+  null,
+  {
+   "system": "greenhouse",
+   "entry": "acme"
+  },
+  {
+   "system": "lever",
+   "entry": "acme"
+  }
+ ],
+ "internships": {
+  "cases": [
+   {
+    "name": "us defaults",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "include abroad",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "None; Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Fabrikam",
+      "role": "Hardware Intern",
+      "location": "Toronto, ON, Canada",
+      "url": "https://boards.greenhouse.io/fabrikam/jobs/1003",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Hardware",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "London, UK; Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "canada profile",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "None; Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Fabrikam",
+      "role": "Hardware Intern",
+      "location": "Toronto, ON, Canada",
+      "url": "https://boards.greenhouse.io/fabrikam/jobs/1003",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Hardware",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "London, UK; Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "needs sponsorship",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "outside_us": 1,
+     "no_sponsorship": 1,
+     "citizenship_required": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "no needs sponsorship",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "no citizenship",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "outside_us": 1,
+     "citizenship_required": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "category data",
+    "results": [
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "category": 10,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "category ml + hardware abroad",
+    "results": [
+     {
+      "company": "Fabrikam",
+      "role": "Hardware Intern",
+      "location": "Toronto, ON, Canada",
+      "url": "https://boards.greenhouse.io/fabrikam/jobs/1003",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Hardware",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "category": 9,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "location TX or remote",
+    "results": [
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "location": 7,
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "location New York",
+    "results": [
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "location": 9,
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "keywords",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "keyword": 2,
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "excluded_keyword": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "degree bachelor",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "degree": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "days 7",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1,
+     "too_old": 1,
+     "duplicate": 1
+    },
+    "term": "Summer 2027"
+   },
+   {
+    "name": "term 2026",
+    "results": [
+     {
+      "company": "Old Term Inc",
+      "role": "Software Intern",
+      "location": "Boston, MA",
+      "url": "https://boards.greenhouse.io/oldterminc/jobs/1008",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2026"
+      ]
+     }
+    ],
+    "skipped": {
+     "other_term": 11,
+     "closed": 1,
+     "linkedin_or_no_link": 1
+    },
+    "term": "Summer 2026"
+   },
+   {
+    "name": "profile term",
+    "results": [
+     {
+      "company": "Old Term Inc",
+      "role": "Software Intern",
+      "location": "Boston, MA",
+      "url": "https://boards.greenhouse.io/oldterminc/jobs/1008",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2026"
+      ]
+     }
+    ],
+    "skipped": {
+     "other_term": 11,
+     "closed": 1,
+     "linkedin_or_no_link": 1
+    },
+    "term": "Summer 2026"
+   },
+   {
+    "name": "term any",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "None; Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1001",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Fabrikam",
+      "role": "Hardware Intern",
+      "location": "Toronto, ON, Canada",
+      "url": "https://boards.greenhouse.io/fabrikam/jobs/1003",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Hardware",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Litware",
+      "role": "Software Intern",
+      "location": "Remote in USA",
+      "url": "https://boards.greenhouse.io/litware/jobs/1004",
+      "posted": "2026-11-13",
+      "sponsorship": "Does Not Offer Sponsorship",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Old Term Inc",
+      "role": "Software Intern",
+      "location": "Boston, MA",
+      "url": "https://boards.greenhouse.io/oldterminc/jobs/1008",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2026"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Proseware",
+      "role": "Software Intern",
+      "location": "London, UK; Chicago, IL",
+      "url": "https://boards.greenhouse.io/proseware/jobs/1012",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Contoso",
+      "role": "Data Science Intern",
+      "location": "NYC",
+      "url": "https://boards.greenhouse.io/contoso/jobs/1002",
+      "posted": "2026-11-11",
+      "sponsorship": "Other",
+      "category": "AI/ML/Data",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "duplicate": 1
+    },
+    "term": "any"
+   },
+   {
+    "name": "tracked and queued",
+    "results": [
+     {
+      "company": "Edge Case",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://boards.greenhouse.io/edgecase/jobs/1013",
+      "posted": "2026-11-14",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Adatum",
+      "role": "Software Intern",
+      "location": "Arlington, VA",
+      "url": "https://boards.greenhouse.io/adatum/jobs/1005",
+      "posted": "2026-11-13",
+      "sponsorship": "U.S. Citizenship is Required",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Wingtip",
+      "role": "PhD Research Intern",
+      "location": "San Jose, CA",
+      "url": "https://boards.greenhouse.io/wingtip/jobs/1010",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Northwind Robotics",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX",
+      "url": "https://boards.greenhouse.io/northwindrobotics/jobs/1011",
+      "posted": "2026-11-13",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "Tailspin",
+      "role": "Senior Software Intern",
+      "location": "Seattle, WA",
+      "url": "https://boards.greenhouse.io/tailspin/jobs/1009",
+      "posted": "2026-10-05",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     },
+     {
+      "company": "No Date",
+      "role": "Software Intern",
+      "location": "Denver, CO",
+      "url": "https://example.com/x",
+      "posted": "",
+      "sponsorship": "Other",
+      "category": "Software",
+      "terms": [
+       "Summer 2027"
+      ]
+     }
+    ],
+    "skipped": {
+     "already_in_jobs_txt": 2,
+     "already_tracked": 2,
+     "outside_us": 1,
+     "closed": 1,
+     "linkedin_or_no_link": 1,
+     "other_term": 1
+    },
+    "term": "Summer 2027"
+   }
+  ],
+  "usLocations": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "degrees": [
+   "bachelor",
+   "master",
+   "phd",
+   "mba",
+   null,
+   "bachelor",
+   "associate",
+   "master",
+   "master",
+   null
+  ],
+  "locationMatches": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ }
+}

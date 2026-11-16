@@ -1,0 +1,1272 @@
+{
+ "fixture tailored": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "25",
+    "raw": "25%",
+    "context": "utes. Reduced duplicate customer records by 25% by writing validation rules for a 120,000-ro"
+   }
+  ],
+  "newTerms": [
+   {
+    "term": "Tableau",
+    "context": "arterly findings to the executive team using Tableau. Selected Projects Transit Ridership A"
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "fixture tailored allow": {
+  "ok": true,
+  "newNumbers": [],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "fixture clean copy": {
+  "ok": true,
+  "newNumbers": [],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "fixture long": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "5",
+    "raw": "5",
+    "context": "data, wrote notes for the team. Extra line 5 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "7",
+    "raw": "7",
+    "context": "data, wrote notes for the team. Extra line 7 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "8",
+    "raw": "8",
+    "context": "data, wrote notes for the team. Extra line 8 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "9",
+    "raw": "9",
+    "context": "data, wrote notes for the team. Extra line 9 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "11",
+    "raw": "11",
+    "context": "data, wrote notes for the team. Extra line 11 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "12",
+    "raw": "12",
+    "context": "data, wrote notes for the team. Extra line 12 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "13",
+    "raw": "13",
+    "context": "data, wrote notes for the team. Extra line 13 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "14",
+    "raw": "14",
+    "context": "data, wrote notes for the team. Extra line 14 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "15",
+    "raw": "15",
+    "context": "data, wrote notes for the team. Extra line 15 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "16",
+    "raw": "16",
+    "context": "data, wrote notes for the team. Extra line 16 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "17",
+    "raw": "17",
+    "context": "data, wrote notes for the team. Extra line 17 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "19",
+    "raw": "19",
+    "context": "data, wrote notes for the team. Extra line 19 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "20",
+    "raw": "20",
+    "context": "data, wrote notes for the team. Extra line 20 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "21",
+    "raw": "21",
+    "context": "data, wrote notes for the team. Extra line 21 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "22",
+    "raw": "22",
+    "context": "data, wrote notes for the team. Extra line 22 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "23",
+    "raw": "23",
+    "context": "data, wrote notes for the team. Extra line 23 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "24",
+    "raw": "24",
+    "context": "data, wrote notes for the team. Extra line 24 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "25",
+    "raw": "25",
+    "context": "data, wrote notes for the team. Extra line 25 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "26",
+    "raw": "26",
+    "context": "data, wrote notes for the team. Extra line 26 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "27",
+    "raw": "27",
+    "context": "data, wrote notes for the team. Extra line 27 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "28",
+    "raw": "28",
+    "context": "data, wrote notes for the team. Extra line 28 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "29",
+    "raw": "29",
+    "context": "data, wrote notes for the team. Extra line 29 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "31",
+    "raw": "31",
+    "context": "data, wrote notes for the team. Extra line 31 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "32",
+    "raw": "32",
+    "context": "data, wrote notes for the team. Extra line 32 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "33",
+    "raw": "33",
+    "context": "data, wrote notes for the team. Extra line 33 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "34",
+    "raw": "34",
+    "context": "data, wrote notes for the team. Extra line 34 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "35",
+    "raw": "35",
+    "context": "data, wrote notes for the team. Extra line 35 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "36",
+    "raw": "36",
+    "context": "data, wrote notes for the team. Extra line 36 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "37",
+    "raw": "37",
+    "context": "data, wrote notes for the team. Extra line 37 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "38",
+    "raw": "38",
+    "context": "data, wrote notes for the team. Extra line 38 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "39",
+    "raw": "39",
+    "context": "data, wrote notes for the team. Extra line 39 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "41",
+    "raw": "41",
+    "context": "data, wrote notes for the team. Extra line 41 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "42",
+    "raw": "42",
+    "context": "data, wrote notes for the team. Extra line 42 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "43",
+    "raw": "43",
+    "context": "data, wrote notes for the team. Extra line 43 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "44",
+    "raw": "44",
+    "context": "data, wrote notes for the team. Extra line 44 to make the resume run past one page: reconc"
+   },
+   {
+    "value": "45",
+    "raw": "45",
+    "context": "data, wrote notes for the team. Extra line 45 to make the resume run past one page: reconc"
+   }
+  ],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "fixture broken": {
+  "ok": true,
+  "newNumbers": [],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "fixture posting vs master + profile": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "11",
+    "raw": "11",
+    "context": "not stated - Pay: not stated - Posted: 2026-11-01 - Application system: other - Cover lette"
+   }
+  ],
+  "newTerms": [
+   {
+    "term": "Role",
+    "context": "(fictional) - Company: Northwind Freight - Role: Junior Data Analyst - URL: - Location: Ha"
+   },
+   {
+    "term": "URL",
+    "context": "thwind Freight - Role: Junior Data Analyst - URL: - Location: Halifax, NS (hybrid) - Deadli"
+   },
+   {
+    "term": "Location",
+    "context": "eight - Role: Junior Data Analyst - URL: - Location: Halifax, NS (hybrid) - Deadline: not stated"
+   },
+   {
+    "term": "Deadline",
+    "context": "- URL: - Location: Halifax, NS (hybrid) - Deadline: not stated - Pay: not stated - Posted: 2026"
+   },
+   {
+    "term": "Pay",
+    "context": "alifax, NS (hybrid) - Deadline: not stated - Pay: not stated - Posted: 2026-11-01 - Applicati"
+   },
+   {
+    "term": "Posted",
+    "context": ") - Deadline: not stated - Pay: not stated - Posted: 2026-11-01 - Application system: other - Co"
+   },
+   {
+    "term": "Cover",
+    "context": "ed: 2026-11-01 - Application system: other - Cover letter: optional - Screen: ok - Red flags: n"
+   },
+   {
+    "term": "Screen",
+    "context": "ion system: other - Cover letter: optional - Screen: ok - Red flags: none ## Description We are"
+   },
+   {
+    "term": "Red",
+    "context": "ther - Cover letter: optional - Screen: ok - Red flags: none ## Description We are looking f"
+   },
+   {
+    "term": "Description",
+    "context": "optional - Screen: ok - Red flags: none ## Description We are looking for a junior data analyst to"
+   },
+   {
+    "term": "Tableau",
+    "context": "analyst to build dashboards in Power BI and Tableau, write SQL queries against PostgreSQL, autom"
+   },
+   {
+    "term": "Snowflake",
+    "context": "support our logistics team. Experience with Snowflake and dbt is an asset. You will present findin"
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "years and allow": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "12000",
+    "raw": "$12k",
+    "context": "019, still in 2026. Grew sales 37% and saved $12k in 2017."
+   },
+   {
+    "value": "2017",
+    "raw": "2017",
+    "context": "ll in 2026. Grew sales 37% and saved $12k in 2017."
+   }
+  ],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "money and known": {
+  "ok": true,
+  "newNumbers": [],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "placeholders and contacts": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [
+   {
+    "term": "TODO",
+    "context": "Dear [Company] team, TODO: add <one thing you discussed>. XXX Contact:"
+   },
+   {
+    "term": "XXX",
+    "context": "] team, TODO: add <one thing you discussed>. XXX Contact:"
+   }
+  ],
+  "missingContact": [
+   "9025550142",
+   "linkedin.com/in/alex-tremblay-example"
+  ],
+  "placeholders": [
+   "[Company]",
+   "TODO",
+   "XXX",
+   "<one thing you discussed>"
+  ]
+ },
+ "invented number": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "25",
+    "raw": "25",
+    "context": "Cut report time from 6 hours to 25 minutes for 4 managers and saved $30k."
+   },
+   {
+    "value": "30000",
+    "raw": "$30k",
+    "context": "hours to 25 minutes for 4 managers and saved $30k."
+   }
+  ],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "invented tool": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [
+   {
+    "term": "Looker",
+    "context": "Built dashboards in Power BI and Looker for the sales team, modelled in dbt with PyS"
+   },
+   {
+    "term": "PySpark",
+    "context": "ker for the sales team, modelled in dbt with PySpark."
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "changed title": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [
+   {
+    "term": "Scientist",
+    "context": "Senior Data Scientist, Harbourline Logistics, Halifax Built weekly"
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "invented employer": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [
+   {
+    "term": "Contoso",
+    "context": "ax since 2024, and before that an analyst at Contoso Pharmaceuticals."
+   },
+   {
+    "term": "Pharmaceuticals",
+    "context": "2024, and before that an analyst at Contoso Pharmaceuticals."
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "fine reword": {
+  "ok": true,
+  "newNumbers": [],
+  "newTerms": [],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "placeholders": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [
+   {
+    "term": "TODO",
+    "context": "anager], I am excited to join [Company] as a TODO. Lorem ipsum XXX <your strongest project>, s"
+   },
+   {
+    "term": "XXX",
+    "context": "ted to join [Company] as a TODO. Lorem ipsum XXX <your strongest project>, see"
+   }
+  ],
+  "missingContact": [],
+  "placeholders": [
+   "[Hiring Manager]",
+   "[Company]",
+   "TODO",
+   "XXX",
+   "Lorem ipsum",
+   "<your strongest project>"
+  ]
+ },
+ "unicode and tools": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "3.6",
+    "raw": "3.6",
+    "context": "with Zoë and Jürgen at Müller GmbH on Kafka 3.6 and C++ / C# / Node.js, plus .NET and iOS."
+   }
+  ],
+  "newTerms": [
+   {
+    "term": "C++",
+    "context": "ë and Jürgen at Müller GmbH on Kafka 3.6 and C++ / C# / Node.js, plus .NET and iOS."
+   },
+   {
+    "term": "C#",
+    "context": "Jürgen at Müller GmbH on Kafka 3.6 and C++ / C# / Node.js, plus .NET and iOS."
+   },
+   {
+    "term": "Node.js",
+    "context": "n at Müller GmbH on Kafka 3.6 and C++ / C# / Node.js, plus .NET and iOS."
+   },
+   {
+    "term": "NET",
+    "context": "H on Kafka 3.6 and C++ / C# / Node.js, plus .NET and iOS."
+   },
+   {
+    "term": "iOS",
+    "context": "ka 3.6 and C++ / C# / Node.js, plus .NET and iOS."
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "sentence starts and acronyms": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [
+   {
+    "term": "AWS",
+    "context": "We used AWS. Then GraphQL helped; iOS apps too. Monday s"
+   },
+   {
+    "term": "GraphQL",
+    "context": "We used AWS. Then GraphQL helped; iOS apps too. Monday standups at Mic"
+   },
+   {
+    "term": "iOS",
+    "context": "We used AWS. Then GraphQL helped; iOS apps too. Monday standups at Microsoft (with"
+   },
+   {
+    "term": "Microsoft",
+    "context": "hQL helped; iOS apps too. Monday standups at Microsoft (with SQL) | Excel: Tableau. Kafka streams."
+   },
+   {
+    "term": "SQL",
+    "context": "apps too. Monday standups at Microsoft (with SQL) | Excel: Tableau. Kafka streams."
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "markdown read raw": {
+  "ok": false,
+  "newNumbers": [
+   {
+    "value": "1",
+    "raw": "1",
+    "context": "- **Action:** I led the Kafka migration. 1. Batch time fell to 50 minutes. **Spoken an"
+   }
+  ],
+  "newTerms": [
+   {
+    "term": "Spoken",
+    "context": "ration. 1. Batch time fell to 50 minutes. **Spoken answer:** I led it."
+   }
+  ],
+  "missingContact": [],
+  "placeholders": []
+ },
+ "contacts": {
+  "ok": false,
+  "newNumbers": [],
+  "newTerms": [],
+  "missingContact": [
+   "9025550142",
+   "linkedin.com/in/alex-t"
+  ],
+  "placeholders": []
+ },
+ "classify fixture": [
+  {
+   "text": "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI",
+   "kind": "unchanged",
+   "source": [
+    "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Tools: Git, Jira, Salesforce, Google Sheets",
+   "kind": "unchanged",
+   "source": [
+    "Tools: Git, Jira, Salesforce, Google Sheets"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Languages: English (fluent), French (intermediate)",
+   "kind": "unchanged",
+   "source": [
+    "Languages: English (fluent), French (intermediate)"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Automated weekly shipment reporting with Python and SQL data pulls, cutting the work from 6 hours to 40 minutes.",
+   "kind": "reworded",
+   "source": [
+    "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL."
+   ],
+   "score": 0.889
+  },
+  {
+   "text": "Reduced duplicate customer records by 25% by writing validation rules for a 120,000-row CRM migration.",
+   "kind": "reworded",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.98
+  },
+  {
+   "text": "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week.",
+   "kind": "unchanged",
+   "source": [
+    "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Kept inventory counts for 900+ products accurate each month and answered 30-40 customer emails a day in English and French.",
+   "kind": "merged",
+   "source": [
+    "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month.",
+    "Answered 30-40 customer emails a day in English and French."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Presented quarterly findings to the executive team using Tableau.",
+   "kind": "no_source",
+   "source": [
+    "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month."
+   ],
+   "score": 0.367
+  },
+  {
+   "text": "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub.",
+   "kind": "unchanged",
+   "source": [
+    "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Microsoft Certified: Power BI Data Analyst Associate (2024)",
+   "kind": "unchanged",
+   "source": [
+    "Microsoft Certified: Power BI Data Analyst Associate (2024)"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Google Data Analytics Certificate (2023)",
+   "kind": "unchanged",
+   "source": [
+    "Google Data Analytics Certificate (2023)"
+   ],
+   "score": 1
+  }
+ ],
+ "classify long": [
+  {
+   "text": "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI",
+   "kind": "unchanged",
+   "source": [
+    "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Tools: Git, Jira, Salesforce, Google Sheets",
+   "kind": "unchanged",
+   "source": [
+    "Tools: Git, Jira, Salesforce, Google Sheets"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Languages: English (fluent), French (intermediate)",
+   "kind": "unchanged",
+   "source": [
+    "Languages: English (fluent), French (intermediate)"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL.",
+   "kind": "unchanged",
+   "source": [
+    "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration.",
+   "kind": "unchanged",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week.",
+   "kind": "unchanged",
+   "source": [
+    "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Extra line 1 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 2 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 3 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 4 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 5 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 6 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 7 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 8 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 9 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.32
+  },
+  {
+   "text": "Extra line 10 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 11 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 12 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 13 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 14 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 15 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 16 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 17 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 18 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 19 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 20 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 21 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 22 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 23 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 24 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 25 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 26 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 27 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 28 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 29 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 30 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 31 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 32 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 33 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 34 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 35 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 36 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 37 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 38 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 39 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 40 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 41 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 42 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 43 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 44 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Extra line 45 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+   "kind": "no_source",
+   "source": [
+    "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+   ],
+   "score": 0.319
+  },
+  {
+   "text": "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month.",
+   "kind": "unchanged",
+   "source": [
+    "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Answered 30-40 customer emails a day in English and French.",
+   "kind": "unchanged",
+   "source": [
+    "Answered 30-40 customer emails a day in English and French."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub.",
+   "kind": "unchanged",
+   "source": [
+    "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Relevant courses: Database Systems, Statistics for Business, Data Visualization.",
+   "kind": "unchanged",
+   "source": [
+    "Relevant courses: Database Systems, Statistics for Business, Data Visualization."
+   ],
+   "score": 1
+  },
+  {
+   "text": "Microsoft Certified: Power BI Data Analyst Associate (2024)",
+   "kind": "unchanged",
+   "source": [
+    "Microsoft Certified: Power BI Data Analyst Associate (2024)"
+   ],
+   "score": 1
+  },
+  {
+   "text": "Google Data Analytics Certificate (2023)",
+   "kind": "unchanged",
+   "source": [
+    "Google Data Analytics Certificate (2023)"
+   ],
+   "score": 1
+  }
+ ],
+ "classify pairs": [
+  {
+   "text": "Cut report time from 6 hours to 25 minutes for 4 managers and saved $30k.",
+   "kind": "reworded",
+   "source": [
+    "Cut report time from 6 hours to 40 minutes for 4 managers."
+   ],
+   "score": 0.859
+  },
+  {
+   "text": "Built dashboards in Power BI and Looker for the sales team, modelled in dbt with PySpark.",
+   "kind": "reworded",
+   "source": [
+    "Built dashboards in Power BI and Excel for the sales team."
+   ],
+   "score": 0.736
+  },
+  {
+   "text": "Senior Data Scientist, Harbourline Logistics, Halifax\nBuilt weekly reports for the operations team.",
+   "kind": "reworded",
+   "source": [
+    "Data Analyst, Harbourline Logistics, Halifax\nBuilt weekly reports for the operations team."
+   ],
+   "score": 0.907
+  },
+  {
+   "text": "Data Analyst at Harbourline Logistics in Halifax since 2024, and before that an analyst at Contoso Pharmaceuticals.",
+   "kind": "reworded",
+   "source": [
+    "Data Analyst at Harbourline Logistics in Halifax since 2024."
+   ],
+   "score": 0.875
+  },
+  {
+   "text": "Handled 30 to 40 customer emails daily, in both English and French.",
+   "kind": "reworded",
+   "source": [
+    "Answered 30-40 customer emails a day in English and French."
+   ],
+   "score": 0.846
+  },
+  {
+   "text": "Dear [Hiring Manager], I am excited to join [Company] as a TODO. Lorem ipsum XXX <your strongest project>, see https://example.com/x.",
+   "kind": "no_source",
+   "source": [
+    "Data Analyst, Harbourline Logistics, Halifax\nBuilt weekly reports for the operations team."
+   ],
+   "score": 0.269
+  },
+  {
+   "text": "Worked with Zoë and Jürgen at Müller GmbH on Kafka 3.6 and C++ / C# / Node.js, plus .NET and iOS.",
+   "kind": "reworded",
+   "source": [
+    "Worked with Zoë at Müller GmbH on Kafka 3.5."
+   ],
+   "score": 0.641
+  },
+  {
+   "text": "We used AWS. Then GraphQL helped; iOS apps too. Monday standups at Microsoft (with SQL) | Excel: Tableau.\n\nKafka streams.",
+   "kind": "no_source",
+   "source": [
+    "Built dashboards in Power BI and Excel for the sales team."
+   ],
+   "score": 0.275
+  },
+  {
+   "text": "- **Action:** I led the Kafka migration.\n1. Batch time fell to 50 minutes.\n\n**Spoken answer:** I led it.",
+   "kind": "reworded",
+   "source": [
+    "Led the Kafka migration and cut batch time to 50 minutes."
+   ],
+   "score": 0.7
+  },
+  {
+   "text": "Alex Tremblay | alex@example.com | github.com/alext/",
+   "kind": "reworded",
+   "source": [
+    "Alex Tremblay | alex@example.com | 902-555-0142 | linkedin.com/in/alex-t | github.com/alext"
+   ],
+   "score": 1
+  }
+ ],
+ "tex bullets master.tex": [
+  "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI",
+  "Tools: Git, Jira, Salesforce, Google Sheets",
+  "Languages: English (fluent), French (intermediate)",
+  "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL.",
+  "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration.",
+  "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week.",
+  "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month.",
+  "Answered 30-40 customer emails a day in English and French.",
+  "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub.",
+  "Relevant courses: Database Systems, Statistics for Business, Data Visualization.",
+  "Microsoft Certified: Power BI Data Analyst Associate (2024)",
+  "Google Data Analytics Certificate (2023)"
+ ],
+ "tex bullets tailored.tex": [
+  "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI",
+  "Tools: Git, Jira, Salesforce, Google Sheets",
+  "Languages: English (fluent), French (intermediate)",
+  "Automated weekly shipment reporting with Python and SQL data pulls, cutting the work from 6 hours to 40 minutes.",
+  "Reduced duplicate customer records by 25% by writing validation rules for a 120,000-row CRM migration.",
+  "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week.",
+  "Kept inventory counts for 900+ products accurate each month and answered 30-40 customer emails a day in English and French.",
+  "Presented quarterly findings to the executive team using Tableau.",
+  "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub.",
+  "Microsoft Certified: Power BI Data Analyst Associate (2024)",
+  "Google Data Analytics Certificate (2023)"
+ ],
+ "tex bullets long.tex": [
+  "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI",
+  "Tools: Git, Jira, Salesforce, Google Sheets",
+  "Languages: English (fluent), French (intermediate)",
+  "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL.",
+  "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration.",
+  "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week.",
+  "Extra line 1 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 2 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 3 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 4 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 5 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 6 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 7 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 8 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 9 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 10 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 11 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 12 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 13 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 14 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 15 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 16 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 17 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 18 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 19 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 20 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 21 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 22 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 23 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 24 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 25 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 26 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 27 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 28 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 29 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 30 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 31 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 32 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 33 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 34 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 35 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 36 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 37 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 38 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 39 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 40 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 41 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 42 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 43 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 44 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Extra line 45 to make the resume run past one page: reconciled reports, checked data, wrote notes for the team.",
+  "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month.",
+  "Answered 30-40 customer emails a day in English and French.",
+  "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub.",
+  "Relevant courses: Database Systems, Statistics for Business, Data Visualization.",
+  "Microsoft Certified: Power BI Data Analyst Associate (2024)",
+  "Google Data Analytics Certificate (2023)"
+ ],
+ "tex bullets broken.tex": [
+  "Data: Python (pandas), SQL (PostgreSQL), Excel (Power Query, pivot tables), Power BI",
+  "Tools: Git, Jira, Salesforce, Google Sheets",
+  "Languages: English (fluent), French (intermediate)",
+  "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL.",
+  "Reduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration.",
+  "Built a Power BI dashboard used by 4 regional managers to track on-time delivery each week.",
+  "Kept inventory counts for 900+ products accurate by reconciling the point-of-sale system with stock counts each month.",
+  "Answered 30-40 customer emails a day in English and French.",
+  "Analysed 3 years of open transit data to find the 10 busiest routes by hour and shared the notebook on GitHub.",
+  "Relevant courses: Database Systems, Statistics for Business, Data Visualization.",
+  "Microsoft Certified: Power BI Data Analyst Associate (2024)",
+  "Google Data Analytics Certificate (2023)"
+ ],
+ "plain bullets posting": [
+  "Company: Northwind Freight",
+  "Role: Junior Data Analyst",
+  "URL: https://example.com/jobs/123",
+  "Location: Halifax, NS (hybrid)",
+  "Deadline: not stated",
+  "Pay: not stated",
+  "Posted: 2026-11-01",
+  "Application system: other",
+  "Cover letter: optional",
+  "Screen: ok",
+  "Red flags: none",
+  "[required] Resume (file)"
+ ],
+ "plain bullets visible master": [],
+ "plain bullets answer": [
+  "**Action:** I led the Kafka migration.",
+  "Second point wraps here"
+ ]
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Interview Helper</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/32.png" alt="" width="20" height="20" />
+      <h1>Add to Interview Helper</h1>
+    </header>
+    <div id="status" class="status"><span class="dot"></span><span id="statusText">Connecting to the app…</span></div>
+    <form id="form">
+      <label>Company<input id="company" type="text" maxlength="200" autocomplete="off" /></label>
+      <label>Role<input id="role" type="text" maxlength="200" autocomplete="off" /></label>
+      <label>Job description<textarea id="description" rows="4" maxlength="60000"></textarea></label>
+      <p id="source" class="hint"></p>
+      <p id="url" class="url"></p>
+      <button id="send" type="submit" disabled>Add to Jobs</button>
+      <p id="result" class="result" role="status"></p>
+    </form>
+    <section class="autofill" aria-labelledby="autofillTitle">
+      <h2 id="autofillTitle">Fill an application form</h2>
+      <p id="profileLine" class="hint">Checking your autofill profile…</p>
+      <div class="actions">
+        <button id="fill" type="button">Fill this form</button>
+        <button id="editProfile" type="button" class="secondary">Edit autofill profile</button>
+      </div>
+      <p id="fillStatus" class="result" role="status" aria-live="polite"></p>
+      <div id="allowBox" class="allow" hidden>
+        <p id="allowText"></p>
+        <button id="allowFrame" type="button">Allow and fill</button>
+      </div>
+      <p id="fillHint" class="hint small"><span id="shortcut">Shortcut: Alt+Shift+F.</span> Never submits or ticks consent boxes.</p>
+    </section>
+    <script src="lib/jobpost.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

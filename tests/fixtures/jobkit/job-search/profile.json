@@ -1,0 +1,158 @@
+{
+  "_comment": "FICTIONAL test profile (from the kit template). Self-ID fields are filled only to prove they are never imported.",
+  "firstName": "Alex",
+  "lastName": "Tremblay",
+  "middleName": "Morgan",
+  "preferredName": "",
+  "legalName": "Alex Morgan Tremblay",
+  "resumeName": "Alex Morgan Tremblay",
+  "email": "alex.tremblay@example.com",
+  "phone": "+1 (902) 555-0142",
+  "street": "",
+  "city": "Halifax",
+  "state": "NS",
+  "postalCode": "",
+  "country": "Canada",
+  "linkedin": "linkedin.com/in/alex-tremblay-example",
+  "github": "github.com/alex-tremblay-example",
+  "portfolio": "",
+  "website": "",
+  "work": [
+    {
+      "title": "Data Analyst",
+      "company": "Harbourline Logistics",
+      "location": "Halifax, NS",
+      "start": "Jun 2024",
+      "end": "Present",
+      "highlights": "Cut weekly shipment reporting from 6 hours to 40 minutes by automating data pulls with Python and SQL.\nReduced duplicate customer records by 18% by writing validation rules for a 120,000-row CRM migration."
+    },
+    {
+      "title": "Operations Assistant",
+      "company": "Bluenose Outfitters",
+      "location": "Dartmouth, NS",
+      "start": "Sep 2022",
+      "end": "May 2024",
+      "highlights": "Reconciled point-of-sale and stock counts for 900+ products each month."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Transit Ridership Analysis",
+      "tools": "Python, pandas, Matplotlib",
+      "link": "",
+      "highlights": "Analysed 3 years of open transit data to find the 10 busiest routes by hour."
+    }
+  ],
+  "education": [
+    {
+      "school": "Atlantic Coast University (fictional)",
+      "degree": "Bachelor of Commerce",
+      "field": "Business Analytics",
+      "minor": "",
+      "start": "Sep 2019",
+      "end": "Apr 2023",
+      "startExact": "2019-09-03",
+      "endExact": "2023-04-28",
+      "gpa": ""
+    }
+  ],
+  "expectedGraduation": "",
+  "classStanding": "Graduate",
+  "enrolled": "no",
+  "returningToSchool": "no",
+  "relevantCoursework": "Database Systems, Statistics for Business, Data Visualization",
+  "internshipTerm": "",
+  "availableFrom": "Two weeks after an offer",
+  "availableUntil": "",
+  "workAuthDetails": "Canadian citizen",
+  "summary": "Data analyst with two years of experience turning operational data into weekly reports and dashboards.",
+  "skills": "Python, SQL, Excel, Power BI, Git, Salesforce",
+  "yearsExperience": "2",
+  "workAuthorized": "yes",
+  "authCountry": "Canada",
+  "needsSponsorship": "no",
+  "needsSponsorshipForInternship": "no",
+  "willingToRelocate": "no",
+  "governmentEmployee": "no",
+  "governmentRelative": "no",
+  "salary": "$60,000 to $65,000",
+  "startDate": "",
+  "workPreference": "Hybrid or remote",
+  "permitExpiry": "",
+  "gender": "Woman",
+  "pronouns": "",
+  "hispanicLatino": "",
+  "race": "Test value",
+  "veteranStatus": "No",
+  "disabilityStatus": "No",
+  "lgbtq": "",
+  "transgender": "",
+  "sexualOrientation": "",
+  "savedAnswers": [
+    {
+      "match": "how did you hear",
+      "answer": "Company careers page"
+    },
+    {
+      "match": "notice period",
+      "answer": "Two weeks"
+    },
+    {
+      "match": "commute",
+      "answer": "Yes"
+    },
+    {
+      "match": "relocation assistance",
+      "answer": "No"
+    },
+    {
+      "match": "currently employed",
+      "answer": "No"
+    },
+    {
+      "match": "background check",
+      "answer": "Yes"
+    },
+    {
+      "match": "failed a background check",
+      "answer": "No"
+    },
+    {
+      "match": "reference check",
+      "answer": "Yes"
+    },
+    {
+      "match": "know anyone",
+      "answer": "No"
+    },
+    {
+      "match": "18 years of age",
+      "answer": "Yes"
+    },
+    {
+      "match": "require any accommodations",
+      "answer": "No"
+    },
+    {
+      "match": "non disclosure",
+      "answer": "Yes"
+    },
+    {
+      "match": "salary expectations",
+      "answer": "$60,000 to $65,000 base"
+    }
+  ],
+  "writingStyle": "Plain and direct, short sentences, no buzzwords.",
+  "extraRules": "Use Canadian spelling.\nNever say \"passionate\" or \"team player\".",
+  "automationLevel": "lean",
+  "resumeMaxPages": 2,
+  "bulletFormula": "xyz",
+  "coverLetterPolicy": "required-or-asked",
+  "letterStyle": "carlito",
+  "letterMaxWords": 250,
+  "alwaysCombine": true,
+  "combinedOrder": "letter-first",
+  "employmentType": "Full-time",
+  "certifications": "WHMIS, Standard First Aid with CPR",
+  "securityClearance": "None (willing to obtain)"
+}

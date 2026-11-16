@@ -1,0 +1,43 @@
+{
+ "00-warning": "Remotive main domain moved to remotive.com",
+ "0-legal-notice": "Please link back to the URL found on Remotive.",
+ "job-count": 3,
+ "total-job-count": 3,
+ "jobs": [
+  {
+   "id": 2069001,
+   "url": "https://remotive.com/remote-jobs/data/data-analyst-2069001",
+   "title": "Data Analyst",
+   "company_name": "Margie&#39;s Travel",
+   "category": "Data Analysis",
+   "tags": [
+    "sql"
+   ],
+   "job_type": "full_time",
+   "publication_date": "2026-11-14T20:33:53",
+   "candidate_required_location": "Canada",
+   "salary": "",
+   "description": "<p>SQL, Python and Tableau. Report weekly KPIs.</p>"
+  },
+  {
+   "id": 2069002,
+   "url": "https://remotive.com/remote-jobs/data/data-engineer-2069002",
+   "title": "Data Engineer",
+   "company_name": "Fourth Coffee",
+   "category": "Data Analysis",
+   "publication_date": "2026-11-13T08:00:00",
+   "candidate_required_location": "USA Only",
+   "description": "<p>Airflow and Snowflake.</p>"
+  },
+  {
+   "id": 2069003,
+   "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2069003",
+   "title": "Senior Data Scientist",
+   "company_name": "Coho Winery",
+   "category": "Data Analysis",
+   "publication_date": "2026-11-15T08:00:00",
+   "candidate_required_location": "Worldwide",
+   "description": "<p>Python, statistics.</p>"
+  }
+ ]
+}

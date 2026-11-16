@@ -1,0 +1,863 @@
+{
+ "cases": [
+  {
+   "name": "local junior data analyst, HTML description",
+   "result": {
+    "score": 100,
+    "parts": {
+     "title": 30,
+     "skills": 30,
+     "location": 12,
+     "experience": 20,
+     "recency": 8
+    },
+    "track": "data",
+    "place": "local",
+    "yearsRequired": 1,
+    "matchedSkills": [
+     "dashboard",
+     "data cleaning",
+     "excel",
+     "power bi",
+     "power query",
+     "python",
+     "sql",
+     "tableau"
+    ],
+    "gaps": [],
+    "flags": [],
+    "why": "title fits data; 8 of 8 skills match; near home; asks for 1+ years"
+   }
+  },
+  {
+   "name": "Toronto, skill gaps, French asset, contract",
+   "result": {
+    "score": 66,
+    "parts": {
+     "title": 30,
+     "skills": 10,
+     "location": 5,
+     "experience": 15,
+     "recency": 6
+    },
+    "track": "data",
+    "place": "country",
+    "yearsRequired": 3,
+    "matchedSkills": [
+     "python",
+     "sql"
+    ],
+    "gaps": [
+     "airflow",
+     "dbt",
+     "looker",
+     "snowflake"
+    ],
+    "flags": [
+     "French required: \"...essional experience in analytics. snowflake, dbt, airflow, python, sql, looker. bilingual (french and english) is an asset. this is a 12-month contract....\"",
+     "temporary or contract: \"...low, python, sql, looker. bilingual (french and english) is an asset. this is a 12-month contract....\""
+    ],
+    "why": "title fits data; 2 of 6 skills match; elsewhere in Canada; asks for 3+ years"
+   }
+  },
+  {
+   "name": "senior, two remote places, citizenship",
+   "result": {
+    "score": 52,
+    "parts": {
+     "title": 30,
+     "skills": 5,
+     "location": 9,
+     "experience": 4,
+     "recency": 4
+    },
+    "track": "data",
+    "place": "remote-country",
+    "yearsRequired": 5,
+    "matchedSkills": [
+     "sql"
+    ],
+    "gaps": [
+     "agile",
+     "confluence",
+     "jira",
+     "process improvement",
+     "stakeholder"
+    ],
+    "flags": [
+     "citizenship or permanent residence: \"...nce. stakeholder management, jira, confluence, sql, agile, process improvement. must be a canadian citizen or permanent resident....\""
+    ],
+    "why": "title fits data; 1 of 6 skills match; remote in Canada; asks for 5+ years"
+   }
+  },
+  {
+   "name": "local operations, 30 days old, licence and temporary",
+   "result": {
+    "score": 54,
+    "parts": {
+     "title": 21,
+     "skills": 11,
+     "location": 12,
+     "experience": 8,
+     "recency": 2
+    },
+    "track": "operations",
+    "place": "local",
+    "yearsRequired": 4,
+    "matchedSkills": [
+     "excel",
+     "inventory"
+    ],
+    "gaps": [
+     "logistics",
+     "sap",
+     "shipping"
+    ],
+    "flags": [
+     "driver's licence: \"...of related work experience. logistics, inventory, shipping, sap, excel. a valid driver's licence (class 5) is required. temporary position (maternity leave)....\"",
+     "temporary or contract: \"...nventory, shipping, sap, excel. a valid driver's licence (class 5) is required. temporary position (maternity leave)....\""
+    ],
+    "why": "title fits operations; 2 of 5 skills match; near home; asks for 4+ years"
+   }
+  },
+  {
+   "name": "remote with no country, no description, bad date",
+   "result": {
+    "score": 49,
+    "parts": {
+     "title": 15,
+     "skills": 13,
+     "location": 4,
+     "experience": 14,
+     "recency": 3
+    },
+    "track": "support",
+    "place": "remote",
+    "yearsRequired": null,
+    "matchedSkills": [],
+    "gaps": [],
+    "flags": [],
+    "why": "title fits support; skills unknown (short or no description); remote (country unclear)"
+   }
+  },
+  {
+   "name": "co-op title, 31 days old",
+   "result": {
+    "score": 81,
+    "parts": {
+     "title": 30,
+     "skills": 26,
+     "location": 5,
+     "experience": 20,
+     "recency": 0
+    },
+    "track": "data",
+    "place": "country",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "excel",
+     "python",
+     "sql",
+     "tableau"
+    ],
+    "gaps": [],
+    "flags": [
+     "co-op or student only: \"co-op\" in the title; usually needs enrolment in a school co-op program"
+    ],
+    "why": "title fits data; 4 of 4 skills match; elsewhere in Canada"
+   }
+  },
+  {
+   "name": "remote in another country, double-escaped HTML, citizenship, clearance",
+   "result": {
+    "score": 65,
+    "parts": {
+     "title": 30,
+     "skills": 13,
+     "location": 0,
+     "experience": 14,
+     "recency": 8
+    },
+    "track": "data",
+    "place": null,
+    "yearsRequired": null,
+    "matchedSkills": [
+     "power bi",
+     "sql"
+    ],
+    "gaps": [
+     "dax",
+     "sharepoint"
+    ],
+    "flags": [
+     "citizenship or permanent residence: \"...reporting & bi role. canadian citizenship is required for this position. enhanced reliability clearance. tools: power bi, dax, sql, s...\"",
+     "security clearance: \"...reporting & bi role. canadian citizenship is required for this position. enhanced reliability clearance. tools: power bi, dax, sql, sharepoint....\""
+    ],
+    "why": "title fits data; 2 of 4 skills match; outside Canada"
+   }
+  },
+  {
+   "name": "two places joined by |, yearly pay",
+   "result": {
+    "score": 98,
+    "parts": {
+     "title": 30,
+     "skills": 30,
+     "location": 12,
+     "experience": 20,
+     "recency": 6
+    },
+    "track": "data",
+    "place": "local",
+    "yearsRequired": 2,
+    "matchedSkills": [
+     "data validation",
+     "excel",
+     "power bi",
+     "python",
+     "sql",
+     "statistics",
+     "tableau"
+    ],
+    "gaps": [],
+    "flags": [],
+    "why": "title fits data; 7 of 7 skills match; near home; asks for 2+ years"
+   }
+  },
+  {
+   "name": "CEC pathway: NOC TEER 1, part-time, pay below minimum, ISO week date, priority 0.75",
+   "result": {
+    "score": 74,
+    "parts": {
+     "title": 22,
+     "skills": 19,
+     "location": 12,
+     "experience": 15,
+     "recency": 6
+    },
+    "track": "data",
+    "place": "local",
+    "yearsRequired": 3,
+    "matchedSkills": [
+     "pandas",
+     "python",
+     "sql",
+     "statistics"
+    ],
+    "gaps": [
+     "machine learning",
+     "scikit-learn"
+    ],
+    "flags": [
+     "pathway: NOC 21211 is TEER 1 (from the posting; confirm on the NOC site)",
+     "pathway: part-time; programs count hours, so check how this adds up for you",
+     "pathway: posted pay tops out at 40,000, below your minimum of 50,000 (search.json pathway.minSalary)"
+    ],
+    "why": "title fits data; 4 of 6 skills match; near home; asks for 3+ years"
+   }
+  },
+  {
+   "name": "CEC pathway: TEER 4 and not an eligible code, priority 0.25",
+   "result": {
+    "score": 47,
+    "parts": {
+     "title": 8,
+     "skills": 5,
+     "location": 12,
+     "experience": 14,
+     "recency": 8
+    },
+    "track": "support",
+    "place": "local",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "customer service"
+    ],
+    "gaps": [
+     "crm",
+     "customer support",
+     "data entry",
+     "technical support",
+     "zendesk"
+    ],
+    "flags": [
+     "pathway: NOC 64409 is TEER 4; CEC counts TEER 0-3 work only (from the posting; confirm on the NOC site)",
+     "pathway: NOC 64409 is not in your eligibleCodes list"
+    ],
+    "why": "title fits support; 1 of 6 skills match; near home"
+   }
+  },
+  {
+   "name": "CEC pathway: no NOC, hourly pay only, region",
+   "result": {
+    "score": 73,
+    "parts": {
+     "title": 22,
+     "skills": 13,
+     "location": 10,
+     "experience": 20,
+     "recency": 8
+    },
+    "track": "data",
+    "place": "region",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "excel",
+     "sql"
+    ],
+    "gaps": [],
+    "flags": [
+     "pathway: no NOC code in the posting; Claude gives the likely NOC and TEER at the checkpoint (confirm on the NOC site)"
+    ],
+    "why": "title fits data; skills unknown (short or no description); in your province or region"
+   }
+  },
+  {
+   "name": "CEC pathway: numeric entities and C$ pay",
+   "result": {
+    "score": 82,
+    "parts": {
+     "title": 22,
+     "skills": 28,
+     "location": 12,
+     "experience": 14,
+     "recency": 6
+    },
+    "track": "data",
+    "place": "local",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "power bi",
+     "python",
+     "sql",
+     "statistics",
+     "tableau"
+    ],
+    "gaps": [],
+    "flags": [
+     "pathway: NOC 21223 is TEER 1 (from the posting; confirm on the NOC site)"
+    ],
+    "why": "title fits data; 5 of 5 skills match; near home"
+   }
+  },
+  {
+   "name": "UK: listed sponsor, salary below minimum, right to work",
+   "result": {
+    "score": 96,
+    "parts": {
+     "title": 30,
+     "skills": 28,
+     "location": 12,
+     "experience": 20,
+     "recency": 6
+    },
+    "track": "data",
+    "place": "local",
+    "yearsRequired": 2,
+    "matchedSkills": [
+     "alteryx",
+     "excel",
+     "power bi",
+     "python",
+     "sql"
+    ],
+    "gaps": [],
+    "flags": [
+     "UK right to work: \"...0 - £38,000 per annum. sql, python, power bi, excel, alteryx. you must have the right to work in the uk. 2+ years' experience in a data role....\"",
+     "pathway: Acme Analytics Ltd is on the UK sponsor register (Global Business Mobility: Senior or Specialist Worker, Skilled Worker)",
+     "pathway: posted pay tops out at 38,000, below your minimum of 38,700 (search.json pathway.minSalary)"
+    ],
+    "why": "title fits data; 5 of 5 skills match; near home; asks for 2+ years"
+   }
+  },
+  {
+   "name": "UK: possible sponsor, hourly pay only",
+   "result": {
+    "score": 71,
+    "parts": {
+     "title": 30,
+     "skills": 20,
+     "location": 5,
+     "experience": 14,
+     "recency": 2
+    },
+    "track": "data",
+    "place": "country",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "sql",
+     "statistics",
+     "tableau"
+    ],
+    "gaps": [
+     "stakeholder"
+    ],
+    "flags": [
+     "pathway: a similar name is on the UK sponsor register (Brightwave Software Ltd): check it is this employer",
+     "pathway: no yearly salary in the posting; Skilled Worker needs the salary to meet the thresholds: ask or check"
+    ],
+    "why": "title fits data; 3 of 4 skills match; elsewhere in the UK"
+   }
+  },
+  {
+   "name": "UK: sponsor not found, no visa sponsorship",
+   "result": {
+    "score": 73,
+    "parts": {
+     "title": 18,
+     "skills": 24,
+     "location": 9,
+     "experience": 14,
+     "recency": 8
+    },
+    "track": "operations",
+    "place": "remote-country",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "excel",
+     "power bi",
+     "sql"
+    ],
+    "gaps": [],
+    "flags": [
+     "no visa sponsorship: \"...we are unable to offer visa sponsorship for this role. excel, sql, power bi, forecasting, £45k + bonus....\"",
+     "pathway: Zephyr Holdings not found on the UK sponsor register (it may sponsor under another legal name: check)"
+    ],
+    "why": "title fits operations; 3 of 3 skills match; remote in the UK"
+   }
+  },
+  {
+   "name": "UK: no register loaded, certificate of sponsorship",
+   "result": {
+    "score": 70,
+    "parts": {
+     "title": 30,
+     "skills": 17,
+     "location": 5,
+     "experience": 14,
+     "recency": 4
+    },
+    "track": "data",
+    "place": "country",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "excel",
+     "power bi",
+     "sql"
+    ],
+    "gaps": [
+     "data modeling",
+     "dax"
+    ],
+    "flags": [
+     "visa sponsorship mentioned: \"...certificate of sponsorship available for the right candidate. power bi, sql, dax, excel, data modelling. s...\"",
+     "pathway: couldn't check the UK sponsor register (no sponsor register loaded)"
+    ],
+    "why": "title fits data; 3 of 5 skills match; elsewhere in the UK"
+   }
+  },
+  {
+   "name": "US: local new grad, H-1B, US persons",
+   "result": {
+    "score": 91,
+    "parts": {
+     "title": 30,
+     "skills": 23,
+     "location": 12,
+     "experience": 20,
+     "recency": 6
+    },
+    "track": "software",
+    "place": "local",
+    "yearsRequired": 0,
+    "matchedSkills": [
+     "aws",
+     "docker",
+     "postgresql",
+     "python",
+     "react",
+     "typescript"
+    ],
+    "gaps": [
+     "java",
+     "kubernetes"
+    ],
+    "flags": [
+     "U.S. work authorization: \"...typescript, postgresql. 0-2 years of experience. h-1b sponsorship is available. us persons only for this export-controlled role....\"",
+     "visa sponsorship mentioned: \"...ws, docker, kubernetes, react, typescript, postgresql. 0-2 years of experience. h-1b sponsorship is available. us persons only for this export-controlled role....\""
+    ],
+    "why": "title fits software; 6 of 8 skills match; near home; asks for 0+ years"
+   }
+  },
+  {
+   "name": "US: one place in the US and one in Canada, 5-7 years, timestamp",
+   "result": {
+    "score": 60,
+    "parts": {
+     "title": 30,
+     "skills": 13,
+     "location": 5,
+     "experience": 4,
+     "recency": 8
+    },
+    "track": "software",
+    "place": "country",
+    "yearsRequired": 5,
+    "matchedSkills": [
+     "postgresql"
+    ],
+    "gaps": [
+     "kubernetes"
+    ],
+    "flags": [],
+    "why": "title fits software; skills unknown (short or no description); elsewhere in the US; asks for 5+ years"
+   }
+  },
+  {
+   "name": "empty search object",
+   "result": {
+    "score": 56,
+    "parts": {
+     "title": 0,
+     "skills": 28,
+     "location": 5,
+     "experience": 20,
+     "recency": 3
+    },
+    "track": null,
+    "place": "country",
+    "yearsRequired": 2,
+    "matchedSkills": [
+     "excel",
+     "power bi",
+     "python",
+     "sql",
+     "tableau"
+    ],
+    "gaps": [],
+    "flags": [],
+    "why": "title outside your tracks; 5 of 5 skills match; elsewhere in Canada; asks for 2+ years"
+   }
+  },
+  {
+   "name": "search without tracks, full state name",
+   "result": {
+    "score": 36,
+    "parts": {
+     "title": 0,
+     "skills": 10,
+     "location": 10,
+     "experience": 8,
+     "recency": 8
+    },
+    "track": null,
+    "place": "region",
+    "yearsRequired": 4,
+    "matchedSkills": [
+     "python",
+     "sql"
+    ],
+    "gaps": [
+     "airflow",
+     "dbt",
+     "snowflake",
+     "spark"
+    ],
+    "flags": [],
+    "why": "title outside your tracks; 2 of 6 skills match; in your province or region; asks for 4+ years"
+   }
+  },
+  {
+   "name": "energy track, date before years, P.Eng. wording",
+   "result": {
+    "score": 65,
+    "parts": {
+     "title": 30,
+     "skills": 19,
+     "location": 12,
+     "experience": 0,
+     "recency": 4
+    },
+    "track": "energy",
+    "place": "local",
+    "yearsRequired": 8,
+    "matchedSkills": [
+     "ashrae",
+     "building envelope",
+     "eit",
+     "energy modelling",
+     "energyplus",
+     "hvac",
+     "openstudio"
+    ],
+    "gaps": [
+     "compliance",
+     "egbc",
+     "ies ve",
+     "p.eng",
+     "step code"
+    ],
+    "flags": [],
+    "why": "title fits energy; 7 of 12 skills match; near home; asks for 8+ years"
+   }
+  },
+  {
+   "name": "track without a priority (0.5)",
+   "result": {
+    "score": 70,
+    "parts": {
+     "title": 15,
+     "skills": 17,
+     "location": 12,
+     "experience": 20,
+     "recency": 6
+    },
+    "track": "eng",
+    "place": "local",
+    "yearsRequired": 1,
+    "matchedSkills": [
+     "autocad",
+     "commissioning",
+     "hvac",
+     "revit"
+    ],
+    "gaps": [
+     "energy audit",
+     "mechanical engineering",
+     "troubleshooting"
+    ],
+    "flags": [
+     "P.Eng. required: \"...ngineering, hvac, autocad, revit, commissioning, energy audit, troubleshooting. registered professional engineer supervision. 1-3 years of experience....\""
+    ],
+    "why": "title fits eng; 4 of 7 skills match; near home; asks for 1+ years"
+   }
+  },
+  {
+   "name": "accents and emoji: French text, code-point snippets",
+   "result": {
+    "score": 51,
+    "parts": {
+     "title": 0,
+     "skills": 24,
+     "location": 5,
+     "experience": 14,
+     "recency": 8
+    },
+    "track": null,
+    "place": "country",
+    "yearsRequired": null,
+    "matchedSkills": [
+     "power bi",
+     "python",
+     "sql"
+    ],
+    "gaps": [],
+    "flags": [
+     "citizenship or permanent residence: \"...thon, sql, power bi. 3 years expérience. must be bilingual — french required. 🚀 canadian citizens only are eligible....\"",
+     "French required: \"...🚀🚀🚀 rejoignez-nous! python, sql, power bi. 3 years expérience. must be bilingual — french required. 🚀 canadian citizens only are eligible....\""
+    ],
+    "why": "title outside your tracks; 3 of 3 skills match; elsewhere in Canada"
+   }
+  }
+ ],
+ "functions": {
+  "placeFit": [
+   "local",
+   "local",
+   "region",
+   "country",
+   "remote-country",
+   "remote",
+   null,
+   null,
+   "remote-country",
+   "country",
+   "country",
+   null,
+   "remote",
+   "region",
+   "country",
+   "local",
+   "country",
+   "region",
+   "local",
+   "local",
+   "region",
+   "remote-country",
+   "remote-country",
+   "country",
+   null,
+   "country",
+   "country",
+   "country",
+   "remote",
+   "local",
+   "local",
+   "country",
+   "remote-country",
+   null,
+   null,
+   "country",
+   "country",
+   "remote",
+   null,
+   "region",
+   "country",
+   "remote"
+  ],
+  "yearsRequired": [
+   3,
+   3,
+   2,
+   5,
+   1,
+   8,
+   null,
+   3,
+   null,
+   null,
+   null,
+   2,
+   null,
+   12
+  ],
+  "salaryMax": [
+   45000,
+   null,
+   80000,
+   72500,
+   120000,
+   45500,
+   null,
+   null,
+   120000,
+   50000,
+   52000,
+   30000,
+   120000,
+   null,
+   60000,
+   null
+  ],
+  "termsIn": [
+   [
+    "dashboard",
+    "power bi",
+    "python",
+    "sql"
+   ],
+   [
+    "api",
+    "building energy modelling",
+    "energy modelling",
+    "kpi",
+    "rest api"
+   ],
+   [
+    "c#",
+    "c++",
+    "node.js",
+    "scikit-learn"
+   ],
+   [
+    "der",
+    "eit"
+   ],
+   [
+    "battery",
+    "ieee 2030.5",
+    "renewable energy"
+   ],
+   [
+    "api",
+    "policy",
+    "word"
+   ]
+  ],
+  "textOf": [
+   " hello & welcome ",
+   "café ©2026 at&t r&d",
+   " {python} & sql 50%",
+   "— ’ � € � � ",
+   "&foo; ¬it; x &unknown; &",
+   " mixed case text "
+  ],
+  "bestTrack": [
+   [
+    "data",
+    1.0
+   ],
+   [
+    "operations",
+    0.7
+   ],
+   [
+    "support",
+    0.5
+   ],
+   [
+    "data",
+    1.0
+   ],
+   [
+    "data",
+    0.75
+   ],
+   [
+    "energy",
+    1.0
+   ],
+   [
+    "eng",
+    0.5
+   ],
+   [
+    null,
+    0.0
+   ],
+   [
+    "data",
+    1.0
+   ]
+  ],
+  "excluded": [
+   "senior",
+   "sr.",
+   "staff ",
+   "lead ",
+   null,
+   null,
+   null
+  ],
+  "dates": [
+   20758,
+   20758,
+   20759,
+   20759,
+   20759,
+   null,
+   null,
+   null,
+   20758,
+   null,
+   null,
+   null,
+   20821,
+   20758,
+   19782,
+   null,
+   -719162,
+   2932896,
+   null,
+   20759
+  ],
+  "sponsorNorm": [
+   "acme analytics",
+   "brightwave software",
+   "zephyr",
+   "smith and jones",
+   "caf nero",
+   "power networks operations"
+  ]
+ }
+}

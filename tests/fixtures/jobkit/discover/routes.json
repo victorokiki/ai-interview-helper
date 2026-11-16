@@ -1,0 +1,50 @@
+{
+ "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json": {
+  "file": "simplify-intern.json"
+ },
+ "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json": {
+  "file": "simplify-newgrad.json"
+ },
+ "https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=data+analyst&sort=D&fprov=ON": {
+  "file": "jobbank-data-analyst.html"
+ },
+ "https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=software+developer&sort=D&fprov=ON": {
+  "file": "jobbank-software-developer.html"
+ },
+ "https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=broken+query&sort=D&fprov=ON": {
+  "status": 500
+ },
+ "https://boards-api.greenhouse.io/v1/boards/northwind/jobs?content=true": {
+  "file": "greenhouse-northwind-jobs.json"
+ },
+ "https://boards-api.greenhouse.io/v1/boards/northwind": {
+  "file": "greenhouse-northwind-board.json"
+ },
+ "https://api.lever.co/v0/postings/contoso-labs?mode=json": {
+  "file": "lever-contoso-labs.json"
+ },
+ "https://api.lever.co/v0/postings/broken?mode=json": {
+  "file": "lever-broken.txt"
+ },
+ "https://api.ashbyhq.com/posting-api/job-board/fabrikam?includeCompensation=false": {
+  "file": "ashby-fabrikam.json"
+ },
+ "https://api.smartrecruiters.com/v1/companies/Litware/postings?country=ca&limit=100": {
+  "file": "smartrecruiters-litware-ca.json"
+ },
+ "https://api.smartrecruiters.com/v1/companies/Litware/postings?country=us&limit=100": {
+  "file": "smartrecruiters-litware-us.json"
+ },
+ "https://tailspin.wd3.myworkdayjobs.com/wday/cxs/tailspin/Careers/jobs": {
+  "post": {
+   "engineer": "workday-tailspin-engineer.json",
+   "analyst": "workday-tailspin-analyst.json"
+  }
+ },
+ "https://remotive.com/api/remote-jobs?category=data&limit=100": {
+  "file": "remotive-data.json"
+ },
+ "https://remotive.com/api/remote-jobs?category=software-dev&limit=100": {
+  "file": "remotive-software-dev.json"
+ }
+}

@@ -1,0 +1,191 @@
+:root {
+  --bg: #ffffff;
+  --text: #16181d;
+  --muted: #5d6470;
+  --border: #d9dde3;
+  --field: #f6f7f9;
+  --accent: #4b6bfb;
+  --ok: #1f9d5c;
+  --err: #cf3333;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171c;
+    --text: #e8eaee;
+    --muted: #9aa1ad;
+    --border: #2c3039;
+    --field: #1d2027;
+    --accent: #7b93ff;
+    --ok: #3ecf8e;
+    --err: #ff6b6b;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 380px;
+  margin: 0;
+  padding: 14px 16px 16px;
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.45 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+.status {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+.status.ok .dot {
+  background: var(--ok);
+}
+.status.err .dot {
+  background: var(--err);
+}
+.status.err {
+  color: var(--text);
+}
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 7px 9px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--field);
+  color: var(--text);
+  font: 13px/1.45 inherit;
+  font-family: inherit;
+}
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+.hint,
+.url {
+  margin: -4px 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.url {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+button {
+  width: 100%;
+  padding: 9px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font: 600 13px inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.result {
+  margin: 10px 0 0;
+  min-height: 1em;
+}
+.result.ok {
+  color: var(--ok);
+}
+.result.err {
+  color: var(--err);
+}
+.autofill {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+h2 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+.autofill .hint {
+  margin: 0 0 8px;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+.actions button {
+  flex: 1;
+}
+button.secondary {
+  background: var(--field);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.result.warn {
+  color: var(--text);
+}
+.allow {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--field);
+}
+.allow p {
+  margin: 0 0 8px;
+}
+.hint.small {
+  margin: 8px 0 0;
+}
+#fillStatus {
+  margin-top: 8px;
+}
+/* Empty status lines take no room (they stay in the page as live regions). */
+.result:empty {
+  margin: 0;
+  min-height: 0;
+}
+/* Once there is a fill result or an access question, it replaces the hint line. */
+.allow:not([hidden]) ~ .hint.small,
+#fillStatus:not(:empty) ~ .hint.small {
+  display: none;
+}
+html {
+  overflow-x: hidden;
+}

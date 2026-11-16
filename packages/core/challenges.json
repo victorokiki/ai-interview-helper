@@ -1,0 +1,293 @@
+[
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "easy",
+    "topic": "Hash map",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "two_sum", "javascript": "twoSum" },
+    "prompt": "Given an array of integers `nums` and an integer `target`, return the indices of the two numbers that add up to `target`. Each input has exactly one solution, and you may not use the same element twice. Return the two indices in any order.",
+    "starter": {
+      "python": "def two_sum(nums, target):\n    # Return a list of the two indices\n    pass\n",
+      "javascript": "function twoSum(nums, target) {\n  // Return an array of the two indices\n}\n"
+    },
+    "compare": "unordered",
+    "tests": [
+      { "args": [[2, 7, 11, 15], 9], "expected": [0, 1] },
+      { "args": [[3, 2, 4], 6], "expected": [1, 2] },
+      { "args": [[3, 3], 6], "expected": [0, 1], "hidden": true },
+      { "args": [[-1, -2, -3, -4, -5], -8], "expected": [2, 4], "hidden": true }
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "easy",
+    "topic": "Stack",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "is_valid", "javascript": "isValid" },
+    "prompt": "Given a string `s` containing only the characters `()[]{}`, return `true` if every bracket is closed by the same type of bracket in the correct order, and `false` otherwise. An empty string is valid.",
+    "starter": {
+      "python": "def is_valid(s):\n    pass\n",
+      "javascript": "function isValid(s) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": ["()[]{}"], "expected": true },
+      { "args": ["(]"], "expected": false },
+      { "args": ["([)]"], "expected": false, "hidden": true },
+      { "args": ["{[]}"], "expected": true, "hidden": true },
+      { "args": [""], "expected": true, "hidden": true },
+      { "args": ["(("], "expected": false, "hidden": true }
+    ]
+  },
+  {
+    "id": "binary-search",
+    "title": "Binary Search",
+    "difficulty": "easy",
+    "topic": "Binary search",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "search", "javascript": "search" },
+    "prompt": "Given a sorted array of distinct integers `nums` and a `target`, return the index of `target`, or `-1` if it is not present. Aim for O(log n) time.",
+    "starter": {
+      "python": "def search(nums, target):\n    pass\n",
+      "javascript": "function search(nums, target) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": [[-1, 0, 3, 5, 9, 12], 9], "expected": 4 },
+      { "args": [[-1, 0, 3, 5, 9, 12], 2], "expected": -1 },
+      { "args": [[5], 5], "expected": 0, "hidden": true },
+      { "args": [[], 1], "expected": -1, "hidden": true },
+      { "args": [[1, 3, 5, 7, 9, 11, 13], 13], "expected": 6, "hidden": true }
+    ]
+  },
+  {
+    "id": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "difficulty": "easy",
+    "topic": "Dynamic programming",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "climb_stairs", "javascript": "climbStairs" },
+    "prompt": "You are climbing a staircase with `n` steps. Each time you can climb 1 or 2 steps. In how many distinct ways can you reach the top?",
+    "starter": {
+      "python": "def climb_stairs(n):\n    pass\n",
+      "javascript": "function climbStairs(n) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": [2], "expected": 2 },
+      { "args": [3], "expected": 3 },
+      { "args": [1], "expected": 1, "hidden": true },
+      { "args": [5], "expected": 8, "hidden": true },
+      { "args": [30], "expected": 1346269, "hidden": true }
+    ]
+  },
+  {
+    "id": "longest-substring",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "medium",
+    "topic": "Sliding window",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "length_of_longest_substring", "javascript": "lengthOfLongestSubstring" },
+    "prompt": "Given a string `s`, return the length of the longest substring that contains no repeated characters.",
+    "starter": {
+      "python": "def length_of_longest_substring(s):\n    pass\n",
+      "javascript": "function lengthOfLongestSubstring(s) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": ["abcabcbb"], "expected": 3 },
+      { "args": ["bbbbb"], "expected": 1 },
+      { "args": ["pwwkew"], "expected": 3, "hidden": true },
+      { "args": [""], "expected": 0, "hidden": true },
+      { "args": ["dvdf"], "expected": 3, "hidden": true },
+      { "args": ["abba"], "expected": 2, "hidden": true }
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "medium",
+    "topic": "Sorting",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "merge", "javascript": "merge" },
+    "prompt": "Given a list of intervals `[start, end]`, merge all overlapping intervals (touching intervals such as `[1,4]` and `[4,5]` overlap) and return the merged intervals sorted by start.",
+    "starter": {
+      "python": "def merge(intervals):\n    pass\n",
+      "javascript": "function merge(intervals) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": [[[1, 3], [2, 6], [8, 10], [15, 18]]], "expected": [[1, 6], [8, 10], [15, 18]] },
+      { "args": [[[1, 4], [4, 5]]], "expected": [[1, 5]] },
+      { "args": [[[1, 4], [0, 4]]], "expected": [[0, 4]], "hidden": true },
+      { "args": [[]], "expected": [], "hidden": true },
+      { "args": [[[1, 10], [2, 3], [4, 5]]], "expected": [[1, 10]], "hidden": true }
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "medium",
+    "topic": "Hash map",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "group_anagrams", "javascript": "groupAnagrams" },
+    "prompt": "Given a list of strings, group the anagrams together. Return the groups in any order; the words inside a group may also be in any order.",
+    "starter": {
+      "python": "def group_anagrams(strs):\n    pass\n",
+      "javascript": "function groupAnagrams(strs) {\n}\n"
+    },
+    "compare": "unordered-deep",
+    "tests": [
+      { "args": [["eat", "tea", "tan", "ate", "nat", "bat"]], "expected": [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]] },
+      { "args": [[""]], "expected": [[""]] },
+      { "args": [["a"]], "expected": [["a"]], "hidden": true },
+      { "args": [["ab", "ba", "abc", "cab", "bca", "x"]], "expected": [["ab", "ba"], ["abc", "bca", "cab"], ["x"]], "hidden": true }
+    ]
+  },
+  {
+    "id": "top-k-frequent",
+    "title": "Top K Frequent Elements",
+    "difficulty": "medium",
+    "topic": "Heap / bucket sort",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "top_k_frequent", "javascript": "topKFrequent" },
+    "prompt": "Given an integer array `nums` and an integer `k`, return the `k` most frequent elements, in any order. The answer is guaranteed to be unique.",
+    "starter": {
+      "python": "def top_k_frequent(nums, k):\n    pass\n",
+      "javascript": "function topKFrequent(nums, k) {\n}\n"
+    },
+    "compare": "unordered",
+    "tests": [
+      { "args": [[1, 1, 1, 2, 2, 3], 2], "expected": [1, 2] },
+      { "args": [[1], 1], "expected": [1] },
+      { "args": [[4, 4, 4, 5, 5, 6, 6, 6, 6], 2], "expected": [6, 4], "hidden": true },
+      { "args": [[-1, -1, 2, 2, 2, 3], 1], "expected": [2], "hidden": true }
+    ]
+  },
+  {
+    "id": "product-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "medium",
+    "topic": "Prefix products",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "product_except_self", "javascript": "productExceptSelf" },
+    "prompt": "Given an integer array `nums`, return an array where element `i` is the product of all elements except `nums[i]`, without using division, in O(n) time.",
+    "starter": {
+      "python": "def product_except_self(nums):\n    pass\n",
+      "javascript": "function productExceptSelf(nums) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": [[1, 2, 3, 4]], "expected": [24, 12, 8, 6] },
+      { "args": [[-1, 1, 0, -3, 3]], "expected": [0, 0, 9, 0, 0] },
+      { "args": [[2, 3]], "expected": [3, 2], "hidden": true },
+      { "args": [[0, 0]], "expected": [0, 0], "hidden": true }
+    ]
+  },
+  {
+    "id": "max-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "medium",
+    "topic": "Kadane's algorithm",
+    "languages": ["python", "javascript"],
+    "fn": { "python": "max_sub_array", "javascript": "maxSubArray" },
+    "prompt": "Given a non-empty integer array `nums`, find the contiguous subarray with the largest sum and return that sum.",
+    "starter": {
+      "python": "def max_sub_array(nums):\n    pass\n",
+      "javascript": "function maxSubArray(nums) {\n}\n"
+    },
+    "compare": "exact",
+    "tests": [
+      { "args": [[-2, 1, -3, 4, -1, 2, 1, -5, 4]], "expected": 6 },
+      { "args": [[1]], "expected": 1 },
+      { "args": [[5, 4, -1, 7, 8]], "expected": 23, "hidden": true },
+      { "args": [[-3, -1, -2]], "expected": -1, "hidden": true }
+    ]
+  },
+  {
+    "id": "second-highest-salary",
+    "title": "Second Highest Salary",
+    "difficulty": "easy",
+    "topic": "SQL · aggregation",
+    "languages": ["sql"],
+    "prompt": "Table `employees(id, name, salary)`. Return one row with one column, `second_highest`: the second highest **distinct** salary, or `NULL` if there isn't one.",
+    "starter": { "sql": "SELECT\n  -- your query\n  NULL AS second_highest;\n" },
+    "ordered": true,
+    "tests": [
+      {
+        "schema": "CREATE TABLE employees (id INTEGER PRIMARY KEY, name TEXT, salary INTEGER);\nINSERT INTO employees VALUES (1,'Ana',100),(2,'Ben',200),(3,'Cy',300),(4,'Di',300);",
+        "expected": [[200]]
+      },
+      {
+        "schema": "CREATE TABLE employees (id INTEGER PRIMARY KEY, name TEXT, salary INTEGER);\nINSERT INTO employees VALUES (1,'Ana',100),(2,'Ben',100);",
+        "expected": [[null]],
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "customers-without-orders",
+    "title": "Customers Who Never Ordered",
+    "difficulty": "easy",
+    "topic": "SQL · joins",
+    "languages": ["sql"],
+    "prompt": "Tables `customers(id, name)` and `orders(id, customer_id)`. Return the `name` of every customer who has never placed an order, in any order.",
+    "starter": { "sql": "SELECT name\nFROM customers;\n" },
+    "ordered": false,
+    "tests": [
+      {
+        "schema": "CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT);\nCREATE TABLE orders (id INTEGER PRIMARY KEY, customer_id INTEGER);\nINSERT INTO customers VALUES (1,'Joe'),(2,'Henry'),(3,'Sam'),(4,'Max');\nINSERT INTO orders VALUES (1,3),(2,1);",
+        "expected": [["Henry"], ["Max"]]
+      },
+      {
+        "schema": "CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT);\nCREATE TABLE orders (id INTEGER PRIMARY KEY, customer_id INTEGER);\nINSERT INTO customers VALUES (1,'Ann');\nINSERT INTO orders VALUES (1,1),(2,1);",
+        "expected": [],
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "top-earner-per-department",
+    "title": "Top Earner per Department",
+    "difficulty": "medium",
+    "topic": "SQL · window functions",
+    "languages": ["sql"],
+    "prompt": "Tables `departments(id, name)` and `employees(id, name, salary, department_id)`. For each department, return `department`, `employee` and `salary` for its highest-paid employee(s); include ties. Any row order.",
+    "starter": { "sql": "SELECT d.name AS department, e.name AS employee, e.salary\nFROM employees e\nJOIN departments d ON d.id = e.department_id;\n" },
+    "ordered": false,
+    "tests": [
+      {
+        "schema": "CREATE TABLE departments (id INTEGER PRIMARY KEY, name TEXT);\nCREATE TABLE employees (id INTEGER PRIMARY KEY, name TEXT, salary INTEGER, department_id INTEGER);\nINSERT INTO departments VALUES (1,'IT'),(2,'Sales');\nINSERT INTO employees VALUES (1,'Joe',70000,1),(2,'Jim',90000,1),(3,'Henry',80000,2),(4,'Sam',60000,2),(5,'Max',90000,1);",
+        "expected": [["IT", "Jim", 90000], ["IT", "Max", 90000], ["Sales", "Henry", 80000]]
+      },
+      {
+        "schema": "CREATE TABLE departments (id INTEGER PRIMARY KEY, name TEXT);\nCREATE TABLE employees (id INTEGER PRIMARY KEY, name TEXT, salary INTEGER, department_id INTEGER);\nINSERT INTO departments VALUES (1,'Ops'),(2,'Empty');\nINSERT INTO employees VALUES (1,'Lee',50000,1);",
+        "expected": [["Ops", "Lee", 50000]],
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "running-total",
+    "title": "Running Total of Sales",
+    "difficulty": "medium",
+    "topic": "SQL · window functions",
+    "languages": ["sql"],
+    "prompt": "Table `sales(day, amount)` with one row per day (`day` is an ISO date). Return `day` and `running_total` (sum of `amount` up to and including that day), ordered by `day`.",
+    "starter": { "sql": "SELECT day, amount AS running_total\nFROM sales\nORDER BY day;\n" },
+    "ordered": true,
+    "tests": [
+      {
+        "schema": "CREATE TABLE sales (day TEXT PRIMARY KEY, amount INTEGER);\nINSERT INTO sales VALUES ('2026-01-03',30),('2026-01-01',10),('2026-01-02',20);",
+        "expected": [["2026-01-01", 10], ["2026-01-02", 30], ["2026-01-03", 60]]
+      },
+      {
+        "schema": "CREATE TABLE sales (day TEXT PRIMARY KEY, amount INTEGER);\nINSERT INTO sales VALUES ('2026-02-01',5);",
+        "expected": [["2026-02-01", 5]],
+        "hidden": true
+      }
+    ]
+  }
+]

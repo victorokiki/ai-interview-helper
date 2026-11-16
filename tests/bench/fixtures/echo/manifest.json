@@ -1,0 +1,27 @@
+[
+    {
+        "id":  "interviewer1",
+        "voice":  "Microsoft David Desktop",
+        "text":  "Tell me about a project where you had to make a difficult technical decision under pressure."
+    },
+    {
+        "id":  "interviewer2",
+        "voice":  "Microsoft David Desktop",
+        "text":  "How would you design a rate limiter for a public API that handles fifty thousand requests per second?"
+    },
+    {
+        "id":  "candidate1",
+        "voice":  "Microsoft Zira Desktop",
+        "text":  "At my last company I led the migration of our payments service to event driven queues, and we cut checkout latency by sixty percent."
+    },
+    {
+        "id":  "candidate2",
+        "voice":  "Microsoft Zira Desktop",
+        "text":  "I would start with a token bucket per client key stored in Redis, with a sliding window as a fallback for bursts."
+    },
+    {
+        "id":  "candidate3",
+        "voice":  "Microsoft Zira Desktop",
+        "text":  "My biggest strength is turning vague requirements into a clear plan that the whole team can follow."
+    }
+]

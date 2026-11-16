@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coding Lab · Interview Helper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="codelab.css" />
+  </head>
+  <body class="lab-body">
+    <header class="lab-bar">
+      <select id="problem" aria-label="Problem"></select>
+      <span id="difficulty" class="chip"></span>
+      <select id="language" aria-label="Language"></select>
+      <div class="lab-actions">
+        <button id="runBtn" class="btn" title="Run the example tests (Ctrl+Enter)">Run</button>
+        <button id="submitBtn" class="btn primary" title="Run every test, including hidden ones (Ctrl+Shift+Enter)">Submit</button>
+        <button id="hintBtn" class="btn" title="Get the next hint (up to 3)">Hint</button>
+        <button id="reviewBtn" class="btn" title="Correctness, complexity and how to explain it">Review</button>
+        <button id="resetBtn" class="btn ghost" title="Restore the starter code">Reset</button>
+      </div>
+      <span id="engineStatus" class="hint"></span>
+    </header>
+
+    <main class="lab">
+      <section class="lab-left">
+        <article id="problemText" class="card md"></article>
+        <article id="assist" class="card md" hidden></article>
+      </section>
+      <section class="lab-right">
+        <div id="editor" class="editor" aria-label="Code editor"></div>
+        <section id="results" class="card results" aria-live="polite">
+          <p class="hint">Run your code to see the results. Code runs on this PC in a sandbox with no network access and a time limit.</p>
+        </section>
+      </section>
+    </main>
+
+    <script src="../../node_modules/marked/lib/marked.umd.js"></script>
+    <script src="../../node_modules/dompurify/dist/purify.min.js"></script>
+    <script src="../../packages/core/judge.js"></script>
+    <script src="../../node_modules/monaco-editor/min/vs/loader.js"></script>
+    <script src="codelab.js"></script>
+  </body>
+</html>

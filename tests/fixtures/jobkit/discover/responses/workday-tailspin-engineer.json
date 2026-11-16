@@ -1,0 +1,25 @@
+{
+ "total": 2,
+ "jobPostings": [
+  {
+   "title": "Software Engineer I",
+   "externalPath": "/job/Toronto-ON/Software-Engineer-I_R-20431",
+   "locationsText": "Toronto, ON",
+   "postedOn": "Posted 3 Days Ago",
+   "bulletFields": [
+    "R-20431"
+   ]
+  },
+  {
+   "title": "Staff Software Engineer",
+   "externalPath": "/job/Toronto-ON/Staff-Software-Engineer_R-20432",
+   "locationsText": "Toronto, ON",
+   "postedOn": "Posted Today",
+   "bulletFields": [
+    "R-20432"
+   ]
+  }
+ ],
+ "facets": [],
+ "userAuthenticated": false
+}

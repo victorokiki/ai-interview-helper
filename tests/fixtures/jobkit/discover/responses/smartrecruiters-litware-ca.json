@@ -1,0 +1,38 @@
+{
+ "offset": 0,
+ "limit": 100,
+ "totalFound": 2,
+ "content": [
+  {
+   "id": "744000161793001",
+   "name": "Junior Data Analyst",
+   "uuid": "u1",
+   "jobAdId": "a1",
+   "releasedDate": "2026-11-15T15:07:23.123Z",
+   "location": {
+    "city": "Ottawa",
+    "region": "ON",
+    "country": "ca",
+    "remote": false
+   },
+   "company": {
+    "identifier": "Litware",
+    "name": "Litware Inc."
+   }
+  },
+  {
+   "id": "744000161793002",
+   "name": "Software Developer",
+   "releasedDate": "2026-10-27T15:07:23.123Z",
+   "location": {
+    "city": "Montreal",
+    "region": "QC",
+    "country": "ca",
+    "remote": true
+   },
+   "company": {
+    "identifier": "Litware"
+   }
+  }
+ ]
+}

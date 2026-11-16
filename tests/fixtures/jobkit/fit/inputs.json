@@ -1,0 +1,204 @@
+{
+  "_comment": "Made-up inputs for tests/unit/fit.test.js. expected.json is what the kit's rank_jobs.py gives for them (regenerate with gen_parity.py).",
+  "today": "2026-11-16",
+  "masters": {
+    "data": "Jordan Example | Data Analyst\n\\section{Skills} \\textbf{Python} (pandas, NumPy) \\& SQL, PostgreSQL, Excel (VBA, macros, Power Query), Power BI, Tableau, dashboards, KPI reporting, data cleaning, data validation, statistics, Git, Alteryx.\n\\section{Experience} Built ETL scripts and automated reporting. Customer service at a retail store (POS, inventory).",
+    "energy": "Sam Example, EIT. Energy modeling with EnergyPlus and OpenStudio; HVAC load calculations; ASHRAE 90.1; building envelope; heat pump retrofits; solar PV and battery storage; Python, MATLAB, AutoCAD, Revit; commissioning; technical reporting.",
+    "software": "Alex Example. Python, JavaScript, TypeScript, React, Node.js, SQL, PostgreSQL, Docker, AWS, Git, GitHub, REST APIs, pytest, Linux."
+  },
+  "searches": {
+    "ca": {
+      "country": "Canada",
+      "province": "NS",
+      "local_places": ["halifax", "dartmouth", "bedford"],
+      "tracks": {
+        "data": {"priority": 1.0, "titles": ["data analyst", "business analyst", "reporting analyst", "bi analyst", "business intelligence", "analytics"]},
+        "operations": {"priority": 0.7, "titles": ["operations analyst", "operations coordinator", "logistics coordinator", "supply chain analyst"]},
+        "support": {"priority": 0.5, "titles": ["customer success", "technical support", "support analyst", "crm"]}
+      },
+      "exclude_titles": ["senior", "sr.", "principal", "staff ", "lead ", "manager", "director", "head of", "vice president", "chief"],
+      "extra_skills": ["looker studio", "alteryx"],
+      "pathway": {"type": "none", "goal": ""}
+    },
+    "ca_path": {
+      "country": "canada",
+      "province": "ON",
+      "local_places": ["toronto", "mississauga"],
+      "tracks": {
+        "data": {"priority": 0.75, "titles": ["data analyst", "data scientist"]},
+        "support": {"priority": 0.25, "titles": ["customer support", "technical support"]}
+      },
+      "pathway": {"type": "ca-cec", "minSalary": "50000", "eligibleCodes": ["21211", 21223]}
+    },
+    "uk": {
+      "country": "United Kingdom",
+      "region": "london",
+      "local_places": ["london", "croydon", "watford"],
+      "tracks": {
+        "data": {"priority": 1.0, "titles": ["data analyst", "business analyst", "insight analyst", "reporting analyst", "bi analyst"]},
+        "operations": {"priority": 0.6, "titles": ["operations analyst", "commercial analyst"]}
+      },
+      "exclude_titles": ["senior", "principal", "lead ", "manager", "director", "head of"],
+      "extra_skills": ["alteryx", "looker studio"],
+      "pathway": {"type": "uk-skilled-worker", "goal": "Skilled Worker visa", "requireSponsor": true, "minSalary": 38700, "avoidTemporary": true, "eligibleCodes": []}
+    },
+    "uk_nomin": {
+      "country": "UK",
+      "region": "london",
+      "local_places": ["london"],
+      "tracks": {"data": {"priority": 1.0, "titles": ["bi analyst", "data analyst"]}},
+      "pathway": {"type": "uk-skilled-worker", "requireSponsor": true, "minSalary": 0}
+    },
+    "us": {
+      "country": "United States",
+      "state": "TX",
+      "local_places": ["austin", "round rock"],
+      "tracks": {
+        "software": {"priority": 1.0, "titles": ["software engineer", "software developer", "backend engineer", "new grad"]},
+        "data": {"priority": 0.7, "titles": ["data engineer", "data analyst"]}
+      },
+      "exclude_titles": ["senior", "staff ", "principal", "lead ", "manager", "director"],
+      "extra_skills": [],
+      "pathway": {"type": "us-opt", "goal": "STEM OPT now, H-1B later", "requireSponsor": true, "minSalary": 0, "eligibleCodes": []}
+    },
+    "empty": {},
+    "us_notracks": {"country": "USA", "state": "California"},
+    "energy_bc": {
+      "country": "Canada",
+      "province": "BC",
+      "local_places": ["vancouver", "burnaby", "richmond"],
+      "tracks": {
+        "energy": {"priority": 1, "titles": ["energy modeller", "energy modeler", "energy engineer", "building performance"]},
+        "eng": {"titles": ["mechanical engineer", "eit"]}
+      },
+      "exclude_titles": ["senior", "manager"]
+    }
+  },
+  "registers": {
+    "main": [
+      {"name": "ACME ANALYTICS LIMITED", "town": "London", "route": "Skilled Worker", "rating": "Worker (A rating)"},
+      {"name": "Acme Analytics Ltd", "town": "Leeds", "route": "Global Business Mobility: Senior or Specialist Worker", "rating": "Worker (A rating)"},
+      {"name": "Brightwave Software Ltd", "town": "Manchester", "route": "Skilled Worker", "rating": "Worker (A rating)"},
+      {"name": "Northern Lights Data plc", "town": "Leeds", "route": "Skilled Worker", "rating": "Worker (A rating)"}
+    ]
+  },
+  "cases": [
+    {"name": "local junior data analyst, HTML description", "master": "data", "search": "ca",
+     "posting": {"role": "Junior Data Analyst", "company": "Maple Leaf Analytics", "location": "Halifax, NS", "posted": "2026-11-14",
+       "description": "<p>We&rsquo;re hiring a Junior Data Analyst to build dashboards in Power BI and Tableau.</p><ul><li>Python &amp; SQL</li><li>Excel and Power Query</li><li>1-2 years of experience with data cleaning</li></ul>"}},
+    {"name": "Toronto, skill gaps, French asset, contract", "master": "data", "search": "ca",
+     "posting": {"role": "Data Analyst", "company": "Northwind", "location": "Toronto, ON, Canada (hybrid)", "posted": "2026-11-09",
+       "description": "3+ years of professional experience in analytics. Snowflake, dbt, Airflow, Python, SQL, Looker. Bilingual (French and English) is an asset. This is a 12-month contract."}},
+    {"name": "senior, two remote places, citizenship", "master": "data", "search": "ca",
+     "posting": {"role": "Senior Business Analyst", "company": "Contoso", "location": "Remote, Canada; Remote, United States", "posted": "2026-11-02",
+       "description": "Minimum 5+ years of business analysis experience. Stakeholder management, Jira, Confluence, SQL, agile, process improvement. Must be a Canadian citizen or permanent resident."}},
+    {"name": "local operations, 30 days old, licence and temporary", "master": "data", "search": "ca",
+     "posting": {"role": "Operations Coordinator", "company": "Harbour Freight Co", "location": "Bedford, Nova Scotia", "posted": "2026-10-17",
+       "description": "4 years of related work experience. Logistics, inventory, shipping, SAP, Excel. A valid driver's licence (Class 5) is required. Temporary position (maternity leave)."}},
+    {"name": "remote with no country, no description, bad date", "master": "data", "search": "ca",
+     "posting": {"role": "Customer Success Specialist", "company": "Fabrikam", "location": "Remote", "posted": "not a date", "description": ""}},
+    {"name": "co-op title, 31 days old", "master": "data", "search": "ca",
+     "posting": {"role": "Data Analyst Co-op (Winter 2027)", "company": "Blue Jay Bank", "location": "Vancouver, BC", "posted": "2026-10-16",
+       "description": "Students must be currently enrolled in a co-op program at a Canadian university. Python, SQL, Excel, Tableau."}},
+    {"name": "remote in another country, double-escaped HTML, citizenship, clearance", "master": "data", "search": "ca",
+     "posting": {"role": "Reporting Analyst", "company": "Globex", "location": "Remote - Colombia", "posted": "2026-11-16",
+       "description": "<div>Reporting &amp;amp; BI role. Canadian citizenship is required for this position. Enhanced reliability clearance. Tools: Power BI, DAX, SQL, SharePoint.</div>"}},
+    {"name": "two places joined by |, yearly pay", "master": "data", "search": "ca",
+     "posting": {"role": "BI Analyst", "company": "Initech", "location": "Halifax, NS | Remote, United States", "posted": "2026-11-12",
+       "description": "Salary: $65,000 - $75,000 per year. Python, SQL, Power BI, Tableau, Excel, statistics, data validation. 2 years of experience."}},
+    {"name": "CEC pathway: NOC TEER 1, part-time, pay below minimum, ISO week date, priority 0.75", "master": "data", "search": "ca_path",
+     "posting": {"role": "Data Scientist", "company": "Umbrella Data", "location": "Mississauga, Ontario", "posted": "2026-W46-1",
+       "description": "NOC 2021: 21211. Part-time role, 20 hours a week. Salary $40,000 per year. Machine learning, Python, pandas, scikit-learn, SQL, statistics. 3 years experience."}},
+    {"name": "CEC pathway: TEER 4 and not an eligible code, priority 0.25", "master": "data", "search": "ca_path",
+     "posting": {"role": "Customer Support Representative", "company": "Soylent", "location": "Toronto, ON", "posted": "2026-11-13",
+       "description": "NOC 64409 – TEER 4. Full-time, permanent. Customer service, Zendesk, CRM, data entry, technical support. New graduates welcome."}},
+    {"name": "CEC pathway: no NOC, hourly pay only, region", "master": "data", "search": "ca_path",
+     "posting": {"role": "Junior Data Analyst", "company": "Hooli", "location": "Ottawa, ON", "posted": "2026-11-15",
+       "description": "Entry-level role. Excel, SQL. Paid $25 per hour."}},
+    {"name": "CEC pathway: numeric entities and C$ pay", "master": "data", "search": "ca_path",
+     "posting": {"role": "Data Analyst", "company": "Vandelay", "location": "Toronto, Ontario", "posted": "20261110",
+       "description": "Salary&#58; C$52,000&nbsp;&ndash; C$58,000 / year &#x2014; NOC&nbsp;21223. Python, SQL, Tableau, Power BI, statistics, Alteryx."}},
+    {"name": "UK: listed sponsor, salary below minimum, right to work", "master": "data", "search": "uk", "sponsors": "main",
+     "posting": {"role": "Data Analyst", "company": "Acme Analytics Ltd", "location": "London, England, United Kingdom", "posted": "2026-11-10",
+       "description": "Salary £32,000 - £38,000 per annum. SQL, Python, Power BI, Excel, Alteryx. You must have the right to work in the UK. 2+ years' experience in a data role."}},
+    {"name": "UK: possible sponsor, hourly pay only", "master": "data", "search": "uk", "sponsors": "main",
+     "posting": {"role": "Insight Analyst", "company": "Brightwave", "location": "Manchester", "posted": "2026-11-01",
+       "description": "Hourly rate £15 per hour for the first month. SQL, Tableau, statistics, stakeholder reporting."}},
+    {"name": "UK: sponsor not found, no visa sponsorship", "master": "data", "search": "uk", "sponsors": "main",
+     "posting": {"role": "Commercial Analyst", "company": "Zephyr Holdings", "location": "Remote, UK", "posted": "2026-11-16",
+       "description": "We are unable to offer visa sponsorship for this role. Excel, SQL, Power BI, forecasting, £45k + bonus."}},
+    {"name": "UK: no register loaded, certificate of sponsorship", "master": "data", "search": "uk_nomin",
+     "posting": {"role": "BI Analyst", "company": "Northern Data Co", "location": "Leeds, West Yorkshire", "posted": "2026-11-03",
+       "description": "Certificate of sponsorship available for the right candidate. Power BI, SQL, DAX, Excel, data modelling. Salary: £30,000."}},
+    {"name": "US: local new grad, H-1B, US persons", "master": "software", "search": "us",
+     "posting": {"role": "Software Engineer, New Grad", "company": "Lone Star Labs", "location": "Austin, TX", "posted": "2026-11-11",
+       "description": "Python, Java, AWS, Docker, Kubernetes, React, TypeScript, PostgreSQL. 0-2 years of experience. H-1B sponsorship is available. US persons only for this export-controlled role."}},
+    {"name": "US: one place in the US and one in Canada, 5-7 years, timestamp", "master": "software", "search": "us",
+     "posting": {"role": "Backend Engineer", "company": "Pied Piper", "location": "San Francisco, CA / Toronto, ON", "posted": "2026-11-16T09:00:00Z",
+       "description": "5-7 years of backend experience with Go, Kubernetes, PostgreSQL, gRPC, Kafka. Salary range $180,000 - $220,000."}},
+    {"name": "empty search object", "master": "data", "search": "empty",
+     "posting": {"role": "Data Analyst", "company": "Acme", "location": "Ottawa, Ontario", "posted": "",
+       "description": "Python, SQL, Excel, Tableau and Power BI. 2 years of experience."}},
+    {"name": "search without tracks, full state name", "master": "software", "search": "us_notracks",
+     "posting": {"role": "Data Engineer", "company": "Acme", "location": "Los Angeles, California", "posted": "2026-11-15",
+       "description": "Spark, Airflow, Python, SQL, dbt, Snowflake; 4+ years experience."}},
+    {"name": "energy track, date before years, P.Eng. wording", "master": "energy", "search": "energy_bc",
+     "posting": {"role": "Junior Energy Modeller (EIT)", "company": "Cascadia Building Performance", "location": "Burnaby, British Columbia", "posted": "2026-11-05",
+       "description": "Energy modelling with EnergyPlus, OpenStudio and IES VE for BC Step Code and ASHRAE 90.1 compliance. HVAC design support, building envelope, heat pumps. P.Eng. designation is not required; EIT registration with EGBC an asset. Posted: 2026-09-01. 8+ years of experience is NOT needed."}},
+    {"name": "track without a priority (0.5)", "master": "energy", "search": "energy_bc",
+     "posting": {"role": "Mechanical Engineer in Training", "company": "Coast Mechanical", "location": "Richmond, BC", "posted": "2026-11-09",
+       "description": "Mechanical engineering, HVAC, AutoCAD, Revit, commissioning, energy audit, troubleshooting. Registered professional engineer supervision. 1-3 years of experience."}},
+    {"name": "accents and emoji: French text, code-point snippets", "master": "data", "search": "ca",
+     "posting": {"role": "Analyste de données", "company": "Données Inc", "location": "Montréal, QC", "posted": "2026-11-15",
+       "description": "🚀🚀🚀 Rejoignez-nous! Python, SQL, Power BI. 3 years expérience. Must be bilingual — French required. 🚀 Canadian citizens only are eligible."}}
+  ],
+  "functions": {
+    "placeFit": [
+      ["ca", "Halifax, NS"], ["ca", "Dartmouth, Nova Scotia, Canada"], ["ca", "Truro, NS"], ["ca", "Toronto, ON"], ["ca", "Remote - Canada"],
+      ["ca", "Remote"], ["ca", "Hybrid"], ["ca", "Remote - Colombia"], ["ca", "Remote, Canada; Remote, United States"],
+      ["ca", "Vancouver, BC / Seattle, WA"], ["ca", "Ontario, CA"], ["ca", ""], ["ca", "Remote (Americas)"], ["ca", "Work from home - anywhere in Nova Scotia"],
+      ["energy_bc", "Richmond Hill, ON"], ["energy_bc", "Richmond, BC"], ["energy_bc", "Kelowna, B.C."], ["energy_bc", "Victoria, BC"],
+      ["us", "Austin, TX"], ["us", "Round Rock, Texas"], ["us", "Dallas, TX"], ["us", "Remote, US"], ["us", "US-Remote"], ["us", "Ontario, CA"],
+      ["us", "Toronto, ON"], ["us", "Vancouver, WA"], ["us", "Washington, DC"], ["us", "New York, NY"], ["us", "Remote"],
+      ["uk", "London"], ["uk", "Croydon, Greater London"], ["uk", "Manchester, UK"], ["uk", "Remote (UK)"], ["uk", "Dublin, Ireland"],
+      ["uk", "Remote - Europe"], ["uk", "Reading, Berkshire"],
+      ["empty", "Calgary, AB"], ["empty", "Remote"], ["empty", "London, UK"],
+      ["us_notracks", "San Diego, California"], ["us_notracks", "Seattle, WA"], ["us_notracks", "Remote"]
+    ],
+    "yearsRequired": [
+      "3+ years of experience", "3-5 years of relevant experience", "Minimum of 2 years’ experience", "5 to 7 years of hands-on industry experience",
+      "1 year exp required", "Posted 2026-09-01 8+ years of experience", "25 years of experience", "٣ years of experience", "10+ yrs experience",
+      "two years of experience", "3 years expérience", "at least 4 years in a similar role and 2 years of experience", "", "12 + years' work experience"
+    ],
+    "salaryMax": [
+      "£38,000 - £45,000", "$25 per hour", "$65k-$80k", "CAD 72,500", "USD 120000 a year", "$45.5k", "$5,000,000", "£9,500",
+      "$85/hr or $120,000/yr", "$ 50 k per year", "c$52,000", "gbp 30000", "$١٢٠٠٠٠", "$100,000 a month", "$60,000 annually", "no pay listed"
+    ],
+    "termsIn": [
+      "Python, SQL, Power BI and dashboards", "Energy modeling and building energy modeling, REST APIs, KPIs",
+      "C++ and C# developer; node.js; scikit-learn", "Order management (der shouldn't match), eit vs reit",
+      "Renewables and batteries, ieee 2030.5", "Word of mouth, policy, API"
+    ],
+    "textOf": [
+      "<p>Hello &amp;amp; welcome</p>", "Caf&eacute; &copy2026 AT&T R&D", "\\textbf{Python} \\& SQL 50\\%",
+      "&#8212; &#x2019; &#0; &#128; &#x110000; &#55296; &#13;", "&ampfoo; &notit; &nbsp;x &unknown; &", "  Mixed\tCASE\n\nText  "
+    ],
+    "bestTrack": [
+      ["ca", "Junior Data Analyst"], ["ca", "Senior Operations Analyst"], ["ca", "Customer Success Lead"], ["ca", "Analytics Engineer"],
+      ["ca_path", "Data Scientist"], ["energy_bc", "Energy Engineer (EIT)"], ["energy_bc", "Mechanical Engineer"], ["empty", "Data Analyst"],
+      ["ca", "Data   Analyst\t(Contract)"]
+    ],
+    "excluded": [
+      ["ca", "Senior Data Analyst"], ["ca", "Sr. Data Analyst"], ["ca", "Staff Accountant"], ["ca", "Team Lead, Data"],
+      ["ca", "Leadership Program Analyst"], ["ca", "Data Analyst"], ["empty", "Senior Data Analyst"]
+    ],
+    "dates": [
+      "2026-11-01", "20261101", "2026-W45-1", "2026W451", "2026-W45", "2026-11-1", "2026-02-30", "2026-1101", "2026-11-01T10:00",
+      "None", "", "2025-W53-1", "2026-W53-7", "20261101ab", "2024-02-29", "2023-02-29", "0001-01-01", "9999-12-31", "9999-W52-6", "2026W45123"
+    ],
+    "sponsorNorm": [
+      "ACME ANALYTICS LIMITED", "Brightwave Software Ltd", "The Zephyr Holdings Group plc", "Smith & Jones LLP", "Café Nero UK Ltd",
+      "U.K. Power Networks (Operations) Ltd"
+    ]
+  }
+}

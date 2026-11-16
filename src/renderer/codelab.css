@@ -1,0 +1,145 @@
+/* Coding Lab window. Colours and type come from styles.css tokens. */
+html,
+body.lab-body {
+  overflow: hidden;
+}
+.lab-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.lab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.lab-bar #problem {
+  min-width: 0;
+  max-width: 340px;
+  flex: 1 1 220px;
+}
+.lab-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.chip.easy {
+  border-color: var(--me);
+  color: var(--me);
+}
+.chip.medium {
+  border-color: var(--them);
+  color: var(--them);
+}
+.chip.hard {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+#engineStatus {
+  margin-left: auto;
+}
+.lab {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(280px, 38%) 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+.lab-left,
+.lab-right {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lab-left {
+  overflow-y: auto;
+}
+.editor {
+  flex: 1 1 60%;
+  min-height: 200px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.results {
+  flex: 0 1 40%;
+  min-height: 120px;
+  overflow: auto;
+}
+.test-row {
+  display: grid;
+  grid-template-columns: 74px 1fr auto;
+  gap: 8px;
+  align-items: baseline;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+}
+.test-row:last-child {
+  border-bottom: 0;
+}
+.test-row .status {
+  font-weight: 600;
+}
+.test-row.pass .status {
+  color: var(--me);
+}
+.test-row.fail .status {
+  color: var(--danger);
+}
+.test-row code,
+.results pre {
+  font-family: Consolas, 'Cascadia Code', monospace;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.results pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 6px 0 0;
+  max-height: 160px;
+  overflow: auto;
+}
+.results .summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+.results .summary.pass {
+  color: var(--me);
+}
+.results .summary.fail {
+  color: var(--danger);
+}
+.results .summary .btn {
+  font-weight: 400;
+}
+.ms {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+#assist .label {
+  margin-bottom: 6px;
+}
+@media (max-width: 900px) {
+  .lab {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    overflow-y: auto;
+  }
+  .lab-left {
+    max-height: 40vh;
+  }
+}

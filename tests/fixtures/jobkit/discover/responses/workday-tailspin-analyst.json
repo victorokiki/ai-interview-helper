@@ -1,0 +1,25 @@
+{
+ "total": 2,
+ "jobPostings": [
+  {
+   "title": "Data Analyst",
+   "externalPath": "/job/Toronto-ON/Data-Analyst_R-20441",
+   "locationsText": "Toronto, ON",
+   "postedOn": "Posted 9 Days Ago",
+   "bulletFields": [
+    "R-20441"
+   ]
+  },
+  {
+   "title": "Business Data Analyst",
+   "externalPath": "/job/Multiple/Business-Data-Analyst_R-20442",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "R-20442"
+   ]
+  }
+ ],
+ "facets": [],
+ "userAuthenticated": false
+}

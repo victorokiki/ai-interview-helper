@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src wss://api.deepgram.com; media-src 'self' blob: mediastream:"
+    />
+    <title>Interview Helper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="titlebar">
+      <div class="brand"><span class="dot" id="liveDot"></span>Interview Helper</div>
+      <div class="window-buttons">
+        <button id="compactBtn" class="icon-btn" title="Compact view (Ctrl+Shift+Y)" aria-label="Compact view" aria-pressed="false"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path class="when-full" d="M4 14h6v6"/><path class="when-full" d="M20 10h-6V4"/><path class="when-full" d="m14 10 7-7"/><path class="when-full" d="m3 21 7-7"/><path class="when-compact" d="M15 3h6v6"/><path class="when-compact" d="M9 21H3v-6"/><path class="when-compact" d="m21 3-7 7"/><path class="when-compact" d="m3 21 7-7"/></svg></button>
+        <button id="pinBtn" class="icon-btn active" title="Always on top" aria-label="Always on top"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/></svg></button>
+        <button id="minBtn" class="icon-btn" title="Minimize" aria-label="Minimize"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+        <button id="closeBtn" class="icon-btn" title="Close" aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="live">Live</button>
+      <button class="tab" data-tab="mock">Mock</button>
+      <button class="tab" data-tab="jobs">Jobs</button>
+      <button class="tab" data-tab="profile">Profile</button>
+      <button class="tab" data-tab="history">Progress</button>
+      <button class="tab" data-tab="settings">Settings</button>
+    </nav>
+
+    <div class="jobbar">
+      <label for="activeJob">Job</label>
+      <select id="activeJob" title="Sessions, answers and practice use this job's description and notes"></select>
+    </div>
+
+    <div id="banner" class="banner hidden"></div>
+
+    <!-- LIVE -->
+    <main class="panel active" id="tab-live">
+      <div class="toolbar">
+        <button id="startBtn" class="btn primary">Start session</button>
+        <button id="answerBtn" class="btn" title="Ctrl+Shift+Enter">Answer now</button>
+        <button id="shotBtn" class="btn" title="Ctrl+Shift+S">Screenshot</button>
+        <select id="activePreset" class="push-right" aria-label="Answer preset" title="Answer preset (edit in Settings)"></select>
+      </div>
+      <div class="toolbar sub">
+        <label class="toggle tight"><input type="checkbox" id="autoAnswer" /> Auto-answer</label>
+        <label class="toggle" title="Record call audio to this PC (asks for consent)"><input type="checkbox" id="recordToggle" /> Record</label>
+        <span class="chip" id="chipInterviewer">Interviewer: off</span>
+        <span class="chip" id="chipMe">Me: off</span>
+        <span class="chip rec" id="chipRec" hidden>● Recording</span>
+      </div>
+
+      <section class="transcript" id="transcript">
+        <p class="empty">Start a session to capture the call audio (interviewer) and your microphone (you). Questions are detected automatically.</p>
+      </section>
+
+      <form id="askForm" class="ask">
+        <input id="askInput" placeholder="Type a question, or press Enter to answer the latest one…" autocomplete="off" />
+      </form>
+
+      <section class="answers" id="answers"></section>
+    </main>
+
+    <!-- MOCK -->
+    <main class="panel" id="tab-mock">
+      <div class="toolbar lab-entry">
+        <button id="openLab" class="btn">Open Coding Lab</button>
+        <span class="hint">Python, JavaScript and SQL problems with tests, hints and reviews</span>
+      </div>
+      <div class="toolbar">
+        <select id="mockKind" aria-label="Practice type">
+          <option value="general">General</option>
+          <option value="behavioral" selected>Behavioral</option>
+          <option value="coding">Coding</option>
+          <option value="system-design">System design</option>
+          <option value="product-case">Product case</option>
+          <option value="data-ml">Data / ML</option>
+          <option value="salary">Salary negotiation</option>
+          <option value="recruiter">Recruiter screen</option>
+          <option value="mixed">Mixed</option>
+        </select>
+        <select id="mockSource" aria-label="Question source">
+          <option value="ai">AI questions</option>
+        </select>
+        <select id="mockPanel" aria-label="Interviewers">
+          <option value="single">One interviewer</option>
+          <option value="panel">Panel of 4</option>
+        </select>
+        <select id="mockDifficulty" aria-label="Difficulty">
+          <option value="auto">Adaptive</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="mockNextBtn" class="btn primary">Next question</button>
+        <label class="toggle"><input type="checkbox" id="mockSpeak" checked /> Read aloud</label>
+      </div>
+      <div class="card" id="mockQuestionCard">
+        <div class="label">Question</div>
+        <div id="mockQuestion" class="question-text muted">Fill in your Profile, then press “Next question”.</div>
+      </div>
+      <div class="toolbar">
+        <button id="mockRecordBtn" class="btn" disabled>Record answer</button>
+        <button id="mockSubmitBtn" class="btn primary" disabled>Get feedback</button>
+        <button id="mockEndBtn" class="btn ghost">End &amp; save</button>
+      </div>
+      <textarea id="mockAnswer" class="answer-input" placeholder="Your spoken answer appears here. You can also type."></textarea>
+      <div id="mockLive" class="live-meter" hidden></div>
+      <section class="card" id="mockFeedback" hidden></section>
+      <div id="mockLessons"></div>
+    </main>
+
+    <!-- JOBS -->
+    <main class="panel" id="tab-jobs">
+      <div class="toolbar">
+        <button id="newJob" class="btn primary">New job</button>
+        <button id="importInvite" class="btn" type="button">Import invite (.ics)</button>
+        <button id="importJobKit" class="btn" type="button" title="Your applications from Autonomous Job Kit: tracker, résumés and answers you sent">Import from Job Kit</button>
+        <span class="hint">Each job keeps its own description, notes and practice history. You can also drop calendar invites here.</span>
+      </div>
+      <details id="matchesBox" class="card matches-box">
+        <summary><span class="sent-title">New job matches</span> <span id="matchesSummary" class="muted"></span></summary>
+        <p class="hint" id="matchesHint">Finds new postings from SimplifyJobs lists, Canada's Job Bank, Remotive and the employer boards you follow, and ranks them with your fit score. It uses Profile → Your job search; requests carry only your search terms, country and board names.</p>
+        <div class="toolbar">
+          <button id="discoverRun" class="btn" type="button">Find jobs now</button>
+          <label class="toggle"><input type="checkbox" id="discoverDaily" /> Look for new jobs once a day while the app is open</label>
+        </div>
+        <ul id="matchList" class="calendar-list"></ul>
+        <div class="url-row">
+          <input id="employerUrl" type="url" autocomplete="off" placeholder="Follow an employer: paste a Greenhouse, Lever, Ashby, SmartRecruiters or Workday link" aria-label="Employer job board link" />
+          <button id="employerAdd" class="btn small" type="button">Follow</button>
+        </div>
+        <p class="hint" id="remotiveCredit" hidden>Remote jobs from <a href="https://remotive.com" id="remotiveLink">Remotive</a>.</p>
+      </details>
+      <section id="jobkitReview" class="card calendar-review" hidden>
+        <div class="label"><span>Autonomous Job Kit</span></div>
+        <p class="hint" id="jobkitHint"></p>
+        <ul id="jobkitList" class="calendar-list"></ul>
+        <div id="jobkitFactsBox" hidden>
+          <div class="label"><span>From your profile.json: add to Interview Brain?</span></div>
+          <p class="hint">Ticked answers become facts that live answers can use, for example when you're asked about salary or notice period. Self-identification answers are never imported.</p>
+          <ul id="jobkitFacts" class="jobkit-facts"></ul>
+        </div>
+        <label class="toggle" id="jobkitSettingsRow" hidden><input type="checkbox" id="jobkitSettings" checked /> <span id="jobkitSettingsText">Use my search.json and work-authorization answers for fit scores and eligibility checks (worked out on this PC, never sent to the AI)</span></label>
+        <div class="toolbar">
+          <button id="jobkitApply" class="btn primary" type="button">Import</button>
+          <button id="jobkitCancel" class="btn" type="button">Cancel</button>
+          <button id="jobkitChange" class="btn ghost push-right" type="button">Choose another folder…</button>
+        </div>
+      </section>
+      <section id="calendarReview" class="card calendar-review" hidden>
+        <div class="label"><span>Calendar invites</span></div>
+        <p class="hint" id="calendarHint"></p>
+        <ul id="calendarList" class="calendar-list"></ul>
+        <div class="toolbar">
+          <button id="calendarApply" class="btn primary" type="button">Import</button>
+          <button id="calendarCancel" class="btn" type="button">Cancel</button>
+        </div>
+      </section>
+      <ul class="job-list" id="jobList"></ul>
+      <form id="jobForm" class="job-form" hidden>
+        <div class="grid-2">
+          <label class="field"><span>Company</span><input id="jobCompany" type="text" autocomplete="off" /></label>
+          <label class="field"><span>Role</span><input id="jobRole" type="text" autocomplete="off" /></label>
+          <label class="field">
+            <span>Stage</span>
+            <select id="jobStage">
+              <option value="saved">Saved</option>
+              <option value="applied">Applied</option>
+              <option value="screening">Screening</option>
+              <option value="interviewing">Interviewing</option>
+              <option value="offer">Offer</option>
+              <option value="rejected">Rejected</option>
+              <option value="closed">Closed</option>
+            </select>
+          </label>
+          <label class="field"><span>Interview date</span><input id="jobDate" type="datetime-local" /></label>
+          <label class="field"><span>Meeting link <a href="#" id="joinMeeting" hidden>Join</a></span><input id="jobInterviewLink" type="url" autocomplete="off" placeholder="https://…" /></label>
+          <label class="field"><span>Apply by</span><input id="jobApplyBy" type="date" /></label>
+          <label class="field"><span>Follow up on</span><input id="jobFollowUp" type="datetime-local" /></label>
+        </div>
+        <label class="field">
+          <span>Follow-up reminder <small>(what to do)</small></span>
+          <input id="jobFollowUpNote" type="text" autocomplete="off" placeholder="e.g. Email Sam the system design write-up" />
+        </label>
+        <label class="field">
+          <span>Posting URL <a href="#" id="openPosting" hidden>Open</a></span>
+          <span class="url-row">
+            <input id="jobUrl" type="url" autocomplete="off" placeholder="https://…" />
+            <button id="fillFromLink" class="btn small" type="button" title="Reads company, role, description, pay and deadline from Greenhouse, Lever, Ashby, Workday, SmartRecruiters, iCIMS, Oracle, Rippling or Job Bank links">Fill from link</button>
+          </span>
+        </label>
+        <section id="jobCheck" class="card job-check" hidden></section>
+        <label class="field">
+          <span>Contacts <small>(one per line: name, role, email)</small></span>
+          <textarea id="jobContacts" rows="2"></textarea>
+        </label>
+        <label class="field">
+          <span>Job description</span>
+          <textarea id="jobDescription" rows="8" placeholder="Paste the job posting here…"></textarea>
+        </label>
+        <label class="field">
+          <span>Notes <small>(interviewers, company research, things to ask)</small></span>
+          <textarea id="jobNotes" rows="4"></textarea>
+        </label>
+        <details id="sentBox" class="card sent-box" hidden>
+          <summary><span class="sent-title">What you sent</span> <span id="sentSummary" class="muted"></span></summary>
+          <p class="hint" id="sentHint"></p>
+          <div id="sentBody" class="sent-body"></div>
+          <div class="toolbar"><button id="sentRemove" class="btn ghost small" type="button">Remove from this job</button></div>
+        </details>
+        <div class="toolbar">
+          <button id="saveJob" class="btn primary" type="submit">Save job</button>
+          <button id="cancelJob" class="btn" type="button">Cancel</button>
+          <button id="deleteJob" class="btn ghost push-right" type="button">Delete</button>
+        </div>
+      </form>
+      <section id="careerTools" class="career" hidden>
+        <div class="section-title">Career tools</div>
+        <div class="career-buttons">
+          <button class="btn" type="button" data-tool="check" title="Match score, keyword coverage and grounded rewrites">Resume check</button>
+          <button class="btn" type="button" data-tool="resume" title="Your resume reworded for this job (PDF / Word)">Tailored resume</button>
+          <button class="btn" type="button" data-tool="cover" title="A specific cover letter (PDF / Word)">Cover letter</button>
+          <button class="btn" type="button" data-tool="linkedin" title="Headline, About and skills">LinkedIn</button>
+          <button class="btn" type="button" data-tool="followup" title="Uses your latest interview for this job">Follow-up email</button>
+          <button class="btn" type="button" data-tool="research" title="Claude web search with cited sources, including pay ranges">Company research</button>
+          <button class="btn" type="button" data-tool="prep" title="Focus areas, gaps, stories and 10 likely questions you can practise in Mock">Prep plan</button>
+        </div>
+        <p class="hint" id="careerHint">Everything uses only your resume, notes and Interview Brain facts. Missing details appear as [placeholders].</p>
+        <article id="careerOutput" class="card" hidden></article>
+        <div class="label career-saved">Saved for this job</div>
+        <ul id="careerList" class="doc-list"></ul>
+      </section>
+    </main>
+
+    <!-- PROGRESS (analytics + session history) -->
+    <main class="panel" id="tab-history">
+      <div class="toolbar">
+        <select id="progressJob" aria-label="Filter by job"></select>
+        <button id="historyRefresh" class="btn">Refresh</button>
+      </div>
+      <input id="historySearch" type="search" placeholder="Search transcripts, answers and summaries…" autocomplete="off" aria-label="Search sessions" />
+      <section id="progress" class="progress"></section>
+      <div class="section-title" id="historyTitle">Sessions</div>
+      <ul class="history-list" id="historyList"></ul>
+      <section id="historyDetail" class="history-detail" hidden></section>
+    </main>
+
+    <!-- PROFILE -->
+    <main class="panel" id="tab-profile">
+      <label class="field">
+        <span>Resume <button id="importResume" class="btn small" type="button">Import PDF / DOCX / TXT</button></span>
+        <textarea id="resume" rows="10" placeholder="Paste your resume here…"></textarea>
+      </label>
+      <label class="field">
+        <span>Extra notes <small>(stories, projects, salary expectations, things to emphasize)</small></span>
+        <textarea id="extraNotes" rows="5"></textarea>
+      </label>
+      <button id="saveProfile" class="btn primary">Save profile</button>
+
+      <details id="searchBox" class="card search-box">
+        <summary><span class="sent-title">Your job search</span> <span class="muted">for fit scores and eligibility checks on each job</span></summary>
+        <p class="hint">Used to score how well each job fits you and to flag postings that may rule you out (citizenship, sponsorship, clearance) or look like scams. Worked out on this PC only; never sent to the AI. Importing from Autonomous Job Kit can fill this in from your search.json and profile.json.</p>
+        <div class="grid-2">
+          <label class="field"><span>Country you're searching in</span>
+            <select id="searchCountry"><option value="">Not set</option><option value="Canada">Canada</option><option value="United States">United States</option><option value="United Kingdom">United Kingdom</option></select>
+          </label>
+          <label class="field"><span>Province, state or region <small>(e.g. NS, CA, Scotland)</small></span><input id="searchRegion" type="text" autocomplete="off" /></label>
+        </div>
+        <label class="field"><span>Home area <small>(towns near you, comma-separated)</small></span><input id="searchPlaces" type="text" autocomplete="off" placeholder="e.g. Halifax, Dartmouth, Bedford" /></label>
+        <label class="field"><span>Target roles <small>(one job family per line: title words separated by commas)</small></span><textarea id="searchTracks" rows="3" placeholder="data analyst, business analyst, reporting analyst&#10;operations analyst, logistics coordinator"></textarea></label>
+        <label class="field"><span>Extra skills to look for <small>(beyond the built-in list, comma-separated)</small></span><input id="searchSkills" type="text" autocomplete="off" placeholder="e.g. looker studio, alteryx" /></label>
+        <div class="label"><span>Work authorization</span></div>
+        <div class="grid-2">
+          <label class="field"><span>In your own words <small>(e.g. Canadian citizen; PGWP until 2027-05; F-1 student, eligible for CPT; ILR)</small></span><input id="sitDetails" type="text" autocomplete="off" /></label>
+          <label class="field"><span>Authorized to work in that country?</span><select id="sitAuthorized"><option value="">Not set</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+          <label class="field"><span>Need visa sponsorship?</span><select id="sitSponsor"><option value="">Not set</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+          <label class="field"><span>Highest degree <small>(e.g. Bachelor of Commerce)</small></span><input id="sitDegree" type="text" autocomplete="off" /></label>
+          <label class="field"><span>Student year <small>(if studying, e.g. third year)</small></span><input id="sitStanding" type="text" autocomplete="off" /></label>
+          <label class="field"><span>Expected graduation <small>(if studying)</small></span><input id="sitGraduation" type="text" autocomplete="off" placeholder="e.g. 2027-05" /></label>
+        </div>
+        <div class="toolbar"><button id="saveSearch" class="btn primary" type="button">Save job search</button></div>
+      </details>
+
+      <div class="field">
+        <span>Interview Brain</span>
+        <p class="hint">Facts about you that answers and practice feedback must stick to. Extract them from your resume and documents, then correct or add your own. Anything not listed here or in your resume is shown as a [placeholder] instead of being made up.</p>
+        <div class="toolbar">
+          <button id="extractFacts" class="btn" type="button">Extract from resume &amp; documents</button>
+          <button id="addFact" class="btn" type="button">Add fact</button>
+          <button id="saveFacts" class="btn primary" type="button">Save facts</button>
+        </div>
+        <ul id="factList" class="fact-list"></ul>
+      </div>
+
+      <div class="field" id="memory">
+        <span>Memory: lessons from past sessions</span>
+        <p class="hint">After each interview or practice session, the app suggests a few lessons (from your pace, fillers and scores, and from the AI). The ones you keep shape later answers, practice questions, feedback and prep plans. Lessons stay on this PC.</p>
+        <label class="toggle"><input type="checkbox" id="useLessons" /> Use kept lessons in answers and practice</label>
+        <label class="toggle"><input type="checkbox" id="suggestLessons" /> Suggest lessons after each session</label>
+        <form id="addLessonForm" class="lesson-add">
+          <input id="newLesson" type="text" maxlength="240" placeholder="Add your own, e.g. Mention the on-call redesign for reliability questions" autocomplete="off" />
+          <select id="newLessonScope" aria-label="Applies to"></select>
+          <button class="btn" type="submit">Add</button>
+        </form>
+        <div id="lessonPending"></div>
+        <ul id="lessonList" class="lesson-list"></ul>
+        <p id="lessonDismissed" class="hint"></p>
+      </div>
+
+      <div class="field">
+        <span>Documents <button id="addDocs" class="btn small" type="button">Add PDF / DOCX / TXT / MD</button></span>
+        <p class="hint">Project write-ups, past work, study notes. The most relevant passages are found locally and added to each answer.</p>
+        <ul id="docList" class="doc-list"></ul>
+      </div>
+    </main>
+
+    <!-- SETTINGS -->
+    <main class="panel" id="tab-settings">
+      <div class="section-title">AI model</div>
+      <label class="field">
+        <span>Provider</span>
+        <select id="provider">
+          <option value="anthropic">Claude (Anthropic)</option>
+          <option value="openai">OpenAI</option>
+          <option value="gemini">Google Gemini</option>
+          <option value="ollama">Ollama (local, offline)</option>
+        </select>
+      </label>
+      <div class="field" data-provider="anthropic">
+        <span>Anthropic API key <small id="anthropicStatus"></small></span>
+        <input id="anthropicKey" type="password" placeholder="sk-ant-…" autocomplete="off" />
+        <select id="anthropicModel">
+          <option value="claude-opus-5-5">Claude Opus 5.5 (best answers)</option>
+          <option value="claude-sonnet-5-5">Claude Sonnet 5.5 (faster, cheaper)</option>
+          <option value="claude-haiku-5-5">Claude Haiku 5.5 (fastest, cheapest)</option>
+        </select>
+      </div>
+      <div class="field" data-provider="openai">
+        <span>OpenAI API key <small id="openaiStatus"></small></span>
+        <input id="openaiKey" type="password" placeholder="sk-…" autocomplete="off" />
+        <input id="openaiModel" type="text" placeholder="Model, e.g. gpt-5-mini" autocomplete="off" />
+      </div>
+      <div class="field" data-provider="gemini">
+        <span>Gemini API key <small id="geminiStatus"></small></span>
+        <input id="geminiKey" type="password" placeholder="AIza…" autocomplete="off" />
+        <input id="geminiModel" type="text" placeholder="Model, e.g. gemini-2.5-flash" autocomplete="off" />
+      </div>
+      <div class="field" data-provider="ollama">
+        <span>Ollama server</span>
+        <input id="ollamaUrl" type="text" placeholder="http://localhost:11434" autocomplete="off" />
+        <input id="ollamaModel" type="text" placeholder="Model, e.g. gemma3" autocomplete="off" />
+        <p class="hint">Install from ollama.com, then run <code>ollama pull gemma3</code>. Screenshots need a vision model (gemma3, qwen2.5vl, llava).</p>
+      </div>
+
+      <div class="section-title">Transcription</div>
+      <label class="field">
+        <span>Engine</span>
+        <select id="transcription">
+          <option value="deepgram">Deepgram Nova-3 (cloud, live words)</option>
+          <option value="deepgram-flux">Deepgram Flux (cloud, fastest end-of-question detection)</option>
+          <option value="local">Whisper (local, offline)</option>
+        </select>
+      </label>
+      <label class="field" data-engine="deepgram deepgram-flux">
+        <span>Deepgram API key</span>
+        <input id="deepgramKey" type="password" placeholder="Deepgram key" autocomplete="off" />
+      </label>
+      <div class="field" data-engine="local">
+        <span>Whisper model <button id="downloadWhisper" class="btn small" type="button">Download now</button></span>
+        <select id="whisperModel">
+          <option value="Xenova/whisper-tiny.en">Tiny, English (~40 MB, fastest)</option>
+          <option value="Xenova/whisper-base.en">Base, English (~75 MB, recommended)</option>
+          <option value="Xenova/whisper-small.en">Small, English (~250 MB, most accurate, slower)</option>
+          <option value="Xenova/whisper-base">Base, multilingual (~75 MB)</option>
+        </select>
+        <p class="hint">Downloaded once, then runs on your CPU with no internet. Text appears after each sentence rather than word by word.</p>
+      </div>
+      <label class="field">
+        <span>Language</span>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="multi">Auto / multilingual</option>
+          <option value="es">Spanish</option>
+          <option value="fr">French</option>
+          <option value="de">German</option>
+          <option value="pt">Portuguese</option>
+          <option value="hi">Hindi</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Echo cancellation</span>
+        <select id="echoCancellation">
+          <option value="on">On (recommended when you don't use headphones)</option>
+          <option value="off">Off</option>
+        </select>
+        <p class="hint">Removes the interviewer's voice that your speakers play into your microphone, so it isn't transcribed as you. Runs on this PC (WebRTC AEC3).</p>
+      </label>
+      <label class="field">
+        <span>Translate the interviewer into</span>
+        <select id="translateTo">
+          <option value="">Off</option>
+        </select>
+        <p class="hint">Shows a translation under each interviewer line. Uses one short AI request per line.</p>
+      </label>
+
+      <div class="section-title">Answer presets</div>
+      <div class="toolbar">
+        <select id="presetPick" aria-label="Preset to edit"></select>
+        <button id="presetNew" class="btn small" type="button">New</button>
+        <button id="presetDuplicate" class="btn small" type="button">Duplicate</button>
+      </div>
+      <form id="presetForm" class="preset-form">
+        <label class="field"><span>Name</span><input id="presetName" type="text" autocomplete="off" /></label>
+        <div class="grid-2">
+          <label class="field">
+            <span>Length</span>
+            <select id="presetLength">
+              <option value="short">Short (~60 words)</option>
+              <option value="medium">Medium (~110 words)</option>
+              <option value="long">Long (~180 words)</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Tone</span>
+            <select id="presetTone">
+              <option value="confident">Confident</option>
+              <option value="conversational">Conversational</option>
+              <option value="formal">Formal</option>
+              <option value="friendly">Friendly</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Format</span>
+            <select id="presetFormat">
+              <option value="bullets-script">Bullets + spoken answer</option>
+              <option value="script">Spoken answer only</option>
+              <option value="bullets">Bullets only</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Answer language</span>
+            <select id="presetLanguage">
+              <option value="">Same as the question</option>
+            </select>
+          </label>
+        </div>
+        <label class="field">
+          <span>Instructions <small>(optional, added to every answer)</small></span>
+          <textarea id="presetPrompt" rows="3" placeholder="e.g. Mention my AWS certification when relevant. Avoid jargon."></textarea>
+        </label>
+        <p class="hint" id="presetBuiltInNote" hidden>Built-in presets can't be edited. Press Duplicate to make your own copy.</p>
+        <div class="toolbar">
+          <button id="presetSave" class="btn primary" type="submit">Save preset</button>
+          <button id="presetUse" class="btn" type="button">Use for answers</button>
+          <button id="presetDelete" class="btn ghost push-right" type="button">Delete</button>
+        </div>
+      </form>
+
+      <div class="section-title">General</div>
+      <label class="toggle"><input type="checkbox" id="autoSummary" /> Write a post-call summary when a session ends</label>
+      <label class="toggle"><input type="checkbox" id="meetingDetection" /> Offer to start a session when a call app starts using the microphone (Windows)</label>
+      <label class="field">
+        <span>Appearance</span>
+        <select id="theme">
+          <option value="system">Match Windows</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Window opacity <small id="opacityValue"></small></span>
+        <input id="opacity" type="range" min="0.4" max="1" step="0.02" />
+      </label>
+      <button id="saveSettings" class="btn primary">Save settings</button>
+
+      <div class="section-title">Window and shortcuts</div>
+      <label class="toggle"><input type="checkbox" id="alwaysOnTop" /> Keep the window on top of other windows</label>
+      <label class="toggle"><input type="checkbox" id="compactToggle" /> Compact view <small class="muted">(a small window with the latest question and answer)</small></label>
+      <label class="field">
+        <span>Text size in compact view <small id="copilotScaleValue"></small></span>
+        <input id="copilotScale" type="range" min="0.8" max="1.6" step="0.1" aria-describedby="copilotScaleHint" />
+      </label>
+      <p class="hint" id="copilotScaleHint">Makes the answer and transcript in the compact window larger or smaller. Saved when you let go of the slider.</p>
+      <p class="hint">Drag the title bar to move the window and its edges to resize it; the app remembers where you left it. Opacity is under General above. Shortcuts work from any app. Click one and press new keys to change it, or press Backspace to turn it off. Windows doesn't always report keys another app already uses, so if a shortcut does nothing, choose different keys.</p>
+      <div class="card shortcut-list" id="shortcutList"></div>
+
+      <div class="section-title">Connect AI assistants (MCP)</div>
+      <p class="hint">Let Claude Desktop or another MCP client read your jobs, Interview Brain facts, progress, sessions and career documents, so you can ask things like “what should I practise for my Contoso interview?”. Read-only; it runs on this PC only while the assistant uses it. Paste this into the assistant's MCP settings (in Claude Desktop: Settings → Developer → Edit Config).</p>
+      <pre id="mcpConfig" class="mcp-config"></pre>
+      <div class="toolbar"><button id="copyMcp" class="btn" type="button">Copy configuration</button></div>
+
+      <div class="section-title">Obsidian</div>
+      <p class="hint">Keep linked Markdown notes of your jobs, interviews, practice, career documents, lessons and question bank in your Obsidian vault (or any folder). Notes go in their own subfolder. If you edit a note there, the app stops updating it, so your changes are safe. Summaries, answers and feedback are always included; full call transcripts only if you turn them on. If the vault syncs to the cloud (Obsidian Sync, OneDrive, iCloud), these notes go with it.</p>
+      <div class="card vault-card">
+        <div id="vaultStatus" class="muted">Not set up.</div>
+        <div class="toolbar">
+          <button id="vaultChoose" class="btn" type="button">Choose vault folder…</button>
+          <button id="vaultSync" class="btn" type="button" hidden>Update now</button>
+          <button id="vaultObsidian" class="btn" type="button" hidden>Open in Obsidian</button>
+          <button id="vaultFolder" class="btn" type="button" hidden>Show folder</button>
+          <button id="vaultStop" class="btn" type="button" hidden>Stop exporting</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="vaultAuto" /> Keep the notes up to date automatically</label>
+        <label class="toggle"><input type="checkbox" id="vaultTranscripts" /> Include full call transcripts</label>
+      </div>
+
+      <div class="section-title">Autonomous Job Kit</div>
+      <p class="hint">Bring in the applications you made with Autonomous Job Kit: each one becomes a job with its posting, status and interview date, plus the résumé, cover letter and form answers you sent. Live answers, practice and prep plans then stay consistent with what the employer already has. Files are read on this PC, and nothing in your job-search folder is changed. What you sent goes to your AI provider with your prompts, like your résumé does.</p>
+      <div class="card jobkit-card">
+        <div id="jobkitStatus" class="muted">No job-search folder chosen.</div>
+        <div class="toolbar">
+          <button id="jobkitImportSettings" class="btn" type="button">Import from Job Kit…</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="useSentApplication" /> Use what I sent in answers, practice and prep</label>
+      </div>
+
+      <div class="section-title">Browser extension</div>
+      <p class="hint">One extension for Chrome, Edge and Brave: it adds the job posting you're looking at to Jobs, and fills application forms from your autofill profile (<b>Fill this form</b> or Alt+Shift+F; it never submits). It reads or fills a page only when you click it, keeps your autofill profile in the browser, and can't read anything from this app. It talks to this app through the browser's native messaging: no network port is opened. Already installed? Press reload on its card in chrome://extensions to get the new version.</p>
+      <div class="card bridge-card">
+        <div id="bridgeStatus" class="muted">Checking…</div>
+        <div class="toolbar">
+          <button id="bridgeToggle" class="btn" type="button">Turn on</button>
+          <button id="bridgeFolder" class="btn" type="button">Show extension folder</button>
+        </div>
+        <ol class="bridge-steps">
+          <li>Press <b>Turn on</b> here.</li>
+          <li>Open <code>chrome://extensions</code> (or <code>edge://extensions</code>), switch on <b>Developer mode</b>, choose <b>Load unpacked</b> and pick the extension folder.</li>
+          <li>On a job posting, click the Interview Helper button in the toolbar, check the details and press <b>Add to Jobs</b>. Select the description first if the page has a lot of other text.</li>
+        </ol>
+      </div>
+
+      <div class="section-title">Screen sharing</div>
+      <div class="card share-card">
+        <div class="share-status"><span class="dot warn"></span><div><b>Visible when you share your screen.</b> Interview Helper does not hide itself: anyone you share your whole screen with, and any recording of it, can see this window and its answers. Content protection is not used.</div></div>
+        <p class="hint">Only use live answers where the interviewer or assessment allows outside help. Many employers and assessment platforms don't; follow their rules.</p>
+        <div class="toolbar"><button id="sharePreview" class="btn" type="button">Preview what others see</button></div>
+        <div id="sharePreviewBox" class="share-preview" hidden></div>
+      </div>
+
+      <div class="section-title">Privacy &amp; data</div>
+      <div class="card privacy-flows" id="dataFlows"></div>
+      <label class="toggle"><input type="checkbox" id="recordByDefault" /> Record audio of live sessions by default <small class="muted">(you confirm consent each time)</small></label>
+      <div class="grid-2">
+        <label class="field">
+          <span>Keep sessions</span>
+          <select id="retentionDays">
+            <option value="0">Forever</option>
+            <option value="365">1 year</option>
+            <option value="90">90 days</option>
+            <option value="30">30 days</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Keep recordings</span>
+          <select id="recordingRetentionDays">
+            <option value="0">Forever</option>
+            <option value="90">90 days</option>
+            <option value="30">30 days</option>
+            <option value="7">7 days</option>
+          </select>
+        </label>
+      </div>
+      <button id="savePrivacy" class="btn primary">Save privacy settings</button>
+      <p class="hint" id="dataInfo"></p>
+      <div class="toolbar">
+        <button id="openDataFolder" class="btn" type="button">Open data folder</button>
+        <button id="exportAll" class="btn" type="button">Export all my data</button>
+        <button id="openLicenses" class="btn ghost" type="button">Open-source licenses</button>
+      </div>
+      <div class="toolbar">
+        <button id="deleteRecordings" class="btn ghost" type="button">Delete all recordings</button>
+        <button id="deleteSessions" class="btn ghost" type="button">Delete all sessions</button>
+        <button id="deleteEverything" class="btn ghost danger-text" type="button">Delete everything</button>
+      </div>
+
+    </main>
+
+    <dialog id="startDialog" aria-labelledby="startDialogTitle">
+      <form method="dialog" class="dialog-body">
+        <h2 id="startDialogTitle">Start live session</h2>
+        <p class="hint" id="startNotice">
+          The app listens to your call audio and microphone and sends them to the transcription and AI providers chosen in
+          Settings. Use it where assistance is allowed: practice, coaching, or interviews whose rules permit it.
+        </p>
+        <label class="toggle"><input type="checkbox" id="dlgRecord" /> Record audio of this session (saved only on this PC)</label>
+        <label class="toggle indent" id="dlgConsentRow"><input type="checkbox" id="dlgConsent" /> Everyone on the call has agreed to be recorded</label>
+        <div class="toolbar">
+          <button value="cancel" class="btn" formnovalidate>Cancel</button>
+          <button value="start" id="dlgStart" class="btn primary push-right">Start</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="../../node_modules/marked/lib/marked.umd.js"></script>
+    <script src="../../node_modules/dompurify/dist/purify.min.js"></script>
+    <script src="../../packages/core/question.js"></script>
+    <script src="../../packages/core/speculation.js"></script>
+    <script src="../../packages/core/coaching.js"></script>
+    <script src="../../packages/core/bank.js"></script>
+    <script src="../../packages/core/echo.js"></script>
+    <script src="../../packages/core/prompts.js"></script>
+    <script src="../../packages/core/career.js"></script>
+    <script src="../../packages/core/redflags.js"></script>
+    <script src="../../packages/core/eligibility.js"></script>
+    <script src="../../packages/core/fit.js"></script>
+    <script src="transcriber.js"></script>
+    <script src="aec.js"></script>
+    <script src="coach.js"></script>
+    <script src="app.js"></script>
+    <script src="workspace.js"></script>
+    <script src="controls.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+{
+ "apiVersion": "1",
+ "jobs": [
+  {
+   "id": "1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+   "title": "Software Engineer, Platform",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Toronto",
+   "secondaryLocations": [],
+   "publishedAt": "2026-11-11T14:44:49.699+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Ontario",
+     "addressCountry": "Canada",
+     "addressLocality": "Toronto"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b",
+   "applyUrl": "https://jobs.ashbyhq.com/fabrikam/1fc309c8-da20-4ff2-84c7-8b863ece2b0b/a",
+   "descriptionPlain": "TypeScript, Node.js, React and PostgreSQL. Terraform on AWS. 4+ years of experience."
+  },
+  {
+   "id": "2ab309c8-da20-4ff2-84c7-8b863ece2b0c",
+   "title": "Data Analyst",
+   "department": "Finance",
+   "team": "Finance",
+   "employmentType": "FullTime",
+   "location": "Remote - Canada",
+   "secondaryLocations": [
+    {
+     "location": "Montreal, Quebec",
+     "address": {
+      "postalAddress": {
+       "addressCountry": "Canada"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-11-04T10:00:00.000+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "Canada"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/fabrikam/2ab309c8-da20-4ff2-84c7-8b863ece2b0c",
+   "descriptionPlain": "SQL, dbt, Looker and Excel. Bilingual (French and English) is an asset."
+  }
+ ]
+}

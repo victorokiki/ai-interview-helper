@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "Interview Helper: Jobs & Autofill",
+  "short_name": "Interview Helper",
+  "version": "1.1.0",
+  "description": "Add jobs to Interview Helper and fill application forms without submitting. Autofill rules from Autonomous Job Kit (MIT).",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuP8VRDNpOIgb+oQjVDjKnH1uLhqhfV54LOZnCOb9eRjMqI++3GBj7bVpyb63W4Kyzge+9Peq2o3YbrBXhqXJSMKdJhBjgK7VVmdA3L+3GvnJ0FmGGOopeasOklU8KZrfpLHD/lg8UmzoD21ra8sks26nte3Hxzn2AATIJ9FP2sH+M7dg+4aOsg5mq5KwKd+T33l7Z1zWUgsK3UE/kuIHOZd/R+/ponbFt26BWuS2Gd/0imtBBsfKAS2DdFIGhv0McxBaQHGD96SRUzntNKr4WRHkYfP105uADSoT5/6Cypq+x4FxrbwFnYz/auiWT18s4nlQMwJhKfYU4OPoLLRolwIDAQAB",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "nativeMessaging",
+    "storage"
+  ],
+  "optional_host_permissions": [
+    "https://*.greenhouse.io/*",
+    "https://*.lever.co/*",
+    "https://*.ashbyhq.com/*",
+    "https://*.myworkdayjobs.com/*",
+    "https://*.myworkday.com/*",
+    "https://*.myworkdaysite.com/*",
+    "https://*.smartrecruiters.com/*",
+    "https://*.workable.com/*",
+    "https://*.icims.com/*",
+    "https://*.jobvite.com/*",
+    "https://*.bamboohr.com/*",
+    "https://*.oraclecloud.com/hcmUI/*",
+    "https://*.rippling.com/*",
+    "https://*.breezy.hr/*",
+    "https://*.recruitee.com/*",
+    "https://*.teamtailor.com/*",
+    "https://*.jobbank.gc.ca/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Interview Helper: add this job or fill the form",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "fill-page": {
+      "suggested_key": {
+        "default": "Alt+Shift+F"
+      },
+      "description": "Fill the application form on this page (never submits)"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}

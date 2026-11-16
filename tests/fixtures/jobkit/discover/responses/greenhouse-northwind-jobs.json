@@ -1,0 +1,74 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/northwind/jobs/7101",
+   "internal_job_id": 6101,
+   "location": {
+    "name": "Toronto, ON"
+   },
+   "id": 7101,
+   "updated_at": "2026-11-14T09:30:00-05:00",
+   "requisition_id": "REQ-101",
+   "title": "Software Developer &amp; Data Tools",
+   "company_name": "Northwind Traders",
+   "first_published": "2026-11-14T09:30:00-05:00",
+   "language": "en",
+   "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Build internal tools in Python, SQL and React on AWS. Docker and Git daily. 1-2 years of experience.&lt;/p&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 1,
+     "name": "Engineering"
+    }
+   ],
+   "offices": [
+    {
+     "id": 2,
+     "name": "Toronto",
+     "location": "Toronto, Ontario, Canada"
+    }
+   ]
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/northwind/jobs/7102",
+   "internal_job_id": 6102,
+   "location": {
+    "name": "Toronto, ON"
+   },
+   "id": 7102,
+   "updated_at": "2026-11-15T09:30:00-05:00",
+   "title": "Senior Data Engineer",
+   "company_name": "Northwind Traders",
+   "first_published": null,
+   "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Spark, Airflow, Kafka. 8+ years of experience.&lt;/p&gt;&lt;/div&gt;"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/northwind/jobs/7103",
+   "internal_job_id": 6103,
+   "location": {
+    "name": "Mississauga, ON"
+   },
+   "id": 7103,
+   "updated_at": "2026-11-12T09:30:00-05:00",
+   "title": "Data Analyst, Co-op (4 months)",
+   "company_name": "Northwind Traders",
+   "first_published": "2026-11-12T09:30:00-05:00",
+   "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Excel, SQL, Tableau and Power BI dashboards. Must be enrolled in a co-op program. Candidates must be Canadian citizens or permanent residents only.&lt;/p&gt;&lt;/div&gt;"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/northwind/jobs/7104",
+   "internal_job_id": 6104,
+   "location": {
+    "name": "San Francisco, CA | Seattle, WA"
+   },
+   "id": 7104,
+   "updated_at": "2026-11-13T09:30:00-05:00",
+   "title": "Software Engineer",
+   "company_name": "Northwind Traders",
+   "first_published": "2026-11-13T09:30:00-05:00",
+   "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Go, Kubernetes, PostgreSQL. 3+ years of experience. We do not sponsor visas.&lt;/p&gt;&lt;/div&gt;"
+  }
+ ],
+ "meta": {
+  "total": 4
+ }
+}

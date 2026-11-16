@@ -1,0 +1,26 @@
+﻿[
+    {
+        "file":  "q1.wav",
+        "text":  "Tell me about yourself and why you are interested in this role."
+    },
+    {
+        "file":  "q2.wav",
+        "text":  "Describe a time you disagreed with your manager. What did you do?"
+    },
+    {
+        "file":  "q3.wav",
+        "text":  "How would you design a rate limiter for a public API that handles fifty thousand requests per second?"
+    },
+    {
+        "file":  "q4.wav",
+        "text":  "What is the difference between a process and a thread, and when would you use each?"
+    },
+    {
+        "file":  "q5.wav",
+        "text":  "Walk me through how you would debug a memory leak in a Node.js service in production."
+    },
+    {
+        "file":  "question.wav",
+        "text":  "Can you tell me about a time you had to deal with a difficult stakeholder, and how you handled it?"
+    }
+]
