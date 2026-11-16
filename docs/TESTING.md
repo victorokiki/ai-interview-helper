@@ -34,6 +34,15 @@ Runs the end-to-end suites. Each one starts the real Electron app in its own pro
 
 ## How the end-to-end suites work
 
+Screen-sharing privacy coverage: `tests/unit/screen-privacy.test.js` tests native
+state/readback, unsupported platforms, failures and boolean validation.
+`window.js` additionally tests the Settings toggle, persistence, capture preview
+invalidation, streaming during protection changes, and fresh-process startup
+with privacy on and off (`privacy-restart.js`). Its Windows key-press checks need
+the installed app closed to release the same global shortcuts. The suite's local
+capture is not a Zoom/Teams/Meet test. Follow
+[the manual meeting verification guide](SCREEN-SHARING-PRIVACY.md) on each OS.
+
 `tests/e2e/run.js` starts each suite in its own Electron process and prints `PASS`/`FAIL` lines. It exits with code 1 if anything fails or times out.
 
 Each suite:

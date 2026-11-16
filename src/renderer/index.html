@@ -535,9 +535,12 @@
 
       <div class="section-title">Screen sharing</div>
       <div class="card share-card">
-        <div class="share-status"><span class="dot warn"></span><div><b>Visible when you share your screen.</b> Interview Helper does not hide itself: anyone you share your whole screen with, and any recording of it, can see this window and its answers. Content protection is not used.</div></div>
+        <label class="toggle"><input id="screenSharePrivacy" type="checkbox" /> Screen-Sharing Privacy Mode (copilot window)</label>
+        <div class="share-status" id="screenPrivacyStatus" role="status" aria-live="polite">Checking native protection…</div>
+        <p class="hint" id="screenPrivacyLimits"></p>
         <p class="hint">Only use live answers where the interviewer or assessment allows outside help. Many employers and assessment platforms don't; follow their rules.</p>
-        <div class="toolbar"><button id="sharePreview" class="btn" type="button">Preview what others see</button></div>
+        <p class="hint">Test with a second participant in Zoom, Teams or Google Meet before presenting. A local preview cannot verify what a meeting participant receives.</p>
+        <div class="toolbar"><button id="sharePreview" class="btn" type="button">Test local screen capture</button></div>
         <div id="sharePreviewBox" class="share-preview" hidden></div>
       </div>
 

@@ -127,4 +127,6 @@ contextBridge.exposeInMainWorld('api', {
   getShortcuts: () => ipcRenderer.invoke('shortcuts:get'),
   setShortcut: (name, accelerator) => ipcRenderer.invoke('shortcuts:set', { name, accelerator }),
   screenPreview: () => ipcRenderer.invoke('screen:preview'),
+  screenPrivacyStatus: () => ipcRenderer.invoke('screen:privacyStatus'),
+  setScreenPrivacy: (enabled) => ipcRenderer.invoke('screen:setPrivacy', enabled),
 });
