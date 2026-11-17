@@ -424,27 +424,63 @@ $('#copilotScale').onchange = async (e) => {
 
 // ---------- screen sharing preview ----------
 
+function renderScreenPrivacy(s) {
+  $('#screenSharePrivacy').checked = s.requested;
+  // Allow switching off a preference carried from a supported OS.
+  $('#screenSharePrivacy').disabled = !s.supported && !s.requested;
+  const label = s.state === 'unsupported' ? 'Unsupported on this OS.'
+    : s.state === 'failed' ? 'Protection could not be confirmed.'
+    : s.enabled ? 'Native protection enabled — capture exclusion is not verified.'
+    : 'Privacy mode off — this window can appear in captures.';
+  $('#screenPrivacyStatus').textContent = `${label} Saved preference: ${s.requested ? 'on' : 'off'}. Electron reports: ${s.enabled ? 'enabled' : 'disabled'}.${s.error ? ` Error: ${s.error}` : ''}`;
+  $('#screenPrivacyLimits').textContent = `${s.limitations} ${s.scope}`;
+}
+
+let sharePreviewGeneration = 0;
+$('#screenSharePrivacy').onchange = async (e) => {
+  const control = e.target;
+  const enabled = control.checked;
+  control.disabled = true;
+  sharePreviewGeneration++;
+  $('#sharePreviewBox').hidden = true;
+  $('#sharePreviewBox').replaceChildren();
+  try {
+    renderScreenPrivacy(await window.api.setScreenPrivacy(enabled));
+    state.config.screenSharePrivacy = enabled;
+  } catch (err) {
+    banner(`Privacy mode: ${err.message}`, 'error');
+  } finally {
+    control.disabled = false;
+    renderScreenPrivacy(await window.api.screenPrivacyStatus());
+  }
+};
+
 $('#sharePreview').onclick = async () => {
+  const generation = ++sharePreviewGeneration;
   const btn = $('#sharePreview');
   const box = $('#sharePreviewBox');
   btn.disabled = true;
   btn.textContent = 'Capturing…';
   try {
     const r = await window.api.screenPreview();
+    if (generation !== sharePreviewGeneration) return;
+    renderScreenPrivacy(r.privacy);
     box.innerHTML = r.screens.length
-      ? `<p class="hint">Captured just now: this is what a full-screen share or recording shows. If Interview Helper is on that screen, it is in the picture.</p>${r.screens.map((s) => `<figure><img src="${s.image}" alt="Preview of ${escapeHtml(s.name)}"><figcaption>${escapeHtml(s.name)}</figcaption></figure>`).join('')}`
+      ? `<p class="hint">Local capture at ${escapeHtml(new Date(r.capturedAt).toLocaleTimeString())}. Native protection: ${r.privacy.enabled ? 'enabled' : 'disabled'}. This tests Electron's capture path only; Zoom, Teams and Google Meet may capture differently. Verify from another participant's view, including individual-window sharing.</p>${r.screens.map((s) => `<figure><img src="${s.image}" alt="Preview of ${escapeHtml(s.name)}"><figcaption>${escapeHtml(s.name)}</figcaption></figure>`).join('')}`
       : '<p class="hint">No screens could be captured. On macOS, allow Screen Recording for Interview Helper in System Settings → Privacy & Security.</p>';
     box.hidden = false;
   } catch (err) {
+    if (generation !== sharePreviewGeneration) return;
     box.innerHTML = `<p class="hint">Couldn't capture the screen: ${escapeHtml(err.message)}</p>`;
     box.hidden = false;
   } finally {
     btn.disabled = false;
-    btn.textContent = 'Preview what others see';
+    btn.textContent = 'Test local screen capture';
   }
 };
 
 async function loadPrivacy() {
+  renderScreenPrivacy(await window.api.screenPrivacyStatus());
   loadMcpConfig();
   loadShortcuts();
   loadVault();

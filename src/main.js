@@ -14,6 +14,7 @@ const {
 const fs = require('fs');
 const path = require('path');
 const store = require('./store');
+const screenPrivacy = require('./screen-privacy').createScreenPrivacy();
 const ai = require('./ai');
 const docs = require('./docs');
 const jobs = require('./jobs');
@@ -119,6 +120,7 @@ function createWindow() {
   const start = saved || (compact ? { x: width - COMPACT_SIZE.width - 20, y: 40, ...COMPACT_SIZE } : { x: width - 500, y: 40, width: 480, height: 760 });
 
   win = new BrowserWindow({
+    show: false, // Apply saved capture protection before first display.
     ...start,
     minWidth: (compact ? COMPACT_MIN : NORMAL_MIN)[0],
     minHeight: (compact ? COMPACT_MIN : NORMAL_MIN)[1],
@@ -139,6 +141,8 @@ function createWindow() {
     },
   });
 
+  screenPrivacy.apply(win, config.screenSharePrivacy === true);
+  win.once('ready-to-show', () => win?.show());
   if (config.alwaysOnTop !== false) win.setAlwaysOnTop(true, 'floating');
   win.on('move', rememberBounds);
   win.on('resize', rememberBounds);
@@ -376,7 +380,9 @@ function whisperRequest(type, extra = {}) {
 function registerIpc() {
   ipcMain.handle('config:get', () => store.publicConfig());
   ipcMain.handle('config:save', (_e, patch) => {
+    if ('screenSharePrivacy' in patch && typeof patch.screenSharePrivacy !== 'boolean') throw new TypeError('Privacy mode must be a boolean.');
     const next = store.saveConfig(patch);
+    if ('screenSharePrivacy' in patch) screenPrivacy.apply(win, next.screenSharePrivacy);
     if (typeof patch.opacity === 'number' && win) win.setOpacity(patch.opacity);
     if ('theme' in patch) applyTheme(next.theme);
     if ('retentionDays' in patch || 'recordingRetentionDays' in patch) applyRetention();
@@ -896,10 +902,18 @@ function registerIpc() {
     store.saveConfig({ shortcuts });
     return { status: registerShortcuts() };
   });
-  // What others would see if you shared each screen right now.
+  ipcMain.handle('screen:privacyStatus', () => screenPrivacy.status(win));
+  ipcMain.handle('screen:setPrivacy', (_e, enabled) => {
+    if (typeof enabled !== 'boolean') throw new TypeError('Privacy mode must be a boolean.');
+    store.saveConfig({ screenSharePrivacy: enabled });
+    return screenPrivacy.apply(win, enabled);
+  });
+  // Local capture diagnostic only; meeting apps may use different capture APIs.
   ipcMain.handle('screen:preview', async () => {
+    // Windows exclusion takes effect on desktop composition, not synchronously.
+    await new Promise((resolve) => setTimeout(resolve, 300));
     const sources = await desktopCapturer.getSources({ types: ['screen'], thumbnailSize: { width: 640, height: 400 } });
-    return { screens: sources.map((s) => ({ name: s.name, image: s.thumbnail.toDataURL() })), platform: process.platform, capturedAt: Date.now() };
+    return { screens: sources.map((s) => ({ name: s.name, image: s.thumbnail.toDataURL() })), privacy: screenPrivacy.status(win), platform: process.platform, capturedAt: Date.now() };
   });
 }
 

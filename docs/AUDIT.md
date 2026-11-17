@@ -153,6 +153,6 @@ Read from finalroundai.com (home and pricing pages; there is no feature comparis
 | Technical interview prep | Use-case pages | Coding Lab, technical practice, company research, prep plan, question bank, learning path | Exists |
 | Interview reports | Automatic AI debrief | Post-call summary (what went well, what to improve, follow-ups, thank-you note), mock feedback, Progress | Exists |
 | Question bank | Not named | Every question asked or practised, merged, best score, filter, Practise | Exists |
-| Stealth Mode (hidden from screen sharing) | On by default | Not built, by product rule. Settings states the window is visible in shares and recordings and previews what others see | Declined |
+| Screen-sharing privacy controls | On by default | Optional native copilot protection, off by default, with platform limitations and local preview; no universal invisibility claim | See SCREEN-SHARING-PRIVACY.md; meeting-app verification pending |
 | Spoken languages | 76 | Deepgram/Whisper languages plus live translation | Partial |
 | HireVue / one-way, phone screens | Supported | Live tab works for any audio; no HireVue-specific flow | Partial |

@@ -31,6 +31,7 @@ const DEFAULTS = {
   autoAnswer: true,
   language: 'en',
   opacity: 0.96,
+  screenSharePrivacy: false,
   activeJobId: null,
   activePresetId: null, // falls back to answerStyle, then 'concise'
   translateTo: '',
