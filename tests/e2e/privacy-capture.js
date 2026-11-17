@@ -28,8 +28,12 @@ app.whenReady().then(async () => {
       if (!source || source.thumbnail.isEmpty()) throw new Error('Primary display capture unavailable');
       const pixels = source.thumbnail.toBitmap();
       let n = 0;
+      // BGRA. Match a magenta range, not the exact colour: displays with colour
+      // management capture (247,13,211) as about (228,50,206), which a tight
+      // tolerance never matched (0 pixels even with protection off).
       for (let i = 0; i < pixels.length; i += 4) {
-        if (Math.abs(pixels[i] - 211) < 12 && Math.abs(pixels[i + 1] - 13) < 12 && Math.abs(pixels[i + 2] - 247) < 12) n++;
+        const b = pixels[i], g = pixels[i + 1], r = pixels[i + 2];
+        if (r > 170 && g < 110 && b > 150 && r - g > 100) n++;
       }
       return n;
     }

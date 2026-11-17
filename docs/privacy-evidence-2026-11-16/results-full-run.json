@@ -1,0 +1,2023 @@
+{
+  "started": "2026-11-17T03:43:41.739Z",
+  "mode": "full",
+  "steps": [
+    {
+      "tag": "1-off-baseline",
+      "at": "2026-11-17T03:44:10.122Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "0 WDA_NONE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": false,
+        "enabled": false,
+        "state": "off",
+        "error": ""
+      },
+      "savedPreference": false,
+      "snap": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 0,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 5,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 32,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 6,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 32,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 162,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 7,
+          "method": "electron-getUserMedia-appwin",
+          "w": 482,
+          "h": 760,
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 26,
+            "samples": 91580
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 8,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.1418,
+            "black": 0.0058,
+            "luma": 93,
+            "samples": 921600
+          }
+        },
+        "edgeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.1418,
+            "black": 0.0058,
+            "luma": 93,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 482,
+          "h": 760,
+          "live": "live",
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 26,
+            "samples": 91580
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "2-on-toggled-during-share",
+      "at": "2026-11-17T03:44:14.885Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "uiStatus": "Native protection enabled — capture exclusion is not verified. Saved preference: on. Electron reports: enabled.",
+      "snap": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 10,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 11,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 12,
+          "method": "electron-getUserMedia-appwin",
+          "w": 482,
+          "h": 760,
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 29,
+            "samples": 91580
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 13,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0066,
+            "luma": 105,
+            "samples": 921600
+          }
+        },
+        "edgeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0066,
+            "luma": 105,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 482,
+          "h": 760,
+          "live": "live",
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 29,
+            "samples": 91580
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "3-off-toggled-during-share",
+      "at": "2026-11-17T03:44:19.336Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "0 WDA_NONE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": false,
+        "enabled": false,
+        "state": "off",
+        "error": ""
+      },
+      "savedPreference": false,
+      "uiStatus": "Privacy mode off — this window can appear in captures. Saved preference: off. Electron reports: disabled.",
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 0,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 15,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 44,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 16,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 43,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 162,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 17,
+          "method": "electron-getUserMedia-appwin",
+          "w": 482,
+          "h": 760,
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 36,
+            "samples": 91580
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 18,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.1415,
+            "black": 0.0066,
+            "luma": 93,
+            "samples": 921600
+          }
+        },
+        "edgeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.1415,
+            "black": 0.0066,
+            "luma": 93,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 482,
+          "h": 760,
+          "live": "live",
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 36,
+            "samples": 91580
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "4-on-before-share-started",
+      "at": "2026-11-17T03:45:16.565Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "snap": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 26,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 27,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 28,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 29,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "5-on-compact-via-ctrl-shift-y",
+      "at": "2026-11-17T03:45:19.904Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1812,
+        "y": 200,
+        "w": 376,
+        "h": 328,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9861,
+            "samples": 6696,
+            "black": 0.0013
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 2552,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 31,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 22704
+          },
+          "control": {
+            "magenta": 0.9876,
+            "black": 0.0004,
+            "luma": 162,
+            "samples": 59570
+          }
+        },
+        "electronScreenStream": {
+          "id": 32,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 22704
+          },
+          "control": {
+            "magenta": 0.9876,
+            "black": 0.0004,
+            "luma": 162,
+            "samples": 59570
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 33,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 34,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 22704
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "6-on-compact-opacity-0.5",
+      "at": "2026-11-17T03:45:22.390Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1812,
+        "y": 200,
+        "w": 376,
+        "h": 328,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9861,
+            "samples": 6696,
+            "black": 0.0013
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 2552,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 35,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 22704
+          },
+          "control": {
+            "magenta": 0.9876,
+            "black": 0.0004,
+            "luma": 162,
+            "samples": 59570
+          }
+        },
+        "electronScreenStream": {
+          "id": 36,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 22704
+          },
+          "control": {
+            "magenta": 0.9876,
+            "black": 0.0004,
+            "luma": 162,
+            "samples": 59570
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 37,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 38,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 22704
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "7-on-after-minimize-restore-ctrl-shift-u",
+      "at": "2026-11-17T03:45:28.843Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 39,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 40,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 41,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 42,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "8-on-after-hide-show-ctrl-shift-h",
+      "at": "2026-11-17T03:45:33.809Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 43,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 44,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 45,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 46,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "9-on-while-streaming",
+      "at": "2026-11-17T03:45:36.537Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 47,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0007,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 48,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 49,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 50,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "10-on-after-streaming",
+      "at": "2026-11-17T03:45:41.307Z",
+      "native": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.9779,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 1,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 51,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0.4765,
+            "black": 0,
+            "luma": 194,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.0154,
+            "black": 0.0007,
+            "luma": 227,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 52,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 161,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.9803,
+            "black": 0.0006,
+            "luma": 163,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 53,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 54,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        },
+        "chromeScreen": {
+          "w": 2560,
+          "h": 1440,
+          "live": "live",
+          "frame": {
+            "magenta": 0.2432,
+            "black": 0.0068,
+            "luma": 98,
+            "samples": 921600
+          }
+        },
+        "chromeAppWindow": {
+          "w": 2,
+          "h": 2,
+          "live": "ended",
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "chromePres": {
+          "w": 1002,
+          "h": 920,
+          "live": "live",
+          "frame": {
+            "magenta": 0.9697,
+            "black": 0.0031,
+            "luma": 162,
+            "samples": 230460
+          }
+        }
+      }
+    },
+    {
+      "tag": "11-on-after-restart",
+      "at": "2026-11-17T03:46:15.769Z",
+      "native": {
+        "hwnd": 9375396,
+        "pid": 52556,
+        "started": "2026-11-16T20:45:46",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": true,
+        "enabled": true,
+        "state": "enabled",
+        "error": ""
+      },
+      "savedPreference": true,
+      "uiStatus": "Native protection enabled — capture exclusion is not verified. Saved preference: on. Electron reports: enabled.",
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.0989,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 0.1102,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 62,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0.1108,
+            "black": 0,
+            "luma": 52,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.0965,
+            "black": 0.0007,
+            "luma": 57,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 63,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0.1108,
+            "black": 0,
+            "luma": 52,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.0965,
+            "black": 0.0006,
+            "luma": 57,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 64,
+          "method": "electron-getUserMedia-appwin",
+          "w": 2,
+          "h": 2,
+          "frame": {
+            "magenta": 0,
+            "black": 1,
+            "luma": 0,
+            "samples": 1
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 65,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        }
+      }
+    },
+    {
+      "tag": "12-off-after-restart",
+      "at": "2026-11-17T03:46:33.574Z",
+      "native": {
+        "hwnd": 4850284,
+        "pid": 50772,
+        "started": "2026-11-16T20:46:20",
+        "affinityRead": true,
+        "affinity": "0 WDA_NONE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "appStatus": {
+        "requested": false,
+        "enabled": false,
+        "state": "off",
+        "error": ""
+      },
+      "savedPreference": false,
+      "capture": {
+        "gdi": {
+          "control": {
+            "magenta": 0.0989,
+            "samples": 4216,
+            "black": 0.0021
+          },
+          "method": "gdi-bitblt-copyfromscreen",
+          "appInner": {
+            "magenta": 0,
+            "samples": 9204,
+            "black": 0
+          }
+        },
+        "electronThumb": {
+          "id": 73,
+          "method": "electron-desktopCapturer-screen-thumbnail",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 27,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.0965,
+            "black": 0.0007,
+            "luma": 57,
+            "samples": 37370
+          }
+        },
+        "electronScreenStream": {
+          "id": 74,
+          "method": "electron-getUserMedia-screen",
+          "w": 2560,
+          "h": 1440,
+          "appInner": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 26,
+            "samples": 81664
+          },
+          "control": {
+            "magenta": 0.0965,
+            "black": 0.0006,
+            "luma": 57,
+            "samples": 37370
+          }
+        },
+        "electronAppWindowStream": {
+          "id": 75,
+          "method": "electron-getUserMedia-appwin",
+          "w": 482,
+          "h": 760,
+          "frame": {
+            "magenta": 0,
+            "black": 0.0001,
+            "luma": 26,
+            "samples": 91580
+          }
+        },
+        "electronPresWindowStream": {
+          "id": 76,
+          "method": "electron-getUserMedia-preswin",
+          "w": 1000,
+          "h": 920,
+          "frame": {
+            "magenta": 0.9738,
+            "black": 0.0028,
+            "luma": 157,
+            "samples": 230000
+          },
+          "overlap": {
+            "magenta": 1,
+            "black": 0,
+            "luma": 156,
+            "samples": 81664
+          }
+        }
+      }
+    }
+  ],
+  "env": {
+    "exe": "%LOCALAPPDATA%ProgramsInterview HelperInterview Helper.exe",
+    "exeVersion": "0.18.4.0",
+    "chrome": "157.0.8103.51",
+    "edge": "157.0.4341.60"
+  },
+  "userInstanceClosed": "not running",
+  "launches": [
+    {
+      "label": "fresh",
+      "first": {
+        "hwnd": 12520788,
+        "pid": 50976,
+        "started": "2026-11-16T20:43:44",
+        "affinityRead": true,
+        "affinity": "0 WDA_NONE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "seen": [
+        {
+          "ms": 994,
+          "affinity": "0 WDA_NONE",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "relaunch-on",
+      "first": {
+        "hwnd": 9375396,
+        "pid": 52556,
+        "started": "2026-11-16T20:45:46",
+        "affinityRead": true,
+        "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "seen": [
+        {
+          "ms": 916,
+          "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "relaunch-off",
+      "first": {
+        "hwnd": 4850284,
+        "pid": 50772,
+        "started": "2026-11-16T20:46:20",
+        "affinityRead": true,
+        "affinity": "0 WDA_NONE",
+        "visible": true,
+        "minimized": false,
+        "x": 1692,
+        "y": 200,
+        "w": 496,
+        "h": 768,
+        "topmost": true
+      },
+      "seen": [
+        {
+          "ms": 901,
+          "affinity": "0 WDA_NONE",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "appVersions": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) InterviewHelper/0.18.4 Chrome/152.0.7977.169 Electron/44.10.1 Safari/537.36"
+  },
+  "presenter": {
+    "ready": true,
+    "port": 54962,
+    "display": {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 2560,
+        "height": 1440
+      },
+      "scale": 1
+    },
+    "presentationBounds": {
+      "x": 1450,
+      "y": 120,
+      "width": 1000,
+      "height": 920
+    },
+    "presentationHwnd": "11665682"
+  },
+  "streams": [
+    {
+      "id": 1,
+      "started": "screen",
+      "source": "Entire screen",
+      "size": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": 2,
+      "started": "appwin",
+      "source": "Interview Helper",
+      "size": [
+        482,
+        760
+      ]
+    },
+    {
+      "id": 3,
+      "started": "preswin",
+      "source": "IH Privacy Test Presentation",
+      "size": [
+        1000,
+        920
+      ]
+    },
+    {
+      "id": 22,
+      "started": "screen",
+      "source": "Entire screen",
+      "size": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": 23,
+      "started": "appwin",
+      "source": "Interview Helper",
+      "size": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 24,
+      "started": "preswin",
+      "source": "IH Privacy Test Presentation",
+      "size": [
+        1000,
+        920
+      ]
+    },
+    {
+      "id": 58,
+      "started": "screen",
+      "source": "Entire screen",
+      "size": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": 59,
+      "started": "appwin",
+      "source": "Interview Helper",
+      "size": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 60,
+      "started": "preswin",
+      "source": "IH Privacy Test Presentation",
+      "size": [
+        1000,
+        920
+      ]
+    },
+    {
+      "id": 69,
+      "started": "screen",
+      "source": "Entire screen",
+      "size": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": 70,
+      "started": "appwin",
+      "source": "Interview Helper",
+      "size": [
+        482,
+        760
+      ]
+    },
+    {
+      "id": 71,
+      "started": "preswin",
+      "source": "IH Privacy Test Presentation",
+      "size": [
+        1000,
+        920
+      ]
+    }
+  ],
+  "windowSources": [
+    {
+      "when": "2026-11-17T03:43:51.611Z",
+      "privacy": false,
+      "id": 4,
+      "method": "electron-desktopCapturer-window-list",
+      "total": 8,
+      "list": [
+        {
+          "name": "Interview Helper",
+          "id": "window:12520788:0",
+          "thumb": {
+            "width": 512,
+            "height": 800
+          },
+          "stats": {
+            "magenta": 0,
+            "black": 0,
+            "luma": 26,
+            "samples": 102400
+          }
+        },
+        {
+          "name": "IH Privacy Test Presentation",
+          "id": "window:11665682:1",
+          "thumb": {
+            "width": 800,
+            "height": 736
+          },
+          "stats": {
+            "magenta": 0.9741,
+            "black": 0.0028,
+            "luma": 158,
+            "samples": 147200
+          }
+        }
+      ]
+    },
+    {
+      "when": "2026-11-17T03:44:44.343Z",
+      "privacy": true,
+      "id": 25,
+      "method": "electron-desktopCapturer-window-list",
+      "total": 9,
+      "list": [
+        {
+          "name": "Interview Helper",
+          "id": "window:12520788:0",
+          "thumb": {
+            "width": 0,
+            "height": 0
+          },
+          "stats": null
+        },
+        {
+          "name": "IH Privacy Test Presentation",
+          "id": "window:11665682:1",
+          "thumb": {
+            "width": 800,
+            "height": 736
+          },
+          "stats": {
+            "magenta": 0.9741,
+            "black": 0.0028,
+            "luma": 158,
+            "samples": 147200
+          }
+        }
+      ]
+    },
+    {
+      "when": "2026-11-17T03:46:06.983Z",
+      "privacy": true,
+      "id": 61,
+      "method": "electron-desktopCapturer-window-list",
+      "total": 9,
+      "list": [
+        {
+          "name": "Interview Helper",
+          "id": "window:9375396:0",
+          "thumb": {
+            "width": 0,
+            "height": 0
+          },
+          "stats": null
+        },
+        {
+          "name": "IH Privacy Test Presentation",
+          "id": "window:11665682:1",
+          "thumb": {
+            "width": 800,
+            "height": 736
+          },
+          "stats": {
+            "magenta": 0.9741,
+            "black": 0.0028,
+            "luma": 158,
+            "samples": 147200
+          }
+        }
+      ]
+    },
+    {
+      "when": "2026-11-17T03:46:26.360Z",
+      "privacy": false,
+      "id": 72,
+      "method": "electron-desktopCapturer-window-list",
+      "total": 10,
+      "list": [
+        {
+          "name": "Interview Helper",
+          "id": "window:4850284:0",
+          "thumb": {
+            "width": 0,
+            "height": 0
+          },
+          "stats": null
+        },
+        {
+          "name": "IH Privacy Test Presentation",
+          "id": "window:11665682:1",
+          "thumb": {
+            "width": 800,
+            "height": 736
+          },
+          "stats": {
+            "magenta": 0.9741,
+            "black": 0.0028,
+            "luma": 158,
+            "samples": 147200
+          }
+        }
+      ]
+    }
+  ],
+  "uiStatusOn": "Native protection enabled — capture exclusion is not verified. Saved preference: on. Electron reports: enabled.",
+  "uiStatusOff": "Privacy mode off — this window can appear in captures. Saved preference: off. Electron reports: disabled.",
+  "minimized": {
+    "hwnd": 12520788,
+    "pid": 50976,
+    "started": "2026-11-16T20:43:44",
+    "affinityRead": true,
+    "affinity": "17 WDA_EXCLUDEFROMCAPTURE",
+    "visible": true,
+    "minimized": true,
+    "x": -32000,
+    "y": -32000,
+    "w": 160,
+    "h": 28,
+    "topmost": true
+  },
+  "hidden": null,
+  "aiRequests": 1,
+  "streaming": {
+    "aiRequests": 1,
+    "complete": true,
+    "missing": 0,
+    "sample": "synth0 synth1 synth2 synth3 synth4 synth5 synth6 synth7 synt"
+  },
+  "savedAfterQuitOn": true,
+  "savedAfterQuitOff": false,
+  "finished": "2026-11-17T03:46:36.253Z"
+}

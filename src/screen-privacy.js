@@ -13,7 +13,7 @@ function createScreenPrivacy({ platform = process.platform, release = require('o
     const limitations = platform === 'darwin'
       ? 'macOS: ScreenCaptureKit-based capture can still show this window, even when native protection is enabled. Do not rely on this setting for modern screen sharing.'
       : platform === 'win32'
-        ? 'Windows 10 version 2004 and later request exclusion from supported capture. Older Windows may show a black rectangle. Capture software and remote-session behavior vary; changes take effect after desktop composition.'
+        ? 'Windows 10 version 2004 and later request exclusion from supported capture. Older Windows may show a black rectangle. Capture software and remote-session behavior vary; changes take effect after desktop composition. If this window itself is being shared, restart that share after switching: until then viewers can keep seeing the last frame (on) or a black frame (off).'
         : 'Native window content protection is unsupported on this operating system.';
     return { requested, supported, enabled, platform, release, error: failure,
       state: !supported ? 'unsupported' : failure || enabled !== requested ? 'failed' : enabled ? 'enabled' : 'off',

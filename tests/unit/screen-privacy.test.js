@@ -13,6 +13,8 @@ for (const platform of ['win32', 'darwin']) {
     assert.equal(controller.apply(win, true).state, 'enabled');
     assert.equal(controller.status(win).requested, true);
     assert.match(controller.status(win).limitations, platform === 'darwin' ? /ScreenCaptureKit/ : /black rectangle/);
+    // Measured on Windows: a window share already running keeps its last frame when protection turns on.
+    if (platform === 'win32') assert.match(controller.status(win).limitations, /restart that share/);
     assert.equal(controller.apply(win, false).enabled, false);
     assert.equal(controller.status(win).state, 'off');
   });

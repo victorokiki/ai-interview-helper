@@ -107,6 +107,10 @@ separately. See the PR test report for the results from this implementation.
   so actual capture exclusion cannot be inferred. The script exits nonzero
   when this baseline is unavailable, rather than treating an empty capture as
   a successful privacy test. No screenshots were saved.
+  *Update, same day:* the cause was the colour tolerance (this display captures
+  the marker as about 228,50,206, outside ±12). With a magenta-range check the
+  diagnostic passes: 15,261 marker pixels off, 11 on, 15,261 restored. See
+  [SCREEN-SHARING-PRIVACY-VERIFICATION.md](SCREEN-SHARING-PRIVACY-VERIFICATION.md).
 - Zoom/Teams/Meet receiver-side screen and window shares, macOS native behavior,
   remote-session capture and real audio during protection changes: unverified.
 - UI review: existing primary-button contrast warnings remain outside this
